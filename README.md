@@ -9,6 +9,10 @@
 
 A self-directed English learning platform for Arabic speakers: vocabulary, sentences, and grammar organized by CEFR levels, with local text-to-speech and progress tracking — Arabic-first throughout (full RTL).
 
+
+<img src="./public/og-image.png" alt="image" />
+
+
 ## Sections
 
 | Route | Content |

@@ -181,6 +181,22 @@ body {
   color: var(--md-sys-color-on-primary-container);
 }
 
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-pulse {
+    animation: none;
+    background: var(--md-sys-color-surface-container);
+  }
+}
+
 /* Collapsible filter panel: smooth height + fade both ways. */
 .cat-panel {
   display: grid;
