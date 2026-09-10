@@ -1,4 +1,4 @@
-# MyEnglish — Learn English
+# English-Flow — Learn English
 
 [![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)](https://react.dev/)
@@ -63,7 +63,7 @@ The final curriculum served by the site: `data/pipeline/final/` (exactly 2,000 w
 ## Project Structure
 
 ```text
-myEnglish/
+English-Flow/
 ├── app/                    # Routes (home + english/*)
 ├── components/english/     # Cards, filters, speech, progress, motion
 ├── data/
@@ -97,6 +97,6 @@ pnpm typecheck              # TypeScript check
 ---
 
 <p align="center">
-  <strong>MyEnglish</strong><br>
+  <strong>English-Flow</strong><br>
   Learn naturally. Practice actively. Master English.
 </p>

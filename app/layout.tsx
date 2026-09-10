@@ -10,11 +10,44 @@ const arabic = IBM_Plex_Sans_Arabic({
   variable: "--font-arabic",
 });
 
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+
 export const metadata: Metadata = {
-  title: "تعلم الإنجليزية",
+  metadataBase: new URL(siteUrl),
+
+  title: "English Flow | Learn English Naturally",
   description:
-    "مسار شخصي لتعلم الإنجليزية: مفردات وقواعد وجمل، بالتعرّض المفهوم والاستخدام الفعلي.",
-  icons: { icon: "/logo.svg" },
+    "English Flow is a self-directed English learning platform for Arabic speakers, built around vocabulary, sentences, listening, practice, and real-world use.",
+
+  icons: {
+    icon: "/logo.svg",
+  },
+
+  openGraph: {
+    title: "English Flow | Learn English Naturally",
+    description:
+      "Learn English through meaningful exposure, practice, and real-world use with a learning path adapted to your level.",
+    type: "website",
+    locale: "en_US",
+    siteName: "English Flow",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "English Flow - Learn English Naturally",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "English Flow | Learn English Naturally",
+    description:
+      "Learn English through exposure, understanding, practice, and real-world use.",
+    images: ["/og-image.png"],
+  },
 };
 
 /** Sets the initial theme before paint to avoid a light/dark flash. */
