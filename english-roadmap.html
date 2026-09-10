@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>خريطة تعلم الإنجليزية</title>
+<meta name="description" content="مسار شخصي لتعلم الإنجليزية: تعرض مفهوم، مفردات في جمل، إنتاج مبكر، قواعد وظيفية.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css">
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ['"Notion Sans"','Inter','"IBM Plex Sans Arabic"','system-ui','sans-serif'],
+      }
+    }
+  }
+}
+</script>
+</head>
+<body class="antialiased">
+<a href="#main" class="skip-link">تخطَّ إلى المحتوى</a>
+
+<header class="topnav">
+  <div class="mx-auto px-8 h-16 flex items-center justify-between" style="max-width:880px;">
+    <span style="font-weight:600; font-size:18px;">خريطة الإنجليزية</span>
+    <div class="flex items-center gap-4">
+      <nav aria-label="أقسام الصفحة" class="hidden sm:flex items-center gap-5 muted" style="font-size:14px;">
+        <a href="#diagnosis" class="hover:underline">التشخيص</a>
+        <a href="#path" class="hover:underline">المسار</a>
+        <a href="#start" class="hover:underline">البداية</a>
+      </nav>
+      <button id="theme-toggle" class="theme-btn" type="button" aria-label="تبديل المظهر فاتح / داكن" aria-pressed="false">
+        <i data-lucide="moon" class="w-5 h-5" aria-hidden="true"></i>
+      </button>
+    </div>
+  </div>
+</header>
+
+<section style="border-bottom:1px solid var(--md-sys-color-outline-variant);">
+  <div class="mx-auto px-8 hero-pad" style="max-width:880px; padding-top:64px; padding-bottom:48px;">
+    <p class="muted" style="font-size:14px; font-weight:500; margin-bottom:12px;">مسار شخصي، لا منهج عام</p>
+    <h1 class="md3-display" style="margin-bottom:16px;">خريطة تعلم الإنجليزية</h1>
+    <p class="md3-body muted" style="max-width:640px;">اللغة تُكتسب بالتعرّض المفهوم والاستخدام الفعلي، لا بحفظ القواعد نظرياً.</p>
+  </div>
+</section>
+
+<main id="main" class="mx-auto px-8" style="max-width:880px;">
+
+  <section id="diagnosis" class="node-reveal" style="padding-top:64px; padding-bottom:64px;" aria-labelledby="diagnosis-title">
+    <h2 id="diagnosis-title" class="md3-h2" style="margin-bottom:24px;">لماذا فشلت الطريقة التقليدية</h2>
+
+    <div class="grid md:grid-cols-2 gap-4">
+      <div class="card card-feature tint-rose">
+        <div class="flex items-center gap-2" style="margin-bottom:12px;">
+          <i data-lucide="x-circle" class="w-5 h-5 icon-danger" aria-hidden="true"></i>
+          <h3 class="md3-h3">الطريقة التي فشلت</h3>
+        </div>
+        <ul class="space-y-3 md3-body card-ink">
+          <li>· قواعد مجردة قبل أي تعرض فعلي للغة</li>
+          <li>· حفظ كلمات معزولة بلا سياق أو جملة</li>
+          <li>· الأولوية للصحة النحوية قبل الفهم</li>
+          <li>· لا استخدام فعلي، فتبقى معرفة خاملة</li>
+        </ul>
+      </div>
+      <div class="card card-feature tint-mint">
+        <div class="flex items-center gap-2" style="margin-bottom:12px;">
+          <i data-lucide="check-circle-2" class="w-5 h-5 icon-success" aria-hidden="true"></i>
+          <h3 class="md3-h3">الطريقة التي تعمل</h3>
+        </div>
+        <ul class="space-y-3 md3-body card-ink">
+          <li>· تعرّض مفهوم أولاً: سمع وقراءة قريبة من مستواك</li>
+          <li>· مفردات ضمن جمل كاملة، بتكرار متباعد</li>
+          <li>· إنتاج مبكر للكلام، حتى بمستوى ضعيف</li>
+          <li>· القواعد تفسّر أخطاء حقيقية، لا نقطة بداية</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="path" class="node-reveal" style="padding-bottom:64px;" aria-labelledby="path-title">
+    <h2 id="path-title" class="md3-h2" style="margin-bottom:24px;">المسار: أربع مراحل</h2>
+
+    <div class="grid md:grid-cols-2 gap-4">
+      <article class="card card-feature tint-mint node-reveal">
+        <span class="tag tag-green">الأسابيع 1 – 3</span>
+        <h3 class="md3-h3" style="margin:12px 0 8px;"><i data-lucide="headphones" class="w-5 h-5 inline" aria-hidden="true"></i> الأساس</h3>
+        <p class="md3-body card-ink" style="margin-bottom:12px;">بناء بنك سمعي ومفردات عالية التكرار، قبل أي محاولة إنتاج.</p>
+        <p class="card-ink" style="font-size:14px;">300–500 كلمة (Oxford 3000) عبر Anki · استماع مبسط يومي · جمل كاملة لا كلمات معزولة</p>
+      </article>
+      <article class="card card-feature tint-sky node-reveal">
+        <span class="tag tag-purple">الأسابيع 4 – 8</span>
+        <h3 class="md3-h3" style="margin:12px 0 8px;"><i data-lucide="tv" class="w-5 h-5 inline" aria-hidden="true"></i> الانغماس الموجّه</h3>
+        <p class="md3-body card-ink" style="margin-bottom:12px;">محتوى أعلى من مستواك بقليل، بلا ترجمة ذهنية.</p>
+        <p class="card-ink" style="font-size:14px;">React docs بالإنجليزية · فيديوهات مبسطة · الفهم المباشر لا كلمة بكلمة</p>
+      </article>
+      <article class="card card-feature tint-yellow-bold node-reveal">
+        <span class="tag tag-orange">من الأسبوع 6 وما بعده</span>
+        <h3 class="md3-h3" style="margin:12px 0 8px;"><i data-lucide="mic" class="w-5 h-5 inline" aria-hidden="true"></i> الإنتاج</h3>
+        <p class="md3-body card-ink" style="margin-bottom:12px;">الكلام والكتابة يبدآن مبكراً، حتى بمستوى ضعيف.</p>
+        <p class="card-ink" style="font-size:14px;">Shadowing عشر دقائق يومياً · محادثة italki أسبوعية · تصحيح Grammarly</p>
+      </article>
+      <article class="card card-feature tint-lavender node-reveal">
+        <span class="tag tag-purple">بعد شهرين تقريباً</span>
+        <h3 class="md3-h3" style="margin:12px 0 8px;"><i data-lucide="settings-2" class="w-5 h-5 inline" aria-hidden="true"></i> الصقل</h3>
+        <p class="md3-body card-ink" style="margin-bottom:12px;">القواعد لتفسير أخطاء لاحظتها فعلاً في كلامك.</p>
+        <p class="card-ink" style="font-size:14px;">English Grammar in Use · أخطاؤك المتكررة فقط · مراجعة دورية</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="node-reveal" style="padding-bottom:64px;" aria-labelledby="qa-title">
+    <h2 id="qa-title" class="md3-h2" style="margin-bottom:24px;">قواعد أم مفردات؟ حفظ أم لا؟</h2>
+    <div class="grid md:grid-cols-2 gap-4">
+      <div class="card tint-cream" style="padding:32px; border-color:transparent;">
+        <div class="flex items-center gap-2" style="margin-bottom:8px;">
+          <i data-lucide="book-open" class="w-5 h-5 icon-primary" aria-hidden="true"></i>
+          <h3 class="md3-h3">المفردات أولاً</h3>
+        </div>
+        <p class="md3-body card-ink" style="font-size:14px;">بدون كلمات لا معنى للقواعد. التكرار المتباعد ضمن جملة كاملة — الفرق عن تجربة الفرنسية.</p>
+      </div>
+      <div class="card" style="padding:32px;">
+        <div class="flex items-center gap-2" style="margin-bottom:8px;">
+          <i data-lucide="wrench" class="w-5 h-5 icon-accent" aria-hidden="true"></i>
+          <h3 class="md3-h3">القواعد لاحقاً، وظيفياً</h3>
+        </div>
+        <p class="md3-body card-ink" style="font-size:14px;">تُدرَس عند الحاجة لتفسير خطأ ارتكبته، لا كمنهج مستقل من اليوم الأول.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="start" class="node-reveal" style="padding-bottom:64px;" aria-labelledby="start-title">
+    <h2 id="start-title" class="md3-h2" style="margin-bottom:24px;">من أين تبدأ</h2>
+    <ul class="space-y-3" role="list">
+      <li class="card" role="listitem" style="padding:20px 24px;">
+        <strong>اليوم:</strong> نزّل Anki + مجموعة Oxford 3000
+      </li>
+      <li class="card" role="listitem" style="padding:20px 24px;">
+        <strong>هذا الأسبوع:</strong> 20–30 دقيقة يومياً استماع لمحتوى مبسط
+      </li>
+      <li class="card" role="listitem" style="padding:20px 24px;">
+        <strong>عادة يومية:</strong> Shadowing عشر دقائق من فيديو قصير
+      </li>
+      <li class="card" role="listitem" style="padding:20px 24px;">
+        <strong>بعد 4–6 أسابيع:</strong> أول محادثة على italki
+      </li>
+    </ul>
+  </section>
+</main>
+
+<footer style="border-top:1px solid var(--md-sys-color-outline-variant); padding:32px;">
+  <div class="mx-auto footer-text" style="max-width:880px; font-size:14px;">الإدخال المفهوم بدل الحفظ النظري.</div>
+</footer>
+
+<noscript><style>.node-reveal{opacity:1 !important;transform:none !important;}</style></noscript>
+<script src="./app.js" defer></script>
+</body>
+</html>

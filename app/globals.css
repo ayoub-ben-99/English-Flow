@@ -1,0 +1,247 @@
+@import "tailwindcss";
+
+/* Explicit sources only: never scan data dumps (multi-GB JSONL) for classes. */
+@source "../app";
+@source "../components";
+@source "../lib";
+
+/* Design tokens — ported from the existing static project (styles.css, Notion palette). */
+:root {
+  color-scheme: light;
+  --md-sys-color-primary: #5645d4;
+  --md-sys-color-on-primary: #ffffff;
+  --md-sys-color-primary-container: #e6e0f5;
+  --md-sys-color-on-primary-container: #391c57;
+  --md-sys-color-surface: #ffffff;
+  --md-sys-color-on-surface: #1a1a1a;
+  --md-sys-color-on-surface-variant: #5d5b54;
+  --md-sys-color-surface-container-low: #fafaf9;
+  --md-sys-color-surface-container: #f6f5f4;
+  --md-sys-color-surface-container-high: #f0eeec;
+  --md-sys-color-outline: #c8c4be;
+  --md-sys-color-outline-variant: #e5e3df;
+  --notion-link: #0075de;
+  --notion-peach: #ffe8d4;
+  --notion-rose: #fde0ec;
+  --notion-mint: #d9f3e1;
+  --notion-lavender: #e6e0f5;
+  --notion-sky: #dcecfa;
+  --notion-yellow-bold: #f9e79f;
+  --notion-cream: #f8f5e8;
+  --muted: #5d5b54;
+  --card-ink: #37352f;
+  --tag-green-ink: #0e7a2a;
+  --level-blue-ink: #0b5cad;
+  --level-amber-ink: #7a5900;
+  --level-orange-ink: #793400;
+  --level-rose-ink: #a02e6d;
+  --success: #1aae39;
+  --danger: #e03131;
+  --accent-orange: #dd5b00;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-full: 9999px;
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --md-sys-color-primary: #a394ff;
+  --md-sys-color-on-primary: #1e1847;
+  --md-sys-color-primary-container: #2e2a5e;
+  --md-sys-color-on-primary-container: #e6e0f5;
+  --md-sys-color-surface: #161614;
+  --md-sys-color-on-surface: #ece9e2;
+  --md-sys-color-on-surface-variant: #b8b5ad;
+  --md-sys-color-surface-container-low: #1a1a18;
+  --md-sys-color-surface-container: #201f1d;
+  --md-sys-color-surface-container-high: #262624;
+  --md-sys-color-outline: #57534e;
+  --md-sys-color-outline-variant: #2e2e2c;
+  --notion-link: #66aaff;
+  --notion-peach: #4a2f1a;
+  --notion-rose: #4a2333;
+  --notion-mint: #1d3a2a;
+  --notion-lavender: #2e2450;
+  --notion-sky: #1c3145;
+  --notion-yellow-bold: #4a3f14;
+  --notion-cream: #2a2720;
+  --muted: #b8b5ad;
+  --card-ink: #ece9e2;
+  --tag-green-ink: #7ddba0;
+  --level-blue-ink: #7cc4ff;
+  --level-amber-ink: #f0c94c;
+  --level-orange-ink: #ffa25e;
+  --level-rose-ink: #ff8ac2;
+  --success: #4ade80;
+  --danger: #ff8585;
+  --accent-orange: #ffa25e;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Lenis smooth-scroll recommended styles (native scroll wins when reduced). */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--md-sys-color-surface);
+  color: var(--md-sys-color-on-surface);
+  font-size: 16px;
+  line-height: 1.55;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.card-ink {
+  color: var(--card-ink);
+}
+
+/* Cards: 12px radius, hairline border, flat (matches existing project). */
+.card {
+  background: var(--md-sys-color-surface);
+  border: 1px solid var(--md-sys-color-outline-variant);
+  border-radius: var(--radius-lg);
+  box-shadow: rgba(15, 15, 15, 0.04) 0px 1px 2px 0px;
+}
+
+.tag {
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.tag-purple {
+  background: var(--md-sys-color-primary-container);
+  color: var(--md-sys-color-on-primary-container);
+}
+
+/* Filled tonal card (MD3 filled variant): hierarchy above outlined cards. */
+.card-filled {
+  background: var(--md-sys-color-surface-container-high);
+  border: 1px solid transparent;
+  border-radius: var(--radius-lg);
+}
+
+.tag-green {
+  background: var(--notion-mint);
+  color: var(--tag-green-ink);
+}
+
+.tag-orange {
+  background: var(--notion-peach);
+  color: var(--md-sys-color-on-primary-container);
+}
+
+.tint-mint { background: var(--notion-mint); border-color: transparent; }
+.tint-sky { background: var(--notion-sky); border-color: transparent; }
+.tint-yellow-bold { background: var(--notion-yellow-bold); border-color: transparent; }
+.tint-lavender { background: var(--notion-lavender); border-color: transparent; }
+.tint-rose { background: var(--notion-rose); border-color: transparent; }
+.tint-cream { background: var(--notion-cream); border-color: transparent; }
+
+/* Light, fast popover entrance for the voice settings panel. */
+@keyframes voice-pop {
+  from {
+    opacity: 0;
+    transform: translateY(-4px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.voice-pop {
+  animation: voice-pop 150ms ease;
+}
+
+:focus-visible {
+  outline: 2px solid var(--notion-link);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+::selection {
+  background: var(--notion-lavender);
+  color: var(--md-sys-color-on-primary-container);
+}
+
+/* Collapsible filter panel: smooth height + fade both ways. */
+.cat-panel {
+  display: grid;
+  grid-template-rows: 0fr;
+  opacity: 0;
+  transition:
+    grid-template-rows 260ms cubic-bezier(0.2, 0, 0, 1),
+    opacity 200ms ease;
+}
+.cat-panel.cat-open {
+  grid-template-rows: 1fr;
+  opacity: 1;
+}
+.cat-panel-inner {
+  overflow: hidden;
+  min-height: 0;
+}
+.cat-chip {
+  opacity: 0;
+  transition:
+    opacity 180ms ease,
+    background-color 150ms ease,
+    border-color 150ms ease;
+}
+.cat-chip.cat-in {
+  opacity: 1;
+}
+
+@keyframes complete-pop {
+  0% {
+    transform: scale(0.4);
+  }
+  55% {
+    transform: scale(1.25);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.complete-pop {
+  display: inline-flex;
+  animation: complete-pop 320ms cubic-bezier(0.05, 0.7, 0.1, 1);
+  transform-origin: center;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .voice-pop {
+    animation: none;
+  }
+  .complete-pop {
+    animation: none;
+  }
+  .cat-panel,
+  .cat-chip {
+    transition: none;
+  }
+  .cat-chip {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-09",
+  "words": {
+    "count": 135282,
+    "withCefr": 9385,
+    "translated": 49545,
+    "translated_freedict": 48947,
+    "translated_wiktionary": 188,
+    "translated_curated": 410,
+    "shards": 27
+  },
+  "sentences": {
+    "count": 48477,
+    "shards": 5
+  },
+  "grammar": {
+    "count": 170
+  },
+  "sources": {
+    "words": "wordnet",
+    "sentences": "tatoeba",
+    "grammar": "cefr-j"
+  }
+}

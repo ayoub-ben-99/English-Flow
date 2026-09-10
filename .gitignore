@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+
+# Pipeline datasets (regenerable via scripts/pipeline; the 3.2GB Wiktionary
+# dump and other raw files must never be scanned by Tailwind or committed)
+data/pipeline/raw/
+data/pipeline/intermediate/
+data/pipeline/processed/words/
+data/pipeline/processed/sentences/
+
+# Logs and caches
+*.log
+tsconfig.tsbuildinfo
+.next/dev/

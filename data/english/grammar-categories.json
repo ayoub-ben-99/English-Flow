@@ -1,0 +1,10 @@
+[
+  { "id": "tenses", "arabic": "الأزمنة", "english": "Tenses" },
+  { "id": "verbs", "arabic": "الأفعال", "english": "Verbs" },
+  { "id": "nouns", "arabic": "الأسماء", "english": "Nouns" },
+  { "id": "pronouns", "arabic": "الضمائر", "english": "Pronouns" },
+  { "id": "adjectives", "arabic": "الصفات", "english": "Adjectives" },
+  { "id": "prepositions", "arabic": "حروف الجر", "english": "Prepositions" },
+  { "id": "questions", "arabic": "الأسئلة", "english": "Questions" },
+  { "id": "articles", "arabic": "أدوات التعريف", "english": "Articles" }
+]

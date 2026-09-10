@@ -1,0 +1,167 @@
+[
+  {
+    "id": "zamericanenglish",
+    "title": "ZAmericanEnglish — إبراهيم عادل",
+    "type": "youtube_channel",
+    "language": "ar",
+    "description": "منهج متكامل للمبتدئين: قواعد وقراءة واستماع ومحادثة بترتيب واضح.",
+    "levels": ["A1", "A2", "B1", "B2", "C1"],
+    "categories": ["grammar", "vocabulary", "listening", "speaking"],
+    "url": "https://www.youtube.com/@ZAmericanEnglish",
+    "source": "YouTube"
+  },
+  {
+    "id": "morad-english",
+    "title": "تعلم الإنجليزية مع مراد",
+    "type": "youtube_channel",
+    "language": "ar",
+    "description": "محادثة وقواعد ومستويات مرتبة، مع ترجمة ونطق.",
+    "levels": ["A1", "A2", "B1", "B2", "C1"],
+    "categories": ["speaking", "grammar", "pronunciation", "vocabulary"],
+    "url": "https://www.youtube.com/@moradenglish2",
+    "source": "YouTube"
+  },
+  {
+    "id": "droos-online",
+    "title": "دروس أونلاين — أحمد أبو زيد",
+    "type": "youtube_channel",
+    "language": "ar",
+    "description": "قواعد ومفردات مع تركيز على التعلم الذاتي.",
+    "levels": ["A1", "A2", "B1", "B2"],
+    "categories": ["grammar", "vocabulary"],
+    "url": "https://www.youtube.com/@DroosOnline4u",
+    "source": "YouTube"
+  },
+  {
+    "id": "english-sbeata",
+    "title": "English with Sbeata",
+    "type": "youtube_channel",
+    "language": "ar",
+    "description": "النطق والمحادثة والاستخدام اليومي للغة.",
+    "levels": ["A1", "A2", "B1", "B2"],
+    "categories": ["pronunciation", "speaking", "listening"],
+    "url": "https://www.youtube.com/@EnglishwithSbeata",
+    "source": "YouTube"
+  },
+  {
+    "id": "ehab-rashwan",
+    "title": "Ehab Rashwan",
+    "type": "youtube_channel",
+    "language": "ar",
+    "description": "القواعد والمفردات والمحادثة بأسلوب مبسط.",
+    "levels": ["A1", "A2", "B1", "B2"],
+    "categories": ["grammar", "vocabulary", "speaking"],
+    "url": "https://www.youtube.com/@EhabRashwan",
+    "source": "YouTube"
+  },
+  {
+    "id": "bbc-learning",
+    "title": "BBC Learning English",
+    "type": "youtube_channel",
+    "language": "en",
+    "description": "قواعد ومفردات واستماع ونطق ببرامج منتظمة مثل 6 Minute English.",
+    "levels": ["A1", "A2", "B1", "B2", "C1"],
+    "categories": ["grammar", "vocabulary", "listening", "pronunciation"],
+    "url": "https://www.youtube.com/@bbclearningenglish",
+    "source": "YouTube"
+  },
+  {
+    "id": "voa-learning",
+    "title": "VOA Learning English",
+    "type": "youtube_channel",
+    "language": "en",
+    "description": "أخبار مبسطة بالإنجليزية الأمريكية مع ترجمة مصاحبة للمبتدئين والمتوسطين.",
+    "levels": ["A2", "B1", "B2"],
+    "categories": ["listening", "reading"],
+    "url": "https://www.youtube.com/@voalearningenglish",
+    "source": "YouTube"
+  },
+  {
+    "id": "english-lucy",
+    "title": "English with Lucy",
+    "type": "youtube_channel",
+    "language": "en",
+    "description": "إنجليزية بريطانية: مفردات ونطق بمستوى متوسط ومتقدم.",
+    "levels": ["B1", "B2", "C1"],
+    "categories": ["vocabulary", "pronunciation"],
+    "url": "https://www.youtube.com/@EnglishwithLucy",
+    "source": "YouTube"
+  },
+  {
+    "id": "rachels-english",
+    "title": "Rachel's English",
+    "type": "youtube_channel",
+    "language": "en",
+    "description": "النطق الأمريكي والمحادثة بالتفصيل.",
+    "levels": ["B1", "B2", "C1"],
+    "categories": ["pronunciation", "speaking"],
+    "url": "https://www.youtube.com/@rachelsenglish",
+    "source": "YouTube"
+  },
+  {
+    "id": "easy-english",
+    "title": "Easy English",
+    "type": "youtube_channel",
+    "language": "en",
+    "description": "محادثات واقعية في الشارع لتقوية الاستماع.",
+    "levels": ["A2", "B1", "B2"],
+    "categories": ["listening", "speaking"],
+    "url": "https://www.youtube.com/@EasyEnglishVideos",
+    "source": "YouTube"
+  },
+  {
+    "id": "book-essential-grammar",
+    "title": "Essential Grammar in Use — Raymond Murphy",
+    "type": "book",
+    "language": "en",
+    "description": "أفضل بداية للقواعد والدراسة الذاتية للمبتدئين.",
+    "levels": ["A1", "A2", "B1"],
+    "categories": ["grammar"],
+    "author": "Raymond Murphy",
+    "source": "Book"
+  },
+  {
+    "id": "book-grammar-in-use",
+    "title": "English Grammar in Use — Raymond Murphy",
+    "type": "book",
+    "language": "en",
+    "description": "الكتاب الأساسي لقواعد المستوى المتوسط.",
+    "levels": ["B1", "B2"],
+    "categories": ["grammar"],
+    "author": "Raymond Murphy",
+    "source": "Book"
+  },
+  {
+    "id": "book-vocabulary-in-use",
+    "title": "English Vocabulary in Use — McCarthy & O'Dell",
+    "type": "book",
+    "language": "en",
+    "description": "بناء المفردات حسب المستوى والموضوع.",
+    "levels": ["A2", "B1", "B2", "C1"],
+    "categories": ["vocabulary"],
+    "author": "Michael McCarthy & Felicity O'Dell",
+    "source": "Book"
+  },
+  {
+    "id": "book-oxford-word-skills",
+    "title": "Oxford Word Skills",
+    "type": "book",
+    "language": "en",
+    "description": "مفردات منظمة حسب المستوى والموضوع.",
+    "levels": ["A1", "A2", "B1", "B2", "C1"],
+    "categories": ["vocabulary"],
+    "author": "Oxford University Press",
+    "source": "Book"
+  },
+  {
+    "id": "book-practical-usage",
+    "title": "Practical English Usage — Michael Swan",
+    "type": "book",
+    "language": "en",
+    "description": "مرجع شامل يشرح لماذا تُستخدم القاعدة بهذا الشكل.",
+    "levels": ["B2", "C1"],
+    "categories": ["grammar"],
+    "author": "Michael Swan",
+    "source": "Book"
+  }
+]

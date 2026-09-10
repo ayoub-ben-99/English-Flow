@@ -1,0 +1,96 @@
+{
+  "decisions": [
+    "curated app terms included as-is (24), level from CEFR-J map when unambiguous",
+    "category 'programming' has only 3 items (pool exhausted)",
+    "category 'relationships' has only 6 items (pool exhausted)",
+    "category 'relationships' has only 12 items (pool exhausted)",
+    "category 'social' has only 11 items (pool exhausted)",
+    "category 'social' has only 12 items (pool exhausted)",
+    "category 'social' has only 13 items (pool exhausted)",
+    "category 'weather' has only 14 items (pool exhausted)",
+    "category 'work' has only 12 items (pool exhausted)",
+    "category 'work' has only 13 items (pool exhausted)",
+    "sentence level shortfalls (true labels kept): {'B2': 233, 'C1': 195, 'C2': 100}"
+  ],
+  "words": {
+    "total": 2000,
+    "by_level": {
+      "A1": 468,
+      "B1": 408,
+      "A2": 459,
+      "B2": 305,
+      "C1": 251,
+      "C2": 109
+    },
+    "by_category": {
+      "food": 21,
+      "technology": 18,
+      "family": 16,
+      "travel": 15,
+      "work": 16,
+      "education": 79,
+      "health": 32,
+      "programming": 3,
+      "daily-life": 149,
+      "actions": 504,
+      "descriptions": 686,
+      "feelings": 35,
+      "home": 71,
+      "shopping": 33,
+      "people": 82,
+      "places": 34,
+      "communication": 88,
+      "time": 32,
+      "nature": 24,
+      "numbers": 15,
+      "social": 13,
+      "weather": 16,
+      "relationships": 18
+    },
+    "by_source": {
+      "curated": 24,
+      "wordnet": 1976
+    }
+  },
+  "sentences": {
+    "total": 2000,
+    "by_level": {
+      "A1": 1028,
+      "A2": 500,
+      "B1": 400,
+      "B2": 67,
+      "C1": 5
+    },
+    "by_category": {
+      "daily-life": 1288,
+      "work": 12,
+      "travel": 27,
+      "conversation": 3,
+      "shopping": 18,
+      "technology": 11,
+      "social": 8,
+      "education": 44,
+      "nature": 12,
+      "home": 27,
+      "food": 72,
+      "feelings": 126,
+      "communication": 57,
+      "family": 40,
+      "health": 47,
+      "time": 26,
+      "people": 63,
+      "weather": 15,
+      "numbers": 92,
+      "places": 12
+    },
+    "by_source": {
+      "curated": 23,
+      "tatoeba": 1977
+    },
+    "unfilled_levels": {
+      "B2": 233,
+      "C1": 195,
+      "C2": 100
+    }
+  }
+}

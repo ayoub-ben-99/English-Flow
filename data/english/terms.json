@@ -1,0 +1,2320 @@
+[
+  {
+    "id": "apple",
+    "english": "Apple",
+    "arabic": "تفاحة",
+    "category": "food",
+    "example": "I eat an apple every morning.",
+    "pronunciation": "AP-uhl"
+  },
+  {
+    "id": "bread",
+    "english": "Bread",
+    "arabic": "خبز",
+    "category": "food",
+    "example": "We buy fresh bread daily.",
+    "pronunciation": "bred"
+  },
+  {
+    "id": "water",
+    "english": "Water",
+    "arabic": "ماء",
+    "category": "food",
+    "example": "Drink more water.",
+    "pronunciation": "WAW-ter"
+  },
+  {
+    "id": "keyboard",
+    "english": "Keyboard",
+    "arabic": "لوحة المفاتيح",
+    "category": "technology",
+    "example": "My keyboard is mechanical.",
+    "pronunciation": "KEE-bord"
+  },
+  {
+    "id": "screen",
+    "english": "Screen",
+    "arabic": "شاشة",
+    "category": "technology",
+    "example": "Clean your screen gently."
+  },
+  {
+    "id": "battery",
+    "english": "Battery",
+    "arabic": "بطارية",
+    "category": "technology",
+    "example": "My phone battery is low.",
+    "pronunciation": "BAT-uh-ree"
+  },
+  {
+    "id": "mother",
+    "english": "Mother",
+    "arabic": "أم",
+    "category": "family",
+    "example": "My mother cooks well.",
+    "pronunciation": "MUTH-er"
+  },
+  {
+    "id": "brother",
+    "english": "Brother",
+    "arabic": "أخ",
+    "category": "family",
+    "example": "My brother lives nearby."
+  },
+  {
+    "id": "airport",
+    "english": "Airport",
+    "arabic": "مطار",
+    "category": "travel",
+    "example": "We arrived at the airport early.",
+    "pronunciation": "AIR-port"
+  },
+  {
+    "id": "ticket",
+    "english": "Ticket",
+    "arabic": "تذكرة",
+    "category": "travel",
+    "example": "I booked two tickets.",
+    "pronunciation": "TIK-it"
+  },
+  {
+    "id": "meeting",
+    "english": "Meeting",
+    "arabic": "اجتماع",
+    "category": "work",
+    "example": "The meeting starts at nine.",
+    "pronunciation": "MEE-ting"
+  },
+  {
+    "id": "salary",
+    "english": "Salary",
+    "arabic": "راتب",
+    "category": "work",
+    "example": "She received her salary today.",
+    "pronunciation": "SAL-uh-ree"
+  },
+  {
+    "id": "book",
+    "english": "Book",
+    "arabic": "كتاب",
+    "category": "education",
+    "example": "This book is very useful.",
+    "pronunciation": "buk"
+  },
+  {
+    "id": "lesson",
+    "english": "Lesson",
+    "arabic": "درس",
+    "category": "education",
+    "example": "Today's lesson is about verbs.",
+    "pronunciation": "LES-uhn"
+  },
+  {
+    "id": "doctor",
+    "english": "Doctor",
+    "arabic": "طبيب",
+    "category": "health",
+    "example": "Visit a doctor if it hurts.",
+    "pronunciation": "DOK-ter"
+  },
+  {
+    "id": "medicine",
+    "english": "Medicine",
+    "arabic": "دواء",
+    "category": "health",
+    "example": "Take your medicine twice a day.",
+    "pronunciation": "MED-ih-sin"
+  },
+  {
+    "id": "variable",
+    "english": "Variable",
+    "arabic": "متغير",
+    "category": "programming",
+    "example": "Name your variables clearly.",
+    "pronunciation": "VAIR-ee-uh-buhl"
+  },
+  {
+    "id": "function",
+    "english": "Function",
+    "arabic": "دالة",
+    "category": "programming",
+    "example": "This function returns a list.",
+    "pronunciation": "FUHNGK-shuhn"
+  },
+  {
+    "id": "error",
+    "english": "Error",
+    "arabic": "خطأ",
+    "category": "programming",
+    "example": "Fix the error before deploying.",
+    "pronunciation": "AIR-er"
+  },
+  {
+    "id": "morning",
+    "english": "Morning",
+    "arabic": "صباح",
+    "category": "daily-life",
+    "example": "Good morning! How are you?",
+    "pronunciation": "MOR-ning"
+  },
+  {
+    "id": "shopping",
+    "english": "Shopping",
+    "arabic": "تسوق",
+    "category": "daily-life",
+    "example": "We go shopping on Fridays.",
+    "pronunciation": "SHOP-ing"
+  },
+  {
+    "id": "key",
+    "english": "Key",
+    "arabic": "مفتاح",
+    "category": "daily-life",
+    "example": "Where are my keys?"
+  },
+  {
+    "id": "window",
+    "english": "Window",
+    "arabic": "نافذة",
+    "category": "daily-life",
+    "example": "Open the window, please.",
+    "pronunciation": "WIN-doh"
+  },
+  {
+    "id": "clock",
+    "english": "Clock",
+    "arabic": "ساعة",
+    "category": "daily-life",
+    "example": "The clock shows noon."
+  },
+  {
+    "id": "write",
+    "english": "Write",
+    "arabic": "اكتب",
+    "category": "programming"
+  },
+  {
+    "id": "implement",
+    "english": "Implement",
+    "arabic": "نفّذ / طبّق",
+    "category": "programming"
+  },
+  {
+    "id": "create",
+    "english": "Create",
+    "arabic": "أنشئ",
+    "category": "programming"
+  },
+  {
+    "id": "define",
+    "english": "Define",
+    "arabic": "عرّف",
+    "category": "programming"
+  },
+  {
+    "id": "declare",
+    "english": "Declare",
+    "arabic": "صرّح (بمتغير/دالة)",
+    "category": "programming"
+  },
+  {
+    "id": "return",
+    "english": "Return",
+    "arabic": "يُرجع",
+    "category": "programming"
+  },
+  {
+    "id": "print",
+    "english": "Print",
+    "arabic": "اطبع",
+    "category": "programming"
+  },
+  {
+    "id": "display",
+    "english": "Display",
+    "arabic": "اعرض",
+    "category": "programming"
+  },
+  {
+    "id": "output",
+    "english": "Output",
+    "arabic": "يُخرج / المخرج",
+    "category": "programming"
+  },
+  {
+    "id": "handle",
+    "english": "Handle",
+    "arabic": "تعامل مع",
+    "category": "programming"
+  },
+  {
+    "id": "allocate",
+    "english": "Allocate",
+    "arabic": "خصّص (ذاكرة)",
+    "category": "programming"
+  },
+  {
+    "id": "free",
+    "english": "Free",
+    "arabic": "حرّر (ذاكرة)",
+    "category": "programming"
+  },
+  {
+    "id": "compile",
+    "english": "Compile",
+    "arabic": "تصريف / ترجمة الكود",
+    "category": "programming"
+  },
+  {
+    "id": "execute",
+    "english": "Execute",
+    "arabic": "ينفّذ",
+    "category": "programming"
+  },
+  {
+    "id": "compare",
+    "english": "Compare",
+    "arabic": "قارن",
+    "category": "programming"
+  },
+  {
+    "id": "convert",
+    "english": "Convert",
+    "arabic": "حوّل",
+    "category": "programming"
+  },
+  {
+    "id": "parse",
+    "english": "Parse",
+    "arabic": "حلّل (نص/بيانات)",
+    "category": "programming"
+  },
+  {
+    "id": "validate",
+    "english": "Validate",
+    "arabic": "تحقق من صحة",
+    "category": "programming"
+  },
+  {
+    "id": "check",
+    "english": "Check",
+    "arabic": "تحقق",
+    "category": "programming"
+  },
+  {
+    "id": "test",
+    "english": "Test",
+    "arabic": "اختبر",
+    "category": "programming"
+  },
+  {
+    "id": "debug",
+    "english": "Debug",
+    "arabic": "أصلح الأخطاء",
+    "category": "programming"
+  },
+  {
+    "id": "assume",
+    "english": "Assume",
+    "arabic": "افترض",
+    "category": "programming"
+  },
+  {
+    "id": "ensure",
+    "english": "Ensure",
+    "arabic": "تأكد من",
+    "category": "programming"
+  },
+  {
+    "id": "prevent",
+    "english": "Prevent",
+    "arabic": "امنع",
+    "category": "programming"
+  },
+  {
+    "id": "avoid",
+    "english": "Avoid",
+    "arabic": "تجنّب",
+    "category": "programming"
+  },
+  {
+    "id": "provide",
+    "english": "Provide",
+    "arabic": "وفّر / قدّم",
+    "category": "programming"
+  },
+  {
+    "id": "contain",
+    "english": "Contain",
+    "arabic": "يحتوي على",
+    "category": "programming"
+  },
+  {
+    "id": "include",
+    "english": "Include",
+    "arabic": "ضمّن",
+    "category": "programming"
+  },
+  {
+    "id": "exclude",
+    "english": "Exclude",
+    "arabic": "استثنِ",
+    "category": "programming"
+  },
+  {
+    "id": "store",
+    "english": "Store",
+    "arabic": "خزّن",
+    "category": "programming"
+  },
+  {
+    "id": "retrieve",
+    "english": "Retrieve",
+    "arabic": "استرجع",
+    "category": "programming"
+  },
+  {
+    "id": "modify",
+    "english": "Modify",
+    "arabic": "عدّل",
+    "category": "programming"
+  },
+  {
+    "id": "update",
+    "english": "Update",
+    "arabic": "حدّث",
+    "category": "programming"
+  },
+  {
+    "id": "delete-remove",
+    "english": "Delete / Remove",
+    "arabic": "احذف",
+    "category": "programming"
+  },
+  {
+    "id": "insert",
+    "english": "Insert",
+    "arabic": "أدرج",
+    "category": "programming"
+  },
+  {
+    "id": "replace",
+    "english": "Replace",
+    "arabic": "استبدل",
+    "category": "programming"
+  },
+  {
+    "id": "split",
+    "english": "Split",
+    "arabic": "قسّم",
+    "category": "programming"
+  },
+  {
+    "id": "merge",
+    "english": "Merge",
+    "arabic": "ادمج",
+    "category": "programming"
+  },
+  {
+    "id": "copy",
+    "english": "Copy",
+    "arabic": "انسخ",
+    "category": "programming"
+  },
+  {
+    "id": "duplicate",
+    "english": "Duplicate",
+    "arabic": "كرّر / انسخ",
+    "category": "programming"
+  },
+  {
+    "id": "sort",
+    "english": "Sort",
+    "arabic": "رتّب",
+    "category": "programming"
+  },
+  {
+    "id": "search",
+    "english": "Search",
+    "arabic": "ابحث",
+    "category": "programming"
+  },
+  {
+    "id": "iterate",
+    "english": "Iterate",
+    "arabic": "كرّر عبر (loop)",
+    "category": "programming"
+  },
+  {
+    "id": "loop-through",
+    "english": "Loop through",
+    "arabic": "مرّ عبر (كل عنصر)",
+    "category": "programming"
+  },
+  {
+    "id": "traverse",
+    "english": "Traverse",
+    "arabic": "تجوّل / اجتز",
+    "category": "programming"
+  },
+  {
+    "id": "terminate",
+    "english": "Terminate",
+    "arabic": "أنهِ",
+    "category": "programming"
+  },
+  {
+    "id": "exit",
+    "english": "Exit",
+    "arabic": "اخرج",
+    "category": "programming"
+  },
+  {
+    "id": "skip",
+    "english": "Skip",
+    "arabic": "تخطَّ",
+    "category": "programming"
+  },
+  {
+    "id": "ignore",
+    "english": "Ignore",
+    "arabic": "تجاهل",
+    "category": "programming"
+  },
+  {
+    "id": "handle-errors",
+    "english": "Handle errors",
+    "arabic": "تعامل مع الأخطاء",
+    "category": "programming"
+  },
+  {
+    "id": "raise-throw",
+    "english": "Raise / Throw",
+    "arabic": "أطلق (خطأ/استثناء)",
+    "category": "programming"
+  },
+  {
+    "id": "catch",
+    "english": "Catch",
+    "arabic": "التقط (خطأ)",
+    "category": "programming"
+  },
+  {
+    "id": "restrict",
+    "english": "Restrict",
+    "arabic": "قيّد",
+    "category": "programming"
+  },
+  {
+    "id": "forbid-prohibit",
+    "english": "Forbid / Prohibit",
+    "arabic": "امنع/حظر",
+    "category": "programming"
+  },
+  {
+    "id": "assume-nothing",
+    "english": "Assume nothing",
+    "arabic": "لا تفترض شيئاً",
+    "category": "programming"
+  },
+  {
+    "id": "behave",
+    "english": "Behave",
+    "arabic": "يتصرف",
+    "category": "programming"
+  },
+  {
+    "id": "perform",
+    "english": "Perform",
+    "arabic": "ينفّذ عملية",
+    "category": "programming"
+  },
+  {
+    "id": "achieve",
+    "english": "Achieve",
+    "arabic": "حقّق",
+    "category": "programming"
+  },
+  {
+    "id": "optimize",
+    "english": "Optimize",
+    "arabic": "حسّن الأداء",
+    "category": "programming"
+  },
+  {
+    "id": "refactor",
+    "english": "Refactor",
+    "arabic": "أعد هيكلة الكود",
+    "category": "programming"
+  },
+  {
+    "id": "overwrite",
+    "english": "Overwrite",
+    "arabic": "استبدل/اكتب فوق",
+    "category": "programming"
+  },
+  {
+    "id": "read",
+    "english": "Read",
+    "arabic": "اقرأ",
+    "category": "programming"
+  },
+  {
+    "id": "write-to",
+    "english": "Write to",
+    "arabic": "اكتب إلى",
+    "category": "programming"
+  },
+  {
+    "id": "fill",
+    "english": "Fill",
+    "arabic": "املأ",
+    "category": "programming"
+  },
+  {
+    "id": "initialize",
+    "english": "Initialize",
+    "arabic": "هيّئ (متغير)",
+    "category": "programming"
+  },
+  {
+    "id": "reset",
+    "english": "Reset",
+    "arabic": "أعد الضبط",
+    "category": "programming"
+  },
+  {
+    "id": "increment",
+    "english": "Increment",
+    "arabic": "زد بمقدار واحد",
+    "category": "programming"
+  },
+  {
+    "id": "decrement",
+    "english": "Decrement",
+    "arabic": "أنقص بمقدار واحد",
+    "category": "programming"
+  },
+  {
+    "id": "compute",
+    "english": "Compute",
+    "arabic": "احسب",
+    "category": "programming"
+  },
+  {
+    "id": "calculate",
+    "english": "Calculate",
+    "arabic": "احسب",
+    "category": "programming"
+  },
+  {
+    "id": "determine",
+    "english": "Determine",
+    "arabic": "حدّد",
+    "category": "programming"
+  },
+  {
+    "id": "represent",
+    "english": "Represent",
+    "arabic": "يمثّل",
+    "category": "programming"
+  },
+  {
+    "id": "correspond-to",
+    "english": "Correspond to",
+    "arabic": "يقابل / يطابق",
+    "category": "programming"
+  },
+  {
+    "id": "refer-to",
+    "english": "Refer to",
+    "arabic": "يشير إلى",
+    "category": "programming"
+  },
+  {
+    "id": "write-a-function-that-takes-x-and-returns-y",
+    "english": "Write a function that takes X and returns Y",
+    "arabic": "اكتب دالة تأخذ X وتُرجع Y",
+    "category": "programming"
+  },
+  {
+    "id": "you-are-not-allowed-to-use",
+    "english": "You are not allowed to use...",
+    "arabic": "لا يُسمح لك باستخدام...",
+    "category": "programming"
+  },
+  {
+    "id": "your-program-must-handle",
+    "english": "Your program must handle...",
+    "arabic": "يجب أن يتعامل برنامجك مع...",
+    "category": "programming"
+  },
+  {
+    "id": "if-x-then-y",
+    "english": "If X, then Y",
+    "arabic": "إذا تحقق X، فإن Y",
+    "category": "programming"
+  },
+  {
+    "id": "in-case-of",
+    "english": "In case of...",
+    "arabic": "في حالة...",
+    "category": "programming"
+  },
+  {
+    "id": "the-expected-output-is",
+    "english": "The expected output is...",
+    "arabic": "المخرج المتوقع هو...",
+    "category": "programming"
+  },
+  {
+    "id": "the-behavior-is-undefined",
+    "english": "The behavior is undefined",
+    "arabic": "السلوك غير محدد",
+    "category": "programming"
+  },
+  {
+    "id": "given-the-following",
+    "english": "Given the following...",
+    "arabic": "بالنظر إلى ما يلي...",
+    "category": "programming"
+  },
+  {
+    "id": "for-example",
+    "english": "For example",
+    "arabic": "على سبيل المثال",
+    "category": "programming"
+  },
+  {
+    "id": "as-shown-below",
+    "english": "As shown below",
+    "arabic": "كما هو موضح أدناه",
+    "category": "programming"
+  },
+  {
+    "id": "note-that",
+    "english": "Note that...",
+    "arabic": "لاحظ أن...",
+    "category": "programming"
+  },
+  {
+    "id": "please-note",
+    "english": "Please note",
+    "arabic": "يُرجى الملاحظة",
+    "category": "programming"
+  },
+  {
+    "id": "it-is-mandatory-to",
+    "english": "It is mandatory to...",
+    "arabic": "من الإلزامي أن...",
+    "category": "programming"
+  },
+  {
+    "id": "it-is-forbidden-to",
+    "english": "It is forbidden to...",
+    "arabic": "يُمنع منعاً باتاً...",
+    "category": "programming"
+  },
+  {
+    "id": "feel-free-to",
+    "english": "Feel free to...",
+    "arabic": "لك الحرية في...",
+    "category": "programming"
+  },
+  {
+    "id": "you-will-find",
+    "english": "You will find...",
+    "arabic": "ستجد...",
+    "category": "programming"
+  },
+  {
+    "id": "make-sure-that",
+    "english": "Make sure that...",
+    "arabic": "تأكد من أن...",
+    "category": "programming"
+  },
+  {
+    "id": "in-order-to",
+    "english": "In order to...",
+    "arabic": "من أجل...",
+    "category": "programming"
+  },
+  {
+    "id": "as-long-as",
+    "english": "As long as...",
+    "arabic": "طالما أن...",
+    "category": "programming"
+  },
+  {
+    "id": "regardless-of",
+    "english": "Regardless of...",
+    "arabic": "بغض النظر عن...",
+    "category": "programming"
+  },
+  {
+    "id": "unless-otherwise-specified",
+    "english": "Unless otherwise specified",
+    "arabic": "ما لم يُذكر خلاف ذلك",
+    "category": "programming"
+  },
+  {
+    "id": "edge-case",
+    "english": "Edge case",
+    "arabic": "حالة حدّية/استثنائية",
+    "category": "programming"
+  },
+  {
+    "id": "corner-case",
+    "english": "Corner case",
+    "arabic": "حالة نادرة/شاذة",
+    "category": "programming"
+  },
+  {
+    "id": "test-case",
+    "english": "Test case",
+    "arabic": "حالة اختبار",
+    "category": "programming"
+  },
+  {
+    "id": "sample-input-output",
+    "english": "Sample input/output",
+    "arabic": "مدخل/مخرج نموذجي",
+    "category": "programming"
+  },
+  {
+    "id": "function-prototype",
+    "english": "Function prototype",
+    "arabic": "توقيع الدالة",
+    "category": "programming"
+  },
+  {
+    "id": "undefined-behavior",
+    "english": "Undefined behavior",
+    "arabic": "سلوك غير معرّف",
+    "category": "programming"
+  },
+  {
+    "id": "memory-leak",
+    "english": "Memory leak",
+    "arabic": "تسرّب ذاكرة",
+    "category": "programming"
+  },
+  {
+    "id": "segmentation-fault",
+    "english": "Segmentation fault",
+    "arabic": "خطأ تجزئة الذاكرة",
+    "category": "programming"
+  },
+  {
+    "id": "return-value",
+    "english": "Return value",
+    "arabic": "القيمة المُرجعة",
+    "category": "programming"
+  },
+  {
+    "id": "side-effect",
+    "english": "Side effect",
+    "arabic": "أثر جانبي",
+    "category": "programming"
+  },
+  {
+    "id": "constant",
+    "english": "Constant",
+    "arabic": "ثابت",
+    "category": "programming"
+  },
+  {
+    "id": "parameter",
+    "english": "Parameter",
+    "arabic": "معامل (في التعريف)",
+    "category": "programming"
+  },
+  {
+    "id": "argument",
+    "english": "Argument",
+    "arabic": "وسيط (عند الاستدعاء)",
+    "category": "programming"
+  },
+  {
+    "id": "value",
+    "english": "Value",
+    "arabic": "قيمة",
+    "category": "programming"
+  },
+  {
+    "id": "type",
+    "english": "Type",
+    "arabic": "نوع",
+    "category": "programming"
+  },
+  {
+    "id": "data-type",
+    "english": "Data type",
+    "arabic": "نوع البيانات",
+    "category": "programming"
+  },
+  {
+    "id": "expression",
+    "english": "Expression",
+    "arabic": "تعبير",
+    "category": "programming"
+  },
+  {
+    "id": "statement",
+    "english": "Statement",
+    "arabic": "جملة برمجية",
+    "category": "programming"
+  },
+  {
+    "id": "condition",
+    "english": "Condition",
+    "arabic": "شرط",
+    "category": "programming"
+  },
+  {
+    "id": "loop",
+    "english": "Loop",
+    "arabic": "حلقة تكرار",
+    "category": "programming"
+  },
+  {
+    "id": "iteration",
+    "english": "Iteration",
+    "arabic": "تكرار (دورة واحدة)",
+    "category": "programming"
+  },
+  {
+    "id": "recursion",
+    "english": "Recursion",
+    "arabic": "استدعاء ذاتي (تكرارية)",
+    "category": "programming"
+  },
+  {
+    "id": "scope",
+    "english": "Scope",
+    "arabic": "نطاق (المتغير)",
+    "category": "programming"
+  },
+  {
+    "id": "global",
+    "english": "Global",
+    "arabic": "عام (نطاق عام)",
+    "category": "programming"
+  },
+  {
+    "id": "local",
+    "english": "Local",
+    "arabic": "محلي",
+    "category": "programming"
+  },
+  {
+    "id": "static",
+    "english": "Static",
+    "arabic": "ثابت السياق (static)",
+    "category": "programming"
+  },
+  {
+    "id": "dynamic",
+    "english": "Dynamic",
+    "arabic": "ديناميكي",
+    "category": "programming"
+  },
+  {
+    "id": "compile-time",
+    "english": "Compile-time",
+    "arabic": "وقت الترجمة",
+    "category": "programming"
+  },
+  {
+    "id": "runtime",
+    "english": "Runtime",
+    "arabic": "وقت التشغيل",
+    "category": "programming"
+  },
+  {
+    "id": "syntax",
+    "english": "Syntax",
+    "arabic": "صياغة/بنية اللغة",
+    "category": "programming"
+  },
+  {
+    "id": "semantics",
+    "english": "Semantics",
+    "arabic": "دلالة/معنى الكود",
+    "category": "programming"
+  },
+  {
+    "id": "keyword",
+    "english": "Keyword",
+    "arabic": "كلمة مفتاحية",
+    "category": "programming"
+  },
+  {
+    "id": "operator",
+    "english": "Operator",
+    "arabic": "مُعامِل (رمز عملية)",
+    "category": "programming"
+  },
+  {
+    "id": "boolean",
+    "english": "Boolean",
+    "arabic": "منطقي (صح/خطأ)",
+    "category": "programming"
+  },
+  {
+    "id": "integer",
+    "english": "Integer",
+    "arabic": "عدد صحيح",
+    "category": "programming"
+  },
+  {
+    "id": "float",
+    "english": "Float",
+    "arabic": "عدد عشري",
+    "category": "programming"
+  },
+  {
+    "id": "string",
+    "english": "String",
+    "arabic": "سلسلة نصية",
+    "category": "programming"
+  },
+  {
+    "id": "character",
+    "english": "Character",
+    "arabic": "محرف",
+    "category": "programming"
+  },
+  {
+    "id": "array",
+    "english": "Array",
+    "arabic": "مصفوفة",
+    "category": "programming"
+  },
+  {
+    "id": "index",
+    "english": "Index",
+    "arabic": "فهرس/رقم موضع",
+    "category": "programming"
+  },
+  {
+    "id": "element",
+    "english": "Element",
+    "arabic": "عنصر",
+    "category": "programming"
+  },
+  {
+    "id": "length-size",
+    "english": "Length / Size",
+    "arabic": "الطول / الحجم",
+    "category": "programming"
+  },
+  {
+    "id": "boundary",
+    "english": "Boundary",
+    "arabic": "حد (حدود المصفوفة)",
+    "category": "programming"
+  },
+  {
+    "id": "overflow",
+    "english": "Overflow",
+    "arabic": "فيض (تجاوز الحد)",
+    "category": "programming"
+  },
+  {
+    "id": "underflow",
+    "english": "Underflow",
+    "arabic": "نقصان (تحت الحد الأدنى)",
+    "category": "programming"
+  },
+  {
+    "id": "cast",
+    "english": "Cast",
+    "arabic": "تحويل نوع صريح",
+    "category": "programming"
+  },
+  {
+    "id": "implicit",
+    "english": "Implicit",
+    "arabic": "ضمني",
+    "category": "programming"
+  },
+  {
+    "id": "explicit",
+    "english": "Explicit",
+    "arabic": "صريح",
+    "category": "programming"
+  },
+  {
+    "id": "interface",
+    "english": "Interface",
+    "arabic": "واجهة",
+    "category": "programming"
+  },
+  {
+    "id": "implementation",
+    "english": "Implementation",
+    "arabic": "التنفيذ الفعلي",
+    "category": "programming"
+  },
+  {
+    "id": "library",
+    "english": "Library",
+    "arabic": "مكتبة برمجية",
+    "category": "programming"
+  },
+  {
+    "id": "header-file",
+    "english": "Header file",
+    "arabic": "ملف ترويسة",
+    "category": "programming"
+  },
+  {
+    "id": "source-file",
+    "english": "Source file",
+    "arabic": "ملف المصدر",
+    "category": "programming"
+  },
+  {
+    "id": "compiler",
+    "english": "Compiler",
+    "arabic": "مترجم/مصرّف",
+    "category": "programming"
+  },
+  {
+    "id": "linker",
+    "english": "Linker",
+    "arabic": "رابط (linker)",
+    "category": "programming"
+  },
+  {
+    "id": "binary",
+    "english": "Binary",
+    "arabic": "ثنائي (ملف تنفيذي)",
+    "category": "programming"
+  },
+  {
+    "id": "executable",
+    "english": "Executable",
+    "arabic": "ملف تنفيذي",
+    "category": "programming"
+  },
+  {
+    "id": "flag",
+    "english": "Flag",
+    "arabic": "راية (خيار تصريف)",
+    "category": "programming"
+  },
+  {
+    "id": "argument-cli",
+    "english": "Argument (CLI)",
+    "arabic": "وسيط سطر الأوامر",
+    "category": "programming"
+  },
+  {
+    "id": "standard-input-output",
+    "english": "Standard input/output",
+    "arabic": "الدخل/الخرج القياسي",
+    "category": "programming"
+  },
+  {
+    "id": "buffer",
+    "english": "Buffer",
+    "arabic": "مخزن مؤقت",
+    "category": "programming"
+  },
+  {
+    "id": "stream",
+    "english": "Stream",
+    "arabic": "تدفق بيانات",
+    "category": "programming"
+  },
+  {
+    "id": "object-oriented",
+    "english": "Object-oriented",
+    "arabic": "كائني التوجه",
+    "category": "programming"
+  },
+  {
+    "id": "class",
+    "english": "Class",
+    "arabic": "صنف/فئة",
+    "category": "programming"
+  },
+  {
+    "id": "instance",
+    "english": "Instance",
+    "arabic": "نسخة/كائن",
+    "category": "programming"
+  },
+  {
+    "id": "inheritance",
+    "english": "Inheritance",
+    "arabic": "وراثة",
+    "category": "programming"
+  },
+  {
+    "id": "polymorphism",
+    "english": "Polymorphism",
+    "arabic": "تعددية الأشكال",
+    "category": "programming"
+  },
+  {
+    "id": "encapsulation",
+    "english": "Encapsulation",
+    "arabic": "التغليف",
+    "category": "programming"
+  },
+  {
+    "id": "abstraction",
+    "english": "Abstraction",
+    "arabic": "التجريد",
+    "category": "programming"
+  },
+  {
+    "id": "module",
+    "english": "Module",
+    "arabic": "وحدة برمجية",
+    "category": "programming"
+  },
+  {
+    "id": "package",
+    "english": "Package",
+    "arabic": "حزمة",
+    "category": "programming"
+  },
+  {
+    "id": "dependency",
+    "english": "Dependency",
+    "arabic": "تبعية",
+    "category": "programming"
+  },
+  {
+    "id": "version",
+    "english": "Version",
+    "arabic": "إصدار",
+    "category": "programming"
+  },
+  {
+    "id": "deprecated",
+    "english": "Deprecated",
+    "arabic": "مهجور/قديم الاستخدام",
+    "category": "programming"
+  },
+  {
+    "id": "pointer",
+    "english": "Pointer",
+    "arabic": "مؤشر",
+    "category": "programming"
+  },
+  {
+    "id": "dereference",
+    "english": "Dereference",
+    "arabic": "فك مرجعية المؤشر",
+    "category": "programming"
+  },
+  {
+    "id": "address",
+    "english": "Address",
+    "arabic": "عنوان (في الذاكرة)",
+    "category": "programming"
+  },
+  {
+    "id": "null-pointer",
+    "english": "Null pointer",
+    "arabic": "مؤشر فارغ",
+    "category": "programming"
+  },
+  {
+    "id": "double-pointer",
+    "english": "Double pointer",
+    "arabic": "مؤشر على مؤشر",
+    "category": "programming"
+  },
+  {
+    "id": "struct",
+    "english": "Struct",
+    "arabic": "بنية (struct)",
+    "category": "programming"
+  },
+  {
+    "id": "union",
+    "english": "Union",
+    "arabic": "اتحاد (union)",
+    "category": "programming"
+  },
+  {
+    "id": "typedef",
+    "english": "Typedef",
+    "arabic": "إعادة تسمية نوع",
+    "category": "programming"
+  },
+  {
+    "id": "enum",
+    "english": "Enum",
+    "arabic": "تعداد (enum)",
+    "category": "programming"
+  },
+  {
+    "id": "malloc",
+    "english": "Malloc",
+    "arabic": "تخصيص ذاكرة ديناميكياً",
+    "category": "programming"
+  },
+  {
+    "id": "calloc",
+    "english": "Calloc",
+    "arabic": "تخصيص وتصفير الذاكرة",
+    "category": "programming"
+  },
+  {
+    "id": "realloc",
+    "english": "Realloc",
+    "arabic": "إعادة تخصيص الذاكرة",
+    "category": "programming"
+  },
+  {
+    "id": "sizeof",
+    "english": "Sizeof",
+    "arabic": "حجم البيانات (بايت)",
+    "category": "programming"
+  },
+  {
+    "id": "stack",
+    "english": "Stack",
+    "arabic": "كومة الاستدعاء (stack)",
+    "category": "programming"
+  },
+  {
+    "id": "heap",
+    "english": "Heap",
+    "arabic": "كومة الذاكرة (heap)",
+    "category": "programming"
+  },
+  {
+    "id": "bitwise-operator",
+    "english": "Bitwise operator",
+    "arabic": "عامل على مستوى البتات",
+    "category": "programming"
+  },
+  {
+    "id": "shift-operator",
+    "english": "Shift operator",
+    "arabic": "عامل الإزاحة",
+    "category": "programming"
+  },
+  {
+    "id": "macro",
+    "english": "Macro",
+    "arabic": "ماكرو (استبدال نصي)",
+    "category": "programming"
+  },
+  {
+    "id": "preprocessor",
+    "english": "Preprocessor",
+    "arabic": "المعالج المسبق",
+    "category": "programming"
+  },
+  {
+    "id": "include-guard",
+    "english": "Include guard",
+    "arabic": "حارس التضمين",
+    "category": "programming"
+  },
+  {
+    "id": "const",
+    "english": "Const",
+    "arabic": "ثابت غير قابل للتعديل",
+    "category": "programming"
+  },
+  {
+    "id": "void",
+    "english": "Void",
+    "arabic": "بلا نوع (فراغ)",
+    "category": "programming"
+  },
+  {
+    "id": "signed-unsigned",
+    "english": "Signed / Unsigned",
+    "arabic": "موقّع / غير موقّع",
+    "category": "programming"
+  },
+  {
+    "id": "byte",
+    "english": "Byte",
+    "arabic": "بايت",
+    "category": "programming"
+  },
+  {
+    "id": "bit",
+    "english": "Bit",
+    "arabic": "بت",
+    "category": "programming"
+  },
+  {
+    "id": "buffer-overflow",
+    "english": "Buffer overflow",
+    "arabic": "تجاوز المخزن المؤقت",
+    "category": "programming"
+  },
+  {
+    "id": "segfault",
+    "english": "Segfault",
+    "arabic": "خطأ تجزئة (تعطل بسبب الذاكرة)",
+    "category": "programming"
+  },
+  {
+    "id": "garbage-value",
+    "english": "Garbage value",
+    "arabic": "قيمة غير محددة (مهملة)",
+    "category": "programming"
+  },
+  {
+    "id": "uninitialized",
+    "english": "Uninitialized",
+    "arabic": "غير مهيّأ",
+    "category": "programming"
+  },
+  {
+    "id": "dangling-pointer",
+    "english": "Dangling pointer",
+    "arabic": "مؤشر معلّق",
+    "category": "programming"
+  },
+  {
+    "id": "double-free",
+    "english": "Double free",
+    "arabic": "تحرير مضاعف للذاكرة",
+    "category": "programming"
+  },
+  {
+    "id": "function-pointer",
+    "english": "Function pointer",
+    "arabic": "مؤشر دالة",
+    "category": "programming"
+  },
+  {
+    "id": "array-of-pointers",
+    "english": "Array of pointers",
+    "arabic": "مصفوفة مؤشرات",
+    "category": "programming"
+  },
+  {
+    "id": "multidimensional-array",
+    "english": "Multidimensional array",
+    "arabic": "مصفوفة متعددة الأبعاد",
+    "category": "programming"
+  },
+  {
+    "id": "linked-list",
+    "english": "Linked list",
+    "arabic": "قائمة مترابطة",
+    "category": "programming"
+  },
+  {
+    "id": "node",
+    "english": "Node",
+    "arabic": "عقدة",
+    "category": "programming"
+  },
+  {
+    "id": "head-tail",
+    "english": "Head / Tail",
+    "arabic": "الرأس / الذيل",
+    "category": "programming"
+  },
+  {
+    "id": "next-previous",
+    "english": "Next / Previous",
+    "arabic": "التالي / السابق",
+    "category": "programming"
+  },
+  {
+    "id": "recursive-function",
+    "english": "Recursive function",
+    "arabic": "دالة تكرارية (ذاتية الاستدعاء)",
+    "category": "programming"
+  },
+  {
+    "id": "base-case",
+    "english": "Base case",
+    "arabic": "الحالة الأساسية (لإيقاف التكرار)",
+    "category": "programming"
+  },
+  {
+    "id": "data-structure",
+    "english": "Data structure",
+    "arabic": "هيكل بيانات",
+    "category": "programming"
+  },
+  {
+    "id": "algorithm",
+    "english": "Algorithm",
+    "arabic": "خوارزمية",
+    "category": "programming"
+  },
+  {
+    "id": "stack-structure",
+    "english": "Stack (structure)",
+    "arabic": "مكدّس",
+    "category": "programming"
+  },
+  {
+    "id": "queue",
+    "english": "Queue",
+    "arabic": "طابور",
+    "category": "programming"
+  },
+  {
+    "id": "tree",
+    "english": "Tree",
+    "arabic": "شجرة",
+    "category": "programming"
+  },
+  {
+    "id": "binary-tree",
+    "english": "Binary tree",
+    "arabic": "شجرة ثنائية",
+    "category": "programming"
+  },
+  {
+    "id": "graph",
+    "english": "Graph",
+    "arabic": "رسم بياني (شبكة عقد)",
+    "category": "programming"
+  },
+  {
+    "id": "hash-table",
+    "english": "Hash table",
+    "arabic": "جدول تجزئة",
+    "category": "programming"
+  },
+  {
+    "id": "hash-function",
+    "english": "Hash function",
+    "arabic": "دالة تجزئة",
+    "category": "programming"
+  },
+  {
+    "id": "sorting-algorithm",
+    "english": "Sorting algorithm",
+    "arabic": "خوارزمية ترتيب",
+    "category": "programming"
+  },
+  {
+    "id": "bubble-sort",
+    "english": "Bubble sort",
+    "arabic": "فرز فقاعي",
+    "category": "programming"
+  },
+  {
+    "id": "quick-sort",
+    "english": "Quick sort",
+    "arabic": "فرز سريع",
+    "category": "programming"
+  },
+  {
+    "id": "merge-sort",
+    "english": "Merge sort",
+    "arabic": "فرز الدمج",
+    "category": "programming"
+  },
+  {
+    "id": "binary-search",
+    "english": "Binary search",
+    "arabic": "بحث ثنائي",
+    "category": "programming"
+  },
+  {
+    "id": "linear-search",
+    "english": "Linear search",
+    "arabic": "بحث خطي",
+    "category": "programming"
+  },
+  {
+    "id": "complexity",
+    "english": "Complexity",
+    "arabic": "التعقيد (الحسابي)",
+    "category": "programming"
+  },
+  {
+    "id": "time-complexity",
+    "english": "Time complexity",
+    "arabic": "تعقيد زمني",
+    "category": "programming"
+  },
+  {
+    "id": "space-complexity",
+    "english": "Space complexity",
+    "arabic": "تعقيد مكاني (ذاكرة)",
+    "category": "programming"
+  },
+  {
+    "id": "big-o-notation",
+    "english": "Big O notation",
+    "arabic": "ترميز Big O",
+    "category": "programming"
+  },
+  {
+    "id": "best-worst-case",
+    "english": "Best/Worst case",
+    "arabic": "أفضل/أسوأ حالة",
+    "category": "programming"
+  },
+  {
+    "id": "average-case",
+    "english": "Average case",
+    "arabic": "الحالة المتوسطة",
+    "category": "programming"
+  },
+  {
+    "id": "depth-first-search",
+    "english": "Depth-first search",
+    "arabic": "بحث بالعمق أولاً",
+    "category": "programming"
+  },
+  {
+    "id": "breadth-first-search",
+    "english": "Breadth-first search",
+    "arabic": "بحث بالعرض أولاً",
+    "category": "programming"
+  },
+  {
+    "id": "divide-and-conquer",
+    "english": "Divide and conquer",
+    "arabic": "فرّق تسد",
+    "category": "programming"
+  },
+  {
+    "id": "dynamic-programming",
+    "english": "Dynamic programming",
+    "arabic": "البرمجة الديناميكية",
+    "category": "programming"
+  },
+  {
+    "id": "greedy-algorithm",
+    "english": "Greedy algorithm",
+    "arabic": "خوارزمية جشعة",
+    "category": "programming"
+  },
+  {
+    "id": "backtracking",
+    "english": "Backtracking",
+    "arabic": "التراجع (خوارزمية)",
+    "category": "programming"
+  },
+  {
+    "id": "bug",
+    "english": "Bug",
+    "arabic": "علة برمجية",
+    "category": "programming"
+  },
+  {
+    "id": "exception",
+    "english": "Exception",
+    "arabic": "استثناء",
+    "category": "programming"
+  },
+  {
+    "id": "warning",
+    "english": "Warning",
+    "arabic": "تحذير",
+    "category": "programming"
+  },
+  {
+    "id": "crash",
+    "english": "Crash",
+    "arabic": "تعطل/انهيار البرنامج",
+    "category": "programming"
+  },
+  {
+    "id": "failure",
+    "english": "Failure",
+    "arabic": "فشل",
+    "category": "programming"
+  },
+  {
+    "id": "success",
+    "english": "Success",
+    "arabic": "نجاح",
+    "category": "programming"
+  },
+  {
+    "id": "assertion",
+    "english": "Assertion",
+    "arabic": "تأكيد (اختبار شرط)",
+    "category": "programming"
+  },
+  {
+    "id": "unit-test",
+    "english": "Unit test",
+    "arabic": "اختبار وحدة",
+    "category": "programming"
+  },
+  {
+    "id": "debugging",
+    "english": "Debugging",
+    "arabic": "تصحيح الأخطاء",
+    "category": "programming"
+  },
+  {
+    "id": "trace",
+    "english": "Trace",
+    "arabic": "تتبع تنفيذ الكود",
+    "category": "programming"
+  },
+  {
+    "id": "log",
+    "english": "Log",
+    "arabic": "سجل (تسجيل الأحداث)",
+    "category": "programming"
+  },
+  {
+    "id": "stack-trace",
+    "english": "Stack trace",
+    "arabic": "تتبع المكدس عند الخطأ",
+    "category": "programming"
+  },
+  {
+    "id": "exit-code",
+    "english": "Exit code",
+    "arabic": "رمز الخروج",
+    "category": "programming"
+  },
+  {
+    "id": "return-code",
+    "english": "Return code",
+    "arabic": "رمز الإرجاع",
+    "category": "programming"
+  },
+  {
+    "id": "expected-vs-actual",
+    "english": "Expected vs actual",
+    "arabic": "المتوقع مقابل الفعلي",
+    "category": "programming"
+  },
+  {
+    "id": "pass-fail",
+    "english": "Pass / Fail",
+    "arabic": "نجاح / فشل (اختبار)",
+    "category": "programming"
+  },
+  {
+    "id": "regression",
+    "english": "Regression",
+    "arabic": "انتكاسة (عودة خطأ سابق)",
+    "category": "programming"
+  },
+  {
+    "id": "reproduce",
+    "english": "Reproduce",
+    "arabic": "إعادة إنتاج (الخطأ)",
+    "category": "programming"
+  },
+  {
+    "id": "root-cause",
+    "english": "Root cause",
+    "arabic": "السبب الجذري",
+    "category": "programming"
+  },
+  {
+    "id": "terminal",
+    "english": "Terminal",
+    "arabic": "الطرفية",
+    "category": "programming"
+  },
+  {
+    "id": "shell",
+    "english": "Shell",
+    "arabic": "الصدفة (bash مثلاً)",
+    "category": "programming"
+  },
+  {
+    "id": "command",
+    "english": "Command",
+    "arabic": "أمر",
+    "category": "programming"
+  },
+  {
+    "id": "command-line",
+    "english": "Command line",
+    "arabic": "سطر الأوامر",
+    "category": "programming"
+  },
+  {
+    "id": "directory",
+    "english": "Directory",
+    "arabic": "مجلد/دليل",
+    "category": "programming"
+  },
+  {
+    "id": "file-permission",
+    "english": "File permission",
+    "arabic": "صلاحيات الملف",
+    "category": "programming"
+  },
+  {
+    "id": "environment-variable",
+    "english": "Environment variable",
+    "arabic": "متغير بيئة",
+    "category": "programming"
+  },
+  {
+    "id": "process",
+    "english": "Process",
+    "arabic": "عملية (process)",
+    "category": "programming"
+  },
+  {
+    "id": "thread",
+    "english": "Thread",
+    "arabic": "خيط تنفيذ",
+    "category": "programming"
+  },
+  {
+    "id": "fork",
+    "english": "Fork",
+    "arabic": "تفريع (إنشاء عملية)",
+    "category": "programming"
+  },
+  {
+    "id": "pipe",
+    "english": "Pipe",
+    "arabic": "أنبوب (ربط أوامر)",
+    "category": "programming"
+  },
+  {
+    "id": "redirect",
+    "english": "Redirect",
+    "arabic": "إعادة توجيه (المخرج/المدخل)",
+    "category": "programming"
+  },
+  {
+    "id": "signal",
+    "english": "Signal",
+    "arabic": "إشارة (نظام)",
+    "category": "programming"
+  },
+  {
+    "id": "kernel",
+    "english": "Kernel",
+    "arabic": "نواة النظام",
+    "category": "programming"
+  },
+  {
+    "id": "repository",
+    "english": "Repository",
+    "arabic": "مستودع (git)",
+    "category": "programming"
+  },
+  {
+    "id": "commit",
+    "english": "Commit",
+    "arabic": "التزام (git)",
+    "category": "programming"
+  },
+  {
+    "id": "branch",
+    "english": "Branch",
+    "arabic": "فرع (git)",
+    "category": "programming"
+  },
+  {
+    "id": "pull-request",
+    "english": "Pull request",
+    "arabic": "طلب سحب",
+    "category": "programming"
+  },
+  {
+    "id": "clone",
+    "english": "Clone",
+    "arabic": "استنساخ مستودع",
+    "category": "programming"
+  },
+  {
+    "id": "push",
+    "english": "Push",
+    "arabic": "رفع تغييرات",
+    "category": "programming"
+  },
+  {
+    "id": "pull",
+    "english": "Pull",
+    "arabic": "سحب تغييرات",
+    "category": "programming"
+  },
+  {
+    "id": "conflict",
+    "english": "Conflict",
+    "arabic": "تعارض (git)",
+    "category": "programming"
+  },
+  {
+    "id": "memory",
+    "english": "Memory",
+    "arabic": "الذاكرة",
+    "category": "programming"
+  },
+  {
+    "id": "memory-management",
+    "english": "Memory management",
+    "arabic": "إدارة الذاكرة",
+    "category": "programming"
+  },
+  {
+    "id": "allocation",
+    "english": "Allocation",
+    "arabic": "تخصيص",
+    "category": "programming"
+  },
+  {
+    "id": "deallocation",
+    "english": "Deallocation",
+    "arabic": "إلغاء التخصيص",
+    "category": "programming"
+  },
+  {
+    "id": "fragmentation",
+    "english": "Fragmentation",
+    "arabic": "تجزؤ الذاكرة",
+    "category": "programming"
+  },
+  {
+    "id": "cache",
+    "english": "Cache",
+    "arabic": "ذاكرة تخزين مؤقت",
+    "category": "programming"
+  },
+  {
+    "id": "performance",
+    "english": "Performance",
+    "arabic": "الأداء",
+    "category": "programming"
+  },
+  {
+    "id": "efficiency",
+    "english": "Efficiency",
+    "arabic": "الكفاءة",
+    "category": "programming"
+  },
+  {
+    "id": "latency",
+    "english": "Latency",
+    "arabic": "زمن الاستجابة",
+    "category": "programming"
+  },
+  {
+    "id": "throughput",
+    "english": "Throughput",
+    "arabic": "معدل الإنجاز",
+    "category": "programming"
+  },
+  {
+    "id": "bottleneck",
+    "english": "Bottleneck",
+    "arabic": "عنق الزجاجة (نقطة تعطيل الأداء)",
+    "category": "programming"
+  },
+  {
+    "id": "optimization",
+    "english": "Optimization",
+    "arabic": "تحسين الأداء",
+    "category": "programming"
+  },
+  {
+    "id": "sum",
+    "english": "Sum",
+    "arabic": "مجموع",
+    "category": "programming"
+  },
+  {
+    "id": "product",
+    "english": "Product",
+    "arabic": "حاصل ضرب",
+    "category": "programming"
+  },
+  {
+    "id": "quotient",
+    "english": "Quotient",
+    "arabic": "ناتج القسمة",
+    "category": "programming"
+  },
+  {
+    "id": "remainder",
+    "english": "Remainder",
+    "arabic": "الباقي",
+    "category": "programming"
+  },
+  {
+    "id": "absolute-value",
+    "english": "Absolute value",
+    "arabic": "القيمة المطلقة",
+    "category": "programming"
+  },
+  {
+    "id": "factorial",
+    "english": "Factorial",
+    "arabic": "المضروب",
+    "category": "programming"
+  },
+  {
+    "id": "prime-number",
+    "english": "Prime number",
+    "arabic": "عدد أولي",
+    "category": "programming"
+  },
+  {
+    "id": "even-odd",
+    "english": "Even / Odd",
+    "arabic": "زوجي / فردي",
+    "category": "programming"
+  },
+  {
+    "id": "power-exponent",
+    "english": "Power / Exponent",
+    "arabic": "قوة / أس",
+    "category": "programming"
+  },
+  {
+    "id": "square-root",
+    "english": "Square root",
+    "arabic": "الجذر التربيعي",
+    "category": "programming"
+  },
+  {
+    "id": "range",
+    "english": "Range",
+    "arabic": "مدى (نطاق أرقام)",
+    "category": "programming"
+  },
+  {
+    "id": "sequence",
+    "english": "Sequence",
+    "arabic": "متتالية",
+    "category": "programming"
+  },
+  {
+    "id": "matrix",
+    "english": "Matrix",
+    "arabic": "مصفوفة رياضية",
+    "category": "programming"
+  },
+  {
+    "id": "vector",
+    "english": "Vector",
+    "arabic": "متجه",
+    "category": "programming"
+  },
+  {
+    "id": "coordinate",
+    "english": "Coordinate",
+    "arabic": "إحداثي",
+    "category": "programming"
+  },
+  {
+    "id": "piscine",
+    "english": "Piscine",
+    "arabic": "البيسين (فترة التكوين المكثف)",
+    "category": "programming"
+  },
+  {
+    "id": "norm-norminette",
+    "english": "Norm / Norminette",
+    "arabic": "معيار الكتابة (أداة فحص النمط)",
+    "category": "programming"
+  },
+  {
+    "id": "defense-evaluation",
+    "english": "Defense / Evaluation",
+    "arabic": "المناقشة/التقييم الشفوي",
+    "category": "programming"
+  },
+  {
+    "id": "peer-evaluation",
+    "english": "Peer-evaluation",
+    "arabic": "تقييم الأقران",
+    "category": "programming"
+  },
+  {
+    "id": "correction",
+    "english": "Correction",
+    "arabic": "التصحيح",
+    "category": "programming"
+  },
+  {
+    "id": "subject",
+    "english": "Subject",
+    "arabic": "نص الموضوع/التمرين",
+    "category": "programming"
+  },
+  {
+    "id": "rush",
+    "english": "Rush",
+    "arabic": "مشروع جماعي مكثف (rush)",
+    "category": "programming"
+  },
+  {
+    "id": "cursus",
+    "english": "Cursus",
+    "arabic": "المسار الدراسي",
+    "category": "programming"
+  },
+  {
+    "id": "level",
+    "english": "Level",
+    "arabic": "المستوى (نقاط الخبرة)",
+    "category": "programming"
+  },
+  {
+    "id": "blackhole",
+    "english": "Blackhole",
+    "arabic": "الثقب الأسود (مهلة نهائية)",
+    "category": "programming"
+  },
+  {
+    "id": "cluster",
+    "english": "Cluster",
+    "arabic": "قاعة الحواسيب",
+    "category": "programming"
+  },
+  {
+    "id": "turn-in-submit",
+    "english": "Turn-in / Submit",
+    "arabic": "تسليم المشروع",
+    "category": "programming"
+  },
+  {
+    "id": "bonus",
+    "english": "Bonus",
+    "arabic": "نقاط إضافية",
+    "category": "programming"
+  },
+  {
+    "id": "mandatory-part",
+    "english": "Mandatory part",
+    "arabic": "الجزء الإلزامي",
+    "category": "programming"
+  },
+  {
+    "id": "group-project",
+    "english": "Group project",
+    "arabic": "مشروع جماعي",
+    "category": "programming"
+  },
+  {
+    "id": "deadline",
+    "english": "Deadline",
+    "arabic": "الموعد النهائي",
+    "category": "programming"
+  },
+  {
+    "id": "repository-check",
+    "english": "Repository check",
+    "arabic": "فحص المستودع",
+    "category": "programming"
+  },
+  {
+    "id": "cheating-detection",
+    "english": "Cheating detection",
+    "arabic": "كشف الغش",
+    "category": "programming"
+  },
+  {
+    "id": "valid-invalid",
+    "english": "Valid / Invalid",
+    "arabic": "صحيح / غير صحيح",
+    "category": "programming"
+  },
+  {
+    "id": "consistent",
+    "english": "Consistent",
+    "arabic": "متسق",
+    "category": "programming"
+  },
+  {
+    "id": "redundant",
+    "english": "Redundant",
+    "arabic": "زائد/متكرر بلا داعٍ",
+    "category": "programming"
+  },
+  {
+    "id": "efficient-inefficient",
+    "english": "Efficient / Inefficient",
+    "arabic": "فعّال / غير فعّال",
+    "category": "programming"
+  },
+  {
+    "id": "readable",
+    "english": "Readable",
+    "arabic": "قابل للقراءة",
+    "category": "programming"
+  },
+  {
+    "id": "maintainable",
+    "english": "Maintainable",
+    "arabic": "قابل للصيانة",
+    "category": "programming"
+  },
+  {
+    "id": "reusable",
+    "english": "Reusable",
+    "arabic": "قابل لإعادة الاستخدام",
+    "category": "programming"
+  },
+  {
+    "id": "scalable",
+    "english": "Scalable",
+    "arabic": "قابل للتوسع",
+    "category": "programming"
+  },
+  {
+    "id": "portable",
+    "english": "Portable",
+    "arabic": "قابل للنقل (بين الأنظمة)",
+    "category": "programming"
+  },
+  {
+    "id": "robust",
+    "english": "Robust",
+    "arabic": "متين/موثوق",
+    "category": "programming"
+  },
+  {
+    "id": "fragile",
+    "english": "Fragile",
+    "arabic": "هش (سهل العطب)",
+    "category": "programming"
+  },
+  {
+    "id": "flexible",
+    "english": "Flexible",
+    "arabic": "مرن",
+    "category": "programming"
+  },
+  {
+    "id": "strict",
+    "english": "Strict",
+    "arabic": "صارم",
+    "category": "programming"
+  },
+  {
+    "id": "nested",
+    "english": "Nested",
+    "arabic": "متداخل",
+    "category": "programming"
+  },
+  {
+    "id": "recursive",
+    "english": "Recursive",
+    "arabic": "تكراري ذاتي",
+    "category": "programming"
+  },
+  {
+    "id": "iterative",
+    "english": "Iterative",
+    "arabic": "تكراري (عبر حلقة)",
+    "category": "programming"
+  },
+  {
+    "id": "immutable",
+    "english": "Immutable",
+    "arabic": "غير قابل للتغيير",
+    "category": "programming"
+  },
+  {
+    "id": "mutable",
+    "english": "Mutable",
+    "arabic": "قابل للتغيير",
+    "category": "programming"
+  },
+  {
+    "id": "given",
+    "english": "Given",
+    "arabic": "بالنظر إلى / معطى",
+    "category": "programming"
+  },
+  {
+    "id": "whereas",
+    "english": "Whereas",
+    "arabic": "بينما",
+    "category": "programming"
+  },
+  {
+    "id": "provided-that",
+    "english": "Provided that",
+    "arabic": "بشرط أن",
+    "category": "programming"
+  },
+  {
+    "id": "otherwise",
+    "english": "Otherwise",
+    "arabic": "خلاف ذلك",
+    "category": "programming"
+  },
+  {
+    "id": "furthermore",
+    "english": "Furthermore",
+    "arabic": "علاوة على ذلك",
+    "category": "programming"
+  },
+  {
+    "id": "hence-thus",
+    "english": "Hence / Thus",
+    "arabic": "ولذلك",
+    "category": "programming"
+  },
+  {
+    "id": "prior-to",
+    "english": "Prior to",
+    "arabic": "قبل",
+    "category": "programming"
+  },
+  {
+    "id": "subsequently",
+    "english": "Subsequently",
+    "arabic": "لاحقاً",
+    "category": "programming"
+  },
+  {
+    "id": "respectively",
+    "english": "Respectively",
+    "arabic": "على التوالي",
+    "category": "programming"
+  },
+  {
+    "id": "eitheror",
+    "english": "Either...or",
+    "arabic": "إما...أو",
+    "category": "programming"
+  },
+  {
+    "id": "neithernor",
+    "english": "Neither...nor",
+    "arabic": "لا...ولا",
+    "category": "programming"
+  },
+  {
+    "id": "except-for",
+    "english": "Except for",
+    "arabic": "باستثناء",
+    "category": "programming"
+  },
+  {
+    "id": "such-as",
+    "english": "Such as",
+    "arabic": "مثل",
+    "category": "programming"
+  },
+  {
+    "id": "in-terms-of",
+    "english": "In terms of",
+    "arabic": "من حيث",
+    "category": "programming"
+  },
+  {
+    "id": "with-respect-to",
+    "english": "With respect to",
+    "arabic": "فيما يتعلق بـ",
+    "category": "programming"
+  }
+]

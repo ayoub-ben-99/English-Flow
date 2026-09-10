@@ -1,0 +1,4422 @@
+[
+  {
+    "id": "cefrj:1",
+    "topic": "I am",
+    "cefrLevel": "A1",
+    "explanation": "فعل الكون مع الضمائر وأسماء الإشارة في الجملة المثبتة — جملة اسمية بمعنى «يكون».",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:1-1",
+    "topic": "I am not",
+    "cefrLevel": "A1",
+    "explanation": "فعل الكون مع الضمائر وأسماء الإشارة في الجملة المنفية — جملة اسمية بمعنى «يكون».",
+    "examples": [
+      {
+        "english": "Again? Not again!",
+        "arabic": "!مجدداً؟ ليس مرة أخرى!"
+      },
+      {
+        "english": "Do not eat.",
+        "arabic": "لا تأكل."
+      },
+      {
+        "english": "Do not forget!",
+        "arabic": "لا تنس!"
+      }
+    ],
+    "sentenceType": "NEG. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:2",
+    "topic": "You are",
+    "cefrLevel": "B1",
+    "explanation": "فعل الكون مع الضمائر وأسماء الإشارة في الجملة المثبتة — جملة اسمية بمعنى «يكون».",
+    "examples": [
+      {
+        "english": "Are you OK?",
+        "arabic": "هل أنت بخير؟"
+      },
+      {
+        "english": "Are you afraid?",
+        "arabic": "هل أنتَ خائف؟"
+      },
+      {
+        "english": "Are you alone?",
+        "arabic": "هل أنت وحدك؟"
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:2-2",
+    "topic": "Are you ...?",
+    "cefrLevel": "A1",
+    "explanation": "فعل الكون مع الضمائر وأسماء الإشارة في السؤال — جملة اسمية بمعنى «يكون».",
+    "examples": [
+      {
+        "english": "Are you OK?",
+        "arabic": "هل أنت بخير؟"
+      },
+      {
+        "english": "Are you afraid?",
+        "arabic": "هل أنتَ خائف؟"
+      },
+      {
+        "english": "Are you alone?",
+        "arabic": "هل أنت وحدك؟"
+      }
+    ],
+    "sentenceType": "AFF. INT.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:3",
+    "topic": "he/she is",
+    "cefrLevel": "A1",
+    "explanation": "فعل الكون مع الضمائر وأسماء الإشارة في الجملة المثبتة — جملة اسمية بمعنى «يكون».",
+    "examples": [
+      {
+        "english": "Aah! she sighed.",
+        "arabic": "أاه! تنهدت."
+      },
+      {
+        "english": "Does she exist?",
+        "arabic": "هل هي موجودة حقيقة؟"
+      },
+      {
+        "english": "Dude, she's hot!",
+        "arabic": "إنها جميلة يا رجل!"
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:4",
+    "topic": "we are",
+    "cefrLevel": "A1",
+    "explanation": "فعل الكون مع الضمائر وأسماء الإشارة في الجملة المثبتة — جملة اسمية بمعنى «يكون».",
+    "examples": [
+      {
+        "english": "Algerians are angry.",
+        "arabic": "الجزائريون غاضبون."
+      },
+      {
+        "english": "All are happy.",
+        "arabic": "الجميع سعداء."
+      },
+      {
+        "english": "Ants are insects.",
+        "arabic": "النمل من الحشرات."
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:5",
+    "topic": "they are",
+    "cefrLevel": "A1",
+    "explanation": "فعل الكون مع الضمائر وأسماء الإشارة في الجملة المثبتة — جملة اسمية بمعنى «يكون».",
+    "examples": [
+      {
+        "english": "Are they friends?",
+        "arabic": "هل هم أصدقاء؟"
+      },
+      {
+        "english": "Are they married?",
+        "arabic": "هل هن متزوجات ؟"
+      },
+      {
+        "english": "How are they?",
+        "arabic": "كيف حالهن ؟"
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:6",
+    "topic": "my/our/your/her/their (except for 'his' and 'its')",
+    "cefrLevel": "A1",
+    "explanation": "الضمائر بأنواعها (ملكية، مفعول، انعكاسية، غير محددة) — تحل محل الأسماء لتجنب التكرار.",
+    "examples": [
+      {
+        "english": "For our friendship!",
+        "arabic": "لأجلِ صداقتنا"
+      },
+      {
+        "english": "Thank you for your help.",
+        "arabic": "شكراً لمساعدتك."
+      },
+      {
+        "english": "Her feeling for him was reciprocated.",
+        "arabic": "شعورها له كان متبادلاً."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:7",
+    "topic": "me/us/him/her/them (except for 'you' and 'it')",
+    "cefrLevel": "A1",
+    "explanation": "الضمائر بأنواعها (ملكية، مفعول، انعكاسية، غير محددة) — تحل محل الأسماء لتجنب التكرار.",
+    "examples": [
+      {
+        "english": "Her feeling for him was reciprocated.",
+        "arabic": "شعورها له كان متبادلاً."
+      },
+      {
+        "english": "Fine. And you?",
+        "arabic": "ماذا عنك؟"
+      },
+      {
+        "english": "Thank you for your help.",
+        "arabic": "شكراً لمساعدتك."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:8",
+    "topic": "This/That is",
+    "cefrLevel": "A1",
+    "explanation": "فعل الكون مع الضمائر وأسماء الإشارة في الجملة المثبتة — جملة اسمية بمعنى «يكون».",
+    "examples": [
+      {
+        "english": "This is more expensive than that.",
+        "arabic": "إنه أغلى من هذا."
+      },
+      {
+        "english": "Clean this up.",
+        "arabic": "نظف هذا."
+      },
+      {
+        "english": "Destroy this temple.",
+        "arabic": "دَمّر هذا المعبَد."
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:10",
+    "topic": "It is",
+    "cefrLevel": "A1",
+    "explanation": "فعل الكون مع الضمائر وأسماء الإشارة في الجملة المثبتة — جملة اسمية بمعنى «يكون».",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:10-1",
+    "topic": "It is not",
+    "cefrLevel": "B2",
+    "explanation": "فعل الكون مع الضمائر وأسماء الإشارة في الجملة المنفية — جملة اسمية بمعنى «يكون».",
+    "examples": [
+      {
+        "english": "Again? Not again!",
+        "arabic": "!مجدداً؟ ليس مرة أخرى!"
+      },
+      {
+        "english": "Do not eat.",
+        "arabic": "لا تأكل."
+      },
+      {
+        "english": "Do not forget!",
+        "arabic": "لا تنس!"
+      }
+    ],
+    "sentenceType": "NEG. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:11",
+    "topic": "This/That N",
+    "cefrLevel": "A2",
+    "explanation": "فعل الكون مع الضمائر وأسماء الإشارة في الجملة المنفية — جملة اسمية بمعنى «يكون».",
+    "examples": [
+      {
+        "english": "This is more expensive than that.",
+        "arabic": "إنه أغلى من هذا."
+      },
+      {
+        "english": "This book is even more interesting than that.",
+        "arabic": "هذا الكتاب ممتع أكثر من ذاك."
+      },
+      {
+        "english": "It is correct to say that psychological readiness is important in this therapy.",
+        "arabic": "فمن الصحيح أن نقول أن الاستعداد النفسي مهم في هذا العلاج."
+      }
+    ],
+    "sentenceType": "AFF. DEC./NEG. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:12",
+    "topic": "These/Those N",
+    "cefrLevel": "B1",
+    "explanation": "فعل الكون مع الضمائر وأسماء الإشارة في الجملة المنفية — جملة اسمية بمعنى «يكون».",
+    "examples": [
+      {
+        "english": "Are these yours?",
+        "arabic": "هل هذه الأشياء لك؟"
+      },
+      {
+        "english": "Don't forget these.",
+        "arabic": "لا تنس هذه."
+      },
+      {
+        "english": "Don't touch these.",
+        "arabic": "لا تلمس هذه الأشياء."
+      }
+    ],
+    "sentenceType": "AFF. DEC./NEG. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:13",
+    "topic": "INDEFINITE ARTICLES",
+    "cefrLevel": "A1",
+    "explanation": "أدوات التعريف والتنكير والمحددات — تأتي قبل الاسم لتحديد معناه.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:14",
+    "topic": "DEFINITE ARTICLES",
+    "cefrLevel": "A1",
+    "explanation": "أدوات التعريف والتنكير والمحددات — تأتي قبل الاسم لتحديد معناه.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:15",
+    "topic": "DETERMINERS: some/any",
+    "cefrLevel": "A1",
+    "explanation": "أدوات التعريف والتنكير والمحددات — تأتي قبل الاسم لتحديد معناه.",
+    "examples": [
+      {
+        "english": "Any new jokes?",
+        "arabic": "هل من نكت جديدة؟"
+      },
+      {
+        "english": "Drink some water.",
+        "arabic": "اشرب بعض الماء"
+      },
+      {
+        "english": "He had some.",
+        "arabic": "كان لديه قليل منه."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:16",
+    "topic": "DETERMINER: no",
+    "cefrLevel": "A1",
+    "explanation": "أدوات التعريف والتنكير والمحددات — تأتي قبل الاسم لتحديد معناه.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:17",
+    "topic": "DETERMINER: another",
+    "cefrLevel": "A2",
+    "explanation": "أدوات التعريف والتنكير والمحددات — تأتي قبل الاسم لتحديد معناه.",
+    "examples": [
+      {
+        "english": "Elias was transferred to another school.",
+        "arabic": "تم تحويل إلياس إلى مدرسة أخرى."
+      },
+      {
+        "english": "Sami was following another blond-haired woman.",
+        "arabic": "كان سامي يلاحق امرأة شقراء أخرى."
+      },
+      {
+        "english": "Can it be phrased in another way?",
+        "arabic": "ألا يمكن صياغتها بطَريقة أخرى؟"
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:18",
+    "topic": "much UNCOUNTABLE NOUN",
+    "cefrLevel": "A2",
+    "explanation": "نمط قواعدي أساسي — لاحظ استخدامه في الأمثلة أدناه.",
+    "examples": [
+      {
+        "english": "He's much better.",
+        "arabic": "لقد تحسّن كثيرا."
+      },
+      {
+        "english": "How much is the ticket?",
+        "arabic": "كم سعر التذكرة؟"
+      },
+      {
+        "english": "How much does this cost?",
+        "arabic": "كم ثمن هذا؟"
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:21",
+    "topic": "PREPOSITIONS",
+    "cefrLevel": "A1",
+    "explanation": "حروف الجر تحدد المكان والزمان والعلاقة بين الكلمات.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:22",
+    "topic": "POSSESSIVE PRONOUNS (except for 'his' and 'its')",
+    "cefrLevel": "B1",
+    "explanation": "الضمائر بأنواعها (ملكية، مفعول، انعكاسية، غير محددة) — تحل محل الأسماء لتجنب التكرار.",
+    "examples": [
+      {
+        "english": "Everyone has the right to form and to join trade unions for the protection of his interests.",
+        "arabic": "لكل شخص الحق في أن ينشئ وينضم إلى نقابات حماية لمصالحه."
+      },
+      {
+        "english": "He's a dirty criminal and a serial killer. I hope he will be sent to prison for the rest of his life.",
+        "arabic": "انه مجرم قذر و قاتل متسلسل, أتمنى أن يرسل لسجن لبقيّة حياته."
+      },
+      {
+        "english": "Ziri was searching for his children.",
+        "arabic": "كان زيري يبحث عن أولاده."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:23",
+    "topic": "REFLEXIVE PRONOUNS",
+    "cefrLevel": "B1",
+    "explanation": "الضمائر بأنواعها (ملكية، مفعول، انعكاسية، غير محددة) — تحل محل الأسماء لتجنب التكرار.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:24",
+    "topic": "INDEFINITE PRONOUNS",
+    "cefrLevel": "A1",
+    "explanation": "الضمائر بأنواعها (ملكية، مفعول، انعكاسية، غير محددة) — تحل محل الأسماء لتجنب التكرار.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:25",
+    "topic": "INDEFINITE PRONOUN/PROP-WORDS: ones (except for 'one')",
+    "cefrLevel": "A2",
+    "explanation": "الضمائر بأنواعها (ملكية، مفعول، انعكاسية، غير محددة) — تحل محل الأسماء لتجنب التكرار.",
+    "examples": [
+      {
+        "english": "Choose one person.",
+        "arabic": "اختر شخصاً واحداً."
+      },
+      {
+        "english": "For our friendship!",
+        "arabic": "لأجلِ صداقتنا"
+      },
+      {
+        "english": "God is one.",
+        "arabic": "الله واحد."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:26",
+    "topic": "INDEFINITE PRONOUN: none",
+    "cefrLevel": "B2",
+    "explanation": "الضمائر بأنواعها (ملكية، مفعول، انعكاسية، غير محددة) — تحل محل الأسماء لتجنب التكرار.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:27",
+    "topic": "RECIPROCAL PRONOUN: each other",
+    "cefrLevel": "B1",
+    "explanation": "الضمائر بأنواعها (ملكية، مفعول، انعكاسية، غير محددة) — تحل محل الأسماء لتجنب التكرار.",
+    "examples": [
+      {
+        "english": "Tom and I haven't seen each other since we were children.",
+        "arabic": "لم أرَ سامي مذ كنا صغارًا."
+      },
+      {
+        "english": "Gravity is the natural force by which objects are attracted to each other.",
+        "arabic": "الجاذبية هي قوة طبيعية تتجاذب بها كل الأشياء مع بعضها."
+      },
+      {
+        "english": "The two people were shaking hands heartily as if they had not seen each other for years.",
+        "arabic": "كانا يتصافحان بصميمية وكأنهما لم يريا بعضهما لسنوات."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:29",
+    "topic": "PRONOUN: others (excluding 'the",
+    "cefrLevel": "B1",
+    "explanation": "الضمائر بأنواعها (ملكية، مفعول، انعكاسية، غير محددة) — تحل محل الأسماء لتجنب التكرار.",
+    "examples": [
+      {
+        "english": "You have the right to be treated with respect by others.",
+        "arabic": "لديك الحق أن تعامَل باحترام من الآخرين."
+      },
+      {
+        "english": "Everyone has the right to own property alone as well as in association with others.",
+        "arabic": "لكل شخص حق التملك بمفرده أو بالاشتراك مع غيره."
+      },
+      {
+        "english": "Democracy is the worst form of government, except all the others that have been tried.",
+        "arabic": "الديموقراطية شر أشكال الحكم، بيد أن كل الأشكال الأخرى قد جُرّبت."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:31",
+    "topic": "-thing ADJ",
+    "cefrLevel": "B1",
+    "explanation": "نمط قواعدي أساسي — لاحظ استخدامه في الأمثلة أدناه.",
+    "examples": [
+      {
+        "english": "If I were in your situation, I would do the same thing.",
+        "arabic": "إذا كنت مكانك لفعلت نفس الشيء."
+      },
+      {
+        "english": "The strangest thing is that he saved his arch enemy from an unavoidable death.",
+        "arabic": "أغرب ما في الأمر أنه أنقذ عدوه اللدود من موت محتم."
+      },
+      {
+        "english": "I don't know what this thing is. This is the first time I've seen it.",
+        "arabic": "لا أعرف ماهذا الشيء, هذه المرة الأولى التي أراه."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:32",
+    "topic": "ADVERBS OF FREQUENCY: always/usually/often/frequently/occasionally/sometimes/rarely",
+    "cefrLevel": "A1",
+    "explanation": "الظروف تصف الفعل أو الصفة (التكرار، الشدة، الموقف، النفي).",
+    "examples": [
+      {
+        "english": "Algeria always wins.",
+        "arabic": "الجزائر تفوز دائما."
+      },
+      {
+        "english": "Always be frank.",
+        "arabic": "كُن دائمًا صريحًا."
+      },
+      {
+        "english": "Always be sweet.",
+        "arabic": "كن دائما لطيفا."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:33",
+    "topic": "ADVERBS: INTENSIFIERS: extremely/greatly/really/so/terribly/too/unbelievably/very",
+    "cefrLevel": "A1",
+    "explanation": "الظروف تصف الفعل أو الصفة (التكرار، الشدة، الموقف، النفي).",
+    "examples": [
+      {
+        "english": "Bigfoot really exists.",
+        "arabic": "بيغفوت حقا موجود."
+      },
+      {
+        "english": "He's really interesting.",
+        "arabic": "هو حقا مثير للاهتمام."
+      },
+      {
+        "english": "He's very ill.",
+        "arabic": "إنه مريض جداً."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:34",
+    "topic": "ADVERBS OF ATTITUDES: apparently/clearly/fortunately/frankly/unfortunately",
+    "cefrLevel": "B1",
+    "explanation": "الظروف تصف الفعل أو الصفة (التكرار، الشدة، الموقف، النفي).",
+    "examples": [
+      {
+        "english": "Clearly, he's guilty.",
+        "arabic": "واضح أنّه مذنب."
+      },
+      {
+        "english": "I remember the event as clearly as if it had happened just yesterday.",
+        "arabic": "أتذكر الحادثة بكل وضوح وكأنها حدثت البارحة فقط."
+      },
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:35",
+    "topic": "ADVERBS OF NEGATION: never",
+    "cefrLevel": "A1",
+    "explanation": "الظروف تصف الفعل أو الصفة (التكرار، الشدة، الموقف، النفي).",
+    "examples": [
+      {
+        "english": "He never calls.",
+        "arabic": "هو لا يتصل أبدا."
+      },
+      {
+        "english": "He never fights.",
+        "arabic": "هو لا يتعارك أبدا."
+      },
+      {
+        "english": "He never graduated.",
+        "arabic": "لم يتخرج قط."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:37",
+    "topic": "COMPARISON OF EQUALITY: as ... as",
+    "cefrLevel": "B2",
+    "explanation": "نمط قواعدي أساسي — لاحظ استخدامه في الأمثلة أدناه.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "AFF. DEC",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:38",
+    "topic": "COMPARATIVE OF SUPERIORITY: -er",
+    "cefrLevel": "A1",
+    "explanation": "المقارنة والتفضيل بين الأشياء بالصفات (أطول، الأطول، مساوٍ، كافٍ).",
+    "examples": [
+      {
+        "english": "Be more flexible.",
+        "arabic": "كن اكثر مرونه."
+      },
+      {
+        "english": "Bouteflika acquired more power.",
+        "arabic": "تحصّل بوتفليقة على المزيد من السّلطة."
+      },
+      {
+        "english": "Please send us more information.",
+        "arabic": "أرسل إلينا المزيد من المعلومات إذا تكرمت."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:39",
+    "topic": "COMPARATIVE OF SUPERIORITY: more+ADJ/ADV",
+    "cefrLevel": "A2",
+    "explanation": "المقارنة والتفضيل بين الأشياء بالصفات (أطول، الأطول، مساوٍ، كافٍ).",
+    "examples": [
+      {
+        "english": "Be more flexible.",
+        "arabic": "كن اكثر مرونه."
+      },
+      {
+        "english": "Bouteflika acquired more power.",
+        "arabic": "تحصّل بوتفليقة على المزيد من السّلطة."
+      },
+      {
+        "english": "Please send us more information.",
+        "arabic": "أرسل إلينا المزيد من المعلومات إذا تكرمت."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:40",
+    "topic": "SUPERLATIVE OF SUPERIORITY: -est",
+    "cefrLevel": "A1",
+    "explanation": "المقارنة والتفضيل بين الأشياء بالصفات (أطول، الأطول، مساوٍ، كافٍ).",
+    "examples": [
+      {
+        "english": "Be more flexible.",
+        "arabic": "كن اكثر مرونه."
+      },
+      {
+        "english": "Bouteflika acquired more power.",
+        "arabic": "تحصّل بوتفليقة على المزيد من السّلطة."
+      },
+      {
+        "english": "Please send us more information.",
+        "arabic": "أرسل إلينا المزيد من المعلومات إذا تكرمت."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:41",
+    "topic": "SUPERLATIVE OF SUPERIORITY: most+ADJ/ADV",
+    "cefrLevel": "A2",
+    "explanation": "المقارنة والتفضيل بين الأشياء بالصفات (أطول، الأطول، مساوٍ، كافٍ).",
+    "examples": [
+      {
+        "english": "Be more flexible.",
+        "arabic": "كن اكثر مرونه."
+      },
+      {
+        "english": "Bouteflika acquired more power.",
+        "arabic": "تحصّل بوتفليقة على المزيد من السّلطة."
+      },
+      {
+        "english": "Please send us more information.",
+        "arabic": "أرسل إلينا المزيد من المعلومات إذا تكرمت."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:42",
+    "topic": "COMPARATIVE/SUPERLATIVE OF INFERIORITY",
+    "cefrLevel": "B2",
+    "explanation": "المقارنة والتفضيل بين الأشياء بالصفات (أطول، الأطول، مساوٍ، كافٍ).",
+    "examples": [
+      {
+        "english": "Be more flexible.",
+        "arabic": "كن اكثر مرونه."
+      },
+      {
+        "english": "Bouteflika acquired more power.",
+        "arabic": "تحصّل بوتفليقة على المزيد من السّلطة."
+      },
+      {
+        "english": "Please send us more information.",
+        "arabic": "أرسل إلينا المزيد من المعلومات إذا تكرمت."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:43",
+    "topic": "ADJ/ADV enough (except for 'not enough')",
+    "cefrLevel": "B2",
+    "explanation": "المقارنة والتفضيل بين الأشياء بالصفات (أطول، الأطول، مساوٍ، كافٍ).",
+    "examples": [
+      {
+        "english": "Get enough rest.",
+        "arabic": "استرح بما يكفي."
+      },
+      {
+        "english": "Sami was disturbed enough by this.",
+        "arabic": "قلق سامي كثيرا لهذا الشّأن."
+      },
+      {
+        "english": "Zelenskyy is not keen for peace.",
+        "arabic": "زيلينسكي ليس متحمسا للسلام."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:46",
+    "topic": "such (a/an) ADJ NOUN",
+    "cefrLevel": "B2",
+    "explanation": "المقارنة والتفضيل بين الأشياء بالصفات (أطول، الأطول، مساوٍ، كافٍ).",
+    "examples": [
+      {
+        "english": "Fastidious tastes will be most charmed with such verses as these.",
+        "arabic": "سوف يُفتَن اصحاب الذوق الصعب الارضاء بمثل هذه الابيات الشعرية ."
+      },
+      {
+        "english": "It's been a long while since we had such fine weather.",
+        "arabic": "لم يكن لدينا طقس جيد كهذا منذ وقت طويل."
+      },
+      {
+        "english": "Many amphibian species will breed in specific breeding grounds, such as shallow ponds or marshes.",
+        "arabic": "العديد من أنواع البرمائيات لديها اماكن تكاثر خاصة كالأحواض و المستنقعات."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:51",
+    "topic": "INTENSIFIED COMPARATIVES: a lot/by far/even/far/much/still",
+    "cefrLevel": "B1",
+    "explanation": "المقارنة والتفضيل بين الأشياء بالصفات (أطول، الأطول، مساوٍ، كافٍ).",
+    "examples": [
+      {
+        "english": "Be more flexible.",
+        "arabic": "كن اكثر مرونه."
+      },
+      {
+        "english": "Bouteflika acquired more power.",
+        "arabic": "تحصّل بوتفليقة على المزيد من السّلطة."
+      },
+      {
+        "english": "Please send us more information.",
+        "arabic": "أرسل إلينا المزيد من المعلومات إذا تكرمت."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:53",
+    "topic": "do/does DO",
+    "cefrLevel": "B2",
+    "explanation": "الفعل المساعد do/does للتوكيد والنفي والسؤال في المضارع البسيط.",
+    "examples": [
+      {
+        "english": "Does it matter?",
+        "arabic": "هل يهم؟"
+      },
+      {
+        "english": "Does she exist?",
+        "arabic": "هل هي موجودة حقيقة؟"
+      },
+      {
+        "english": "Does this hurt?",
+        "arabic": "هل هذا يؤلم؟"
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:55",
+    "topic": "PHRASAL VERBS (V+PARTICLE)",
+    "cefrLevel": "A1",
+    "explanation": "الأفعال المركبة: فعل + حرف جر يغير المعنى كلياً ويُحفظ كوحدة.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:56",
+    "topic": "PHRASAL VERBS (V+NP+PARTICLE)",
+    "cefrLevel": "A2",
+    "explanation": "الأفعال المركبة: فعل + حرف جر يغير المعنى كلياً ويُحفظ كوحدة.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:57",
+    "topic": "PHRASAL VERBS (V+PARTICLE+PREP+NP)",
+    "cefrLevel": "A1",
+    "explanation": "الأفعال المركبة: فعل + حرف جر يغير المعنى كلياً ويُحفظ كوحدة.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:58",
+    "topic": "TENSE/ASPECT: PRESENT (BE)",
+    "cefrLevel": "A1",
+    "explanation": "المضارع مع فعل الكون am/is/are في الجملة المثبتة.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:58-1",
+    "topic": "TENSE/ASPECT: PRESENT (BE)",
+    "cefrLevel": "A1",
+    "explanation": "المضارع مع فعل الكون am/is/are في الجملة المنفية.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "NEG. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:58-2",
+    "topic": "TENSE/ASPECT: PRESENT (BE)",
+    "cefrLevel": "A1",
+    "explanation": "المضارع مع فعل الكون am/is/are في السؤال.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "AFF. INT.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:59",
+    "topic": "TENSE/ASPECT: PRESENT (lexical verbs)",
+    "cefrLevel": "A1",
+    "explanation": "المضارع البسيط مع الأفعال العادية في الجملة المثبتة.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:59-1",
+    "topic": "TENSE/ASPECT: PRESENT (lexical verbs)",
+    "cefrLevel": "A1",
+    "explanation": "المضارع البسيط مع الأفعال العادية في الجملة المنفية.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "NEG. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:59-2",
+    "topic": "TENSE/ASPECT: PRESENT (lexicalverbs)",
+    "cefrLevel": "A1",
+    "explanation": "المضارع البسيط مع الأفعال العادية في السؤال.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "AFF. INT.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:60",
+    "topic": "TENSE/ASPECT: PRESENT (lexical verbs; third person & singular)",
+    "cefrLevel": "A1",
+    "explanation": "المضارع البسيط مع الضمير الغائب المفرد (s النهاية) في الجملة المثبتة.",
+    "examples": [
+      {
+        "english": "Choose one person.",
+        "arabic": "اختر شخصاً واحداً."
+      },
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:60-1",
+    "topic": "TENSE/ASPECT: PRESENT (lexical verbs; third person & singular)",
+    "cefrLevel": "B1",
+    "explanation": "المضارع البسيط مع الضمير الغائب المفرد (s النهاية) في الجملة المنفية.",
+    "examples": [
+      {
+        "english": "Choose one person.",
+        "arabic": "اختر شخصاً واحداً."
+      },
+      {
+        "english": "Sami doesn't look like a person who has never been angry.",
+        "arabic": "لا يبدو سامي كشخص لم يغضب قطّ في حياته."
+      },
+      {
+        "english": "Every person who is alone is alone because they are afraid of others.",
+        "arabic": "كل من هُوَ وحيد، وحيد لأنه خائف من الآخرين."
+      }
+    ],
+    "sentenceType": "NEG. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:61",
+    "topic": "TENSE/ASPECT: PRESENT PROGRESSIVE",
+    "cefrLevel": "A1",
+    "explanation": "المضارع المستمر: am/is/are + فعل+ing في الجملة المثبتة.",
+    "examples": [
+      {
+        "english": "Algeria is arming.",
+        "arabic": "الجزائر تتسلح."
+      },
+      {
+        "english": "Algeria is changing.",
+        "arabic": "إن الجزائر تتغيّر."
+      },
+      {
+        "english": "Algeria is interesting.",
+        "arabic": "الجزائر مثيرة للاهتمام."
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:61-1",
+    "topic": "TENSE/ASPECT: PRESENT PROGRESSIVE",
+    "cefrLevel": "B1",
+    "explanation": "المضارع المستمر: am/is/are + فعل+ing في الجملة المنفية.",
+    "examples": [
+      {
+        "english": "Algeria is arming.",
+        "arabic": "الجزائر تتسلح."
+      },
+      {
+        "english": "Algeria is changing.",
+        "arabic": "إن الجزائر تتغيّر."
+      },
+      {
+        "english": "Algeria is interesting.",
+        "arabic": "الجزائر مثيرة للاهتمام."
+      }
+    ],
+    "sentenceType": "NEG. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:62",
+    "topic": "TENSE/ASPECT: PRESENT PERFECT",
+    "cefrLevel": "A2",
+    "explanation": "المضارع التام: have/has + التصريف الثالث في الجملة المثبتة.",
+    "examples": [
+      {
+        "english": "Bruno has survived.",
+        "arabic": "نجى برونو."
+      },
+      {
+        "english": "Cairo has changed.",
+        "arabic": "لقد تغيّرت القاهرة."
+      },
+      {
+        "english": "He has reconsidered.",
+        "arabic": "اعاد النظر"
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:62-1",
+    "topic": "TENSE/ASPECT: PRESENT PERFECT",
+    "cefrLevel": "B1",
+    "explanation": "المضارع التام: have/has + التصريف الثالث في الجملة المنفية.",
+    "examples": [
+      {
+        "english": "Bruno has survived.",
+        "arabic": "نجى برونو."
+      },
+      {
+        "english": "Cairo has changed.",
+        "arabic": "لقد تغيّرت القاهرة."
+      },
+      {
+        "english": "He has reconsidered.",
+        "arabic": "اعاد النظر"
+      }
+    ],
+    "sentenceType": "NEG. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:63",
+    "topic": "TENSE/ASPECT: PRESENT PERFECT PROGRESSIVE",
+    "cefrLevel": "B2",
+    "explanation": "المضارع التام المستمر: have/has been + فعل+ing في الجملة المثبتة.",
+    "examples": [
+      {
+        "english": "Bruno has survived.",
+        "arabic": "نجى برونو."
+      },
+      {
+        "english": "Cairo has changed.",
+        "arabic": "لقد تغيّرت القاهرة."
+      },
+      {
+        "english": "He has reconsidered.",
+        "arabic": "اعاد النظر"
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:64",
+    "topic": "TENSE/ASPECT: PAST (BE)",
+    "cefrLevel": "A1",
+    "explanation": "الماضي مع was/were في الجملة المثبتة.",
+    "examples": [
+      {
+        "english": "Aart was racist.",
+        "arabic": "كان آرت عنصريّا."
+      },
+      {
+        "english": "Alberto was away.",
+        "arabic": "كان ألبيرتو غائبا."
+      },
+      {
+        "english": "Atlantis was destroyed.",
+        "arabic": "دُمِّرَتْ اطلانتس."
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:64-1",
+    "topic": "TENSE/ASPECT: PAST (BE)",
+    "cefrLevel": "A2",
+    "explanation": "الماضي مع was/were في الجملة المنفية.",
+    "examples": [
+      {
+        "english": "Aart was racist.",
+        "arabic": "كان آرت عنصريّا."
+      },
+      {
+        "english": "Alberto was away.",
+        "arabic": "كان ألبيرتو غائبا."
+      },
+      {
+        "english": "Atlantis was destroyed.",
+        "arabic": "دُمِّرَتْ اطلانتس."
+      }
+    ],
+    "sentenceType": "NEG. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:65",
+    "topic": "TENSE/ASPECT: PRESENT (lexical verbs)",
+    "cefrLevel": "A1",
+    "explanation": "المضارع البسيط مع الأفعال العادية في الجملة المثبتة.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:65-1",
+    "topic": "TENSE/ASPECT: PRESENT (lexical verbs)",
+    "cefrLevel": "A2",
+    "explanation": "المضارع البسيط مع الأفعال العادية في الجملة المنفية.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "NEG. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:65-2",
+    "topic": "TENSE/ASPECT: PRESENT (lexical verbs)",
+    "cefrLevel": "A2",
+    "explanation": "المضارع البسيط مع الأفعال العادية في السؤال.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "AFF. INT.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:66",
+    "topic": "TENSE/ASPECT: PAST PROGRESSIVE",
+    "cefrLevel": "A2",
+    "explanation": "الماضي المستمر: was/were + فعل+ing في الجملة المثبتة.",
+    "examples": [
+      {
+        "english": "Algeria is arming.",
+        "arabic": "الجزائر تتسلح."
+      },
+      {
+        "english": "Algeria is changing.",
+        "arabic": "إن الجزائر تتغيّر."
+      },
+      {
+        "english": "Algeria is interesting.",
+        "arabic": "الجزائر مثيرة للاهتمام."
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:67",
+    "topic": "TENSE/ASPECT: PAST PERFECT",
+    "cefrLevel": "B1",
+    "explanation": "الماضي التام: had + التصريف الثالث في الجملة المثبتة.",
+    "examples": [
+      {
+        "english": "Bruno has survived.",
+        "arabic": "نجى برونو."
+      },
+      {
+        "english": "Cairo has changed.",
+        "arabic": "لقد تغيّرت القاهرة."
+      },
+      {
+        "english": "He has reconsidered.",
+        "arabic": "اعاد النظر"
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:69",
+    "topic": "TENSE/ASPECT: FUTURE",
+    "cefrLevel": "A2",
+    "explanation": "المستقبل مع will في الجملة المثبتة.",
+    "examples": [
+      {
+        "english": "Algeria will flourish.",
+        "arabic": "ستزدهر الجزائر."
+      },
+      {
+        "english": "Damiano will survive.",
+        "arabic": "سينجو داميانو."
+      },
+      {
+        "english": "Everything will change.",
+        "arabic": "كل شيئ سيتغير."
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:69-1",
+    "topic": "TENSE/ASPECT: FUTURE",
+    "cefrLevel": "B1",
+    "explanation": "المستقبل مع will في الجملة المنفية.",
+    "examples": [
+      {
+        "english": "Algeria will flourish.",
+        "arabic": "ستزدهر الجزائر."
+      },
+      {
+        "english": "Damiano will survive.",
+        "arabic": "سينجو داميانو."
+      },
+      {
+        "english": "Everything will change.",
+        "arabic": "كل شيئ سيتغير."
+      }
+    ],
+    "sentenceType": "NEG. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:70",
+    "topic": "TENSE/ASPECT: FUTURE",
+    "cefrLevel": "B2",
+    "explanation": "المستقبل مع will في الجملة المثبتة.",
+    "examples": [
+      {
+        "english": "Algeria will flourish.",
+        "arabic": "ستزدهر الجزائر."
+      },
+      {
+        "english": "Damiano will survive.",
+        "arabic": "سينجو داميانو."
+      },
+      {
+        "english": "Everything will change.",
+        "arabic": "كل شيئ سيتغير."
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:73",
+    "topic": "PASSIVE: PRESENT",
+    "cefrLevel": "A1",
+    "explanation": "المبني للمجهول في المضارع: am/is/are + التصريف الثالث في الجملة المثبتة — التركيز على الحدث لا على الفاعل.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:73-1",
+    "topic": "PASSIVE: PRESENT",
+    "cefrLevel": "B2",
+    "explanation": "المبني للمجهول في المضارع: am/is/are + التصريف الثالث في الجملة المنفية — التركيز على الحدث لا على الفاعل.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "NEG. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:75",
+    "topic": "PASSIVE: PRESENT PERFECT",
+    "cefrLevel": "B2",
+    "explanation": "المبني للمجهول في المضارع: am/is/are + التصريف الثالث في الجملة المثبتة — التركيز على الحدث لا على الفاعل.",
+    "examples": [
+      {
+        "english": "Bruno has survived.",
+        "arabic": "نجى برونو."
+      },
+      {
+        "english": "Cairo has changed.",
+        "arabic": "لقد تغيّرت القاهرة."
+      },
+      {
+        "english": "He has reconsidered.",
+        "arabic": "اعاد النظر"
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:76",
+    "topic": "PASSIVE: PAST",
+    "cefrLevel": "A2",
+    "explanation": "المبني للمجهول في الماضي: was/were + التصريف الثالث في الجملة المثبتة — التركيز على الحدث لا على الفاعل.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:79",
+    "topic": "PASSIVE: FUTURE",
+    "cefrLevel": "B2",
+    "explanation": "المبني للمجهول في المستقبل في الجملة المثبتة — التركيز على الحدث لا على الفاعل.",
+    "examples": [
+      {
+        "english": "Algeria will flourish.",
+        "arabic": "ستزدهر الجزائر."
+      },
+      {
+        "english": "Damiano will survive.",
+        "arabic": "سينجو داميانو."
+      },
+      {
+        "english": "Everything will change.",
+        "arabic": "كل شيئ سيتغير."
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:82",
+    "topic": "PASSIVE: AUX",
+    "cefrLevel": "B1",
+    "explanation": "المبني للمجهول مع الأفعال المساعدة في الجملة المثبتة — التركيز على الحدث لا على الفاعل.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:85",
+    "topic": "PASSIVE: INDIRECT OBJECTS OF GIVE/PASS/SEND/SHOW/TEACH/TELL AS SUBJECTS",
+    "cefrLevel": "B2",
+    "explanation": "المبني للمجهول عندما يكون المفعول غير المباشر فاعلاً في الجملة المثبتة — التركيز على الحدث لا على الفاعل.",
+    "examples": [
+      {
+        "english": "All feelings pass.",
+        "arabic": "كل المشاعر تمر."
+      },
+      {
+        "english": "Don't tell anyone.",
+        "arabic": "لا تُخبِر أحداً."
+      },
+      {
+        "english": "Give it back!",
+        "arabic": "أعدها!"
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:87",
+    "topic": "GET+PAST PARTICIPLE",
+    "cefrLevel": "B1",
+    "explanation": "التصريفات كصفات قبل الاسم أو بعده (the broken window).",
+    "examples": [
+      {
+        "english": "Come get us.",
+        "arabic": "تعال لتأخذنا."
+      },
+      {
+        "english": "Get behind me.",
+        "arabic": "اذهب خلفي."
+      },
+      {
+        "english": "Get enough rest.",
+        "arabic": "استرح بما يكفي."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:88",
+    "topic": "TO-INFINITIVE: to DO (not preceded by 'not')",
+    "cefrLevel": "A1",
+    "explanation": "المصدر مع to: بعد أفعال معينة، أو للتعبير عن الغرض والترتيبات.",
+    "examples": [
+      {
+        "english": "Again? Not again!",
+        "arabic": "!مجدداً؟ ليس مرة أخرى!"
+      },
+      {
+        "english": "Do not eat.",
+        "arabic": "لا تأكل."
+      },
+      {
+        "english": "Do not forget!",
+        "arabic": "لا تنس!"
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:89",
+    "topic": "TO-INFINITIVE: not to DO",
+    "cefrLevel": "B1",
+    "explanation": "المصدر مع to: بعد أفعال معينة، أو للتعبير عن الغرض والترتيبات.",
+    "examples": [
+      {
+        "english": "Again? Not again!",
+        "arabic": "!مجدداً؟ ليس مرة أخرى!"
+      },
+      {
+        "english": "Do not eat.",
+        "arabic": "لا تأكل."
+      },
+      {
+        "english": "Do not forget!",
+        "arabic": "لا تنس!"
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:91",
+    "topic": "TO-INFINITIVE: to be DONE",
+    "cefrLevel": "B2",
+    "explanation": "المصدر مع to: بعد أفعال معينة، أو للتعبير عن الغرض والترتيبات.",
+    "examples": [
+      {
+        "english": "Get this done.",
+        "arabic": "قم بذلك."
+      },
+      {
+        "english": "Everything is theoretically impossible until it's done.",
+        "arabic": "كل شيء مستحيل نظريا حتى يَحدُث."
+      },
+      {
+        "english": "I would like to express my gratitude for what you have done for this town.",
+        "arabic": "أود أن أعبر عن امتناني لما قدمته لهذه البلدة."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:93",
+    "topic": "TO-INFINITIVE: WITH NOTIONAL SUBJECT",
+    "cefrLevel": "B1",
+    "explanation": "المصدر مع to: بعد أفعال معينة، أو للتعبير عن الغرض والترتيبات.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:95",
+    "topic": "in order to DO",
+    "cefrLevel": "B2",
+    "explanation": "المصدر مع to: بعد أفعال معينة، أو للتعبير عن الغرض والترتيبات.",
+    "examples": [
+      {
+        "english": "Here's your order.",
+        "arabic": "تفضّل طلبك."
+      },
+      {
+        "english": "Men of genius are meteors destined to burn in order to illuminate their century.",
+        "arabic": "العباقرة من الناس كالشهبُ التي قُدِّر لها أن تحترق لتضيء زمنها."
+      },
+      {
+        "english": "In order to move the project along smoothly, we have revised the plan several times.",
+        "arabic": "كي يتقدم المشروع بسلاسة، عدلنا الخطة عدة مرات."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:99",
+    "topic": "BE to DO",
+    "cefrLevel": "B1",
+    "explanation": "المصدر مع to: بعد أفعال معينة، أو للتعبير عن الغرض والترتيبات.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:101",
+    "topic": "VERB to DO",
+    "cefrLevel": "A1",
+    "explanation": "المصدر مع to: بعد أفعال معينة، أو للتعبير عن الغرض والترتيبات.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:103",
+    "topic": "VERB OBJECT to DO",
+    "cefrLevel": "A1",
+    "explanation": "المصدر مع to: بعد أفعال معينة، أو للتعبير عن الغرض والترتيبات.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:105",
+    "topic": "V-ING (not preceded by 'not')",
+    "cefrLevel": "A1",
+    "explanation": "الفعل+ing: بعد حروف الجر وبعض الأفعال، أو كاسم للنشاط.",
+    "examples": [
+      {
+        "english": "Again? Not again!",
+        "arabic": "!مجدداً؟ ليس مرة أخرى!"
+      },
+      {
+        "english": "Do not eat.",
+        "arabic": "لا تأكل."
+      },
+      {
+        "english": "Do not forget!",
+        "arabic": "لا تنس!"
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:106",
+    "topic": "not+V-ING",
+    "cefrLevel": "B2",
+    "explanation": "الفعل+ing: بعد حروف الجر وبعض الأفعال، أو كاسم للنشاط.",
+    "examples": [
+      {
+        "english": "Again? Not again!",
+        "arabic": "!مجدداً؟ ليس مرة أخرى!"
+      },
+      {
+        "english": "Do not eat.",
+        "arabic": "لا تأكل."
+      },
+      {
+        "english": "Do not forget!",
+        "arabic": "لا تنس!"
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:108",
+    "topic": "being+PAST PARTICIPLE",
+    "cefrLevel": "B2",
+    "explanation": "الفعل+ing: بعد حروف الجر وبعض الأفعال، أو كاسم للنشاط.",
+    "examples": [
+      {
+        "english": "Are you afraid of being abandoned?",
+        "arabic": "هل تخشى أن تُهجر؟"
+      },
+      {
+        "english": "Yanni was afraid of being abandoned.",
+        "arabic": "كان يانّي خائفا من أن يتمّ التّخلّي عنه."
+      },
+      {
+        "english": "You'll have to use the rear door while the house is being painted.",
+        "arabic": "يجب ان تستخدم الباب الخلفي ريثما يجري صبغ البيت ."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:110",
+    "topic": "PREP+V-ING",
+    "cefrLevel": "A1",
+    "explanation": "الفعل+ing: بعد حروف الجر وبعض الأفعال، أو كاسم للنشاط.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:112",
+    "topic": "VERB V-ING",
+    "cefrLevel": "A1",
+    "explanation": "الفعل+ing: بعد حروف الجر وبعض الأفعال، أو كاسم للنشاط.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:114",
+    "topic": "VERB OBJECT V-ING",
+    "cefrLevel": "A2",
+    "explanation": "الفعل+ing: بعد حروف الجر وبعض الأفعال، أو كاسم للنشاط.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:117",
+    "topic": "IMPERATIVE: AFFIRMATIVE (lexical verbs)",
+    "cefrLevel": "A1",
+    "explanation": "صيغة الأمر المباشر (والاقتراح مع let's) — تبدأ بالفعل بصيغة المصدر.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "AFF. IMP.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:117-1",
+    "topic": "IMPERATIVE: AFFIRMATIVE (lexical verbs)",
+    "cefrLevel": "B1",
+    "explanation": "صيغة الأمر المباشر (والاقتراح مع let's) — تبدأ بالفعل بصيغة المصدر.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "NEG. IMP",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:120",
+    "topic": "let's (not followed by 'not')",
+    "cefrLevel": "A1",
+    "explanation": "صيغة الأمر المباشر (والاقتراح مع let's) — تبدأ بالفعل بصيغة المصدر.",
+    "examples": [
+      {
+        "english": "Again? Not again!",
+        "arabic": "!مجدداً؟ ليس مرة أخرى!"
+      },
+      {
+        "english": "Do not eat.",
+        "arabic": "لا تأكل."
+      },
+      {
+        "english": "Do not forget!",
+        "arabic": "لا تنس!"
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:121",
+    "topic": "MODAL/AUX: be able to",
+    "cefrLevel": "B1",
+    "explanation": "الفعل المساعد be able to يفيد الاستطاعة (مرادف can) في الجملة المثبتة.",
+    "examples": [
+      {
+        "english": "Bob can cook.",
+        "arabic": "بإمكان بوب أن يطبخ."
+      },
+      {
+        "english": "Disco can't die.",
+        "arabic": "لا يمكن لموسيقى الديسكو أن تموت."
+      },
+      {
+        "english": "Emily can swim.",
+        "arabic": "تستطيع إيميلي أن تسبح."
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:122",
+    "topic": "MODAL/AUX: be going to",
+    "cefrLevel": "A2",
+    "explanation": "الفعل المساعد be going to يفيد نية مستقبلية قريبة في الجملة المثبتة.",
+    "examples": [
+      {
+        "english": "Bob can cook.",
+        "arabic": "بإمكان بوب أن يطبخ."
+      },
+      {
+        "english": "Disco can't die.",
+        "arabic": "لا يمكن لموسيقى الديسكو أن تموت."
+      },
+      {
+        "english": "Emily can swim.",
+        "arabic": "تستطيع إيميلي أن تسبح."
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:123",
+    "topic": "MODAL/AUX: can",
+    "cefrLevel": "A1",
+    "explanation": "الفعل المساعد can يفيد القدرة والاستطاعة في الجملة المثبتة.",
+    "examples": [
+      {
+        "english": "Bob can cook.",
+        "arabic": "بإمكان بوب أن يطبخ."
+      },
+      {
+        "english": "Disco can't die.",
+        "arabic": "لا يمكن لموسيقى الديسكو أن تموت."
+      },
+      {
+        "english": "Emily can swim.",
+        "arabic": "تستطيع إيميلي أن تسبح."
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:123-2",
+    "topic": "MODAL/AUX: can",
+    "cefrLevel": "A1",
+    "explanation": "الفعل المساعد can يفيد القدرة والاستطاعة في السؤال.",
+    "examples": [
+      {
+        "english": "Bob can cook.",
+        "arabic": "بإمكان بوب أن يطبخ."
+      },
+      {
+        "english": "Disco can't die.",
+        "arabic": "لا يمكن لموسيقى الديسكو أن تموت."
+      },
+      {
+        "english": "Emily can swim.",
+        "arabic": "تستطيع إيميلي أن تسبح."
+      }
+    ],
+    "sentenceType": "AFF. INT.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:124",
+    "topic": "MODAL/AUX: could",
+    "cefrLevel": "B1",
+    "explanation": "الفعل المساعد could يفيد القدرة في الماضي أو الطلب المهذب في الجملة المثبتة.",
+    "examples": [
+      {
+        "english": "Bob can cook.",
+        "arabic": "بإمكان بوب أن يطبخ."
+      },
+      {
+        "english": "Disco can't die.",
+        "arabic": "لا يمكن لموسيقى الديسكو أن تموت."
+      },
+      {
+        "english": "Emily can swim.",
+        "arabic": "تستطيع إيميلي أن تسبح."
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:124-1",
+    "topic": "MODAL/AUX: could",
+    "cefrLevel": "B1",
+    "explanation": "الفعل المساعد could يفيد القدرة في الماضي أو الطلب المهذب في الجملة المنفية.",
+    "examples": [
+      {
+        "english": "Bob can cook.",
+        "arabic": "بإمكان بوب أن يطبخ."
+      },
+      {
+        "english": "Disco can't die.",
+        "arabic": "لا يمكن لموسيقى الديسكو أن تموت."
+      },
+      {
+        "english": "Emily can swim.",
+        "arabic": "تستطيع إيميلي أن تسبح."
+      }
+    ],
+    "sentenceType": "NEG. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:127",
+    "topic": "MODAL/AUX: have to",
+    "cefrLevel": "A2",
+    "explanation": "الفعل المساعد have to يفيد الضرورة والإلزام في الجملة المثبتة.",
+    "examples": [
+      {
+        "english": "Bob can cook.",
+        "arabic": "بإمكان بوب أن يطبخ."
+      },
+      {
+        "english": "Disco can't die.",
+        "arabic": "لا يمكن لموسيقى الديسكو أن تموت."
+      },
+      {
+        "english": "Emily can swim.",
+        "arabic": "تستطيع إيميلي أن تسبح."
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:127-1",
+    "topic": "MODAL/AUX: have to",
+    "cefrLevel": "B2",
+    "explanation": "الفعل المساعد have to يفيد الضرورة والإلزام في الجملة المنفية.",
+    "examples": [
+      {
+        "english": "Bob can cook.",
+        "arabic": "بإمكان بوب أن يطبخ."
+      },
+      {
+        "english": "Disco can't die.",
+        "arabic": "لا يمكن لموسيقى الديسكو أن تموت."
+      },
+      {
+        "english": "Emily can swim.",
+        "arabic": "تستطيع إيميلي أن تسبح."
+      }
+    ],
+    "sentenceType": "NEG. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:129",
+    "topic": "MODAL/AUX: may",
+    "cefrLevel": "B1",
+    "explanation": "الفعل المساعد may يفيد الاحتمال أو الإذن الرسمي في الجملة المثبتة.",
+    "examples": [
+      {
+        "english": "Bob can cook.",
+        "arabic": "بإمكان بوب أن يطبخ."
+      },
+      {
+        "english": "Disco can't die.",
+        "arabic": "لا يمكن لموسيقى الديسكو أن تموت."
+      },
+      {
+        "english": "Emily can swim.",
+        "arabic": "تستطيع إيميلي أن تسبح."
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:132",
+    "topic": "MODAL/AUX: might",
+    "cefrLevel": "B1",
+    "explanation": "الفعل المساعد might يفيد احتمال ضعيف في الجملة المثبتة.",
+    "examples": [
+      {
+        "english": "Bob can cook.",
+        "arabic": "بإمكان بوب أن يطبخ."
+      },
+      {
+        "english": "Disco can't die.",
+        "arabic": "لا يمكن لموسيقى الديسكو أن تموت."
+      },
+      {
+        "english": "Emily can swim.",
+        "arabic": "تستطيع إيميلي أن تسبح."
+      }
+    ],
+    "sentenceType": "B1.1",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:132-1",
+    "topic": "MODAL/AUX: might",
+    "cefrLevel": "B2",
+    "explanation": "الفعل المساعد might يفيد احتمال ضعيف في الجملة المثبتة.",
+    "examples": [
+      {
+        "english": "Bob can cook.",
+        "arabic": "بإمكان بوب أن يطبخ."
+      },
+      {
+        "english": "Disco can't die.",
+        "arabic": "لا يمكن لموسيقى الديسكو أن تموت."
+      },
+      {
+        "english": "Emily can swim.",
+        "arabic": "تستطيع إيميلي أن تسبح."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:135",
+    "topic": "MODAL/AUX: must",
+    "cefrLevel": "B1",
+    "explanation": "الفعل المساعد must يفيد الوجوب القوي في الجملة المثبتة.",
+    "examples": [
+      {
+        "english": "Bob can cook.",
+        "arabic": "بإمكان بوب أن يطبخ."
+      },
+      {
+        "english": "Disco can't die.",
+        "arabic": "لا يمكن لموسيقى الديسكو أن تموت."
+      },
+      {
+        "english": "Emily can swim.",
+        "arabic": "تستطيع إيميلي أن تسبح."
+      }
+    ],
+    "sentenceType": "B1.1",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:136",
+    "topic": "MODAL/AUX: need (to)",
+    "cefrLevel": "A2",
+    "explanation": "الفعل المساعد need (to) يفيد الحاجة في الجملة المثبتة.",
+    "examples": [
+      {
+        "english": "Bob can cook.",
+        "arabic": "بإمكان بوب أن يطبخ."
+      },
+      {
+        "english": "Disco can't die.",
+        "arabic": "لا يمكن لموسيقى الديسكو أن تموت."
+      },
+      {
+        "english": "Emily can swim.",
+        "arabic": "تستطيع إيميلي أن تسبح."
+      }
+    ],
+    "sentenceType": "A2.2",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:136-1",
+    "topic": "MODAL/AUX: need (to)",
+    "cefrLevel": "B1",
+    "explanation": "الفعل المساعد need (to) يفيد الحاجة في الجملة المثبتة.",
+    "examples": [
+      {
+        "english": "Bob can cook.",
+        "arabic": "بإمكان بوب أن يطبخ."
+      },
+      {
+        "english": "Disco can't die.",
+        "arabic": "لا يمكن لموسيقى الديسكو أن تموت."
+      },
+      {
+        "english": "Emily can swim.",
+        "arabic": "تستطيع إيميلي أن تسبح."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:139",
+    "topic": "MODAL/AUX: should",
+    "cefrLevel": "A2",
+    "explanation": "الفعل المساعد should يفيد النصيحة في الجملة المثبتة.",
+    "examples": [
+      {
+        "english": "Bob can cook.",
+        "arabic": "بإمكان بوب أن يطبخ."
+      },
+      {
+        "english": "Disco can't die.",
+        "arabic": "لا يمكن لموسيقى الديسكو أن تموت."
+      },
+      {
+        "english": "Emily can swim.",
+        "arabic": "تستطيع إيميلي أن تسبح."
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:139-1",
+    "topic": "MODAL/AUX: should",
+    "cefrLevel": "B1",
+    "explanation": "الفعل المساعد should يفيد النصيحة في الجملة المنفية.",
+    "examples": [
+      {
+        "english": "Bob can cook.",
+        "arabic": "بإمكان بوب أن يطبخ."
+      },
+      {
+        "english": "Disco can't die.",
+        "arabic": "لا يمكن لموسيقى الديسكو أن تموت."
+      },
+      {
+        "english": "Emily can swim.",
+        "arabic": "تستطيع إيميلي أن تسبح."
+      }
+    ],
+    "sentenceType": "NEG. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:140",
+    "topic": "MODAL/AUX: used to",
+    "cefrLevel": "B1",
+    "explanation": "الفعل المساعد used to يفيد عادة في الماضي انتهت في الجملة المثبتة.",
+    "examples": [
+      {
+        "english": "Bob can cook.",
+        "arabic": "بإمكان بوب أن يطبخ."
+      },
+      {
+        "english": "Disco can't die.",
+        "arabic": "لا يمكن لموسيقى الديسكو أن تموت."
+      },
+      {
+        "english": "Emily can swim.",
+        "arabic": "تستطيع إيميلي أن تسبح."
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:141",
+    "topic": "MODAL/AUX: will",
+    "cefrLevel": "A2",
+    "explanation": "الفعل المساعد will يفيد المستقبل والقرارات الفورية في الجملة المثبتة.",
+    "examples": [
+      {
+        "english": "Bob can cook.",
+        "arabic": "بإمكان بوب أن يطبخ."
+      },
+      {
+        "english": "Disco can't die.",
+        "arabic": "لا يمكن لموسيقى الديسكو أن تموت."
+      },
+      {
+        "english": "Emily can swim.",
+        "arabic": "تستطيع إيميلي أن تسبح."
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:141-1",
+    "topic": "MODAL/AUX: will",
+    "cefrLevel": "B1",
+    "explanation": "الفعل المساعد will يفيد المستقبل والقرارات الفورية في الجملة المنفية.",
+    "examples": [
+      {
+        "english": "Bob can cook.",
+        "arabic": "بإمكان بوب أن يطبخ."
+      },
+      {
+        "english": "Disco can't die.",
+        "arabic": "لا يمكن لموسيقى الديسكو أن تموت."
+      },
+      {
+        "english": "Emily can swim.",
+        "arabic": "تستطيع إيميلي أن تسبح."
+      }
+    ],
+    "sentenceType": "NEG. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:142",
+    "topic": "MODAL/AUX: would",
+    "cefrLevel": "A2",
+    "explanation": "الفعل المساعد would يفيد الطلب المهذب والعادات الماضية في الجملة المثبتة.",
+    "examples": [
+      {
+        "english": "Bob can cook.",
+        "arabic": "بإمكان بوب أن يطبخ."
+      },
+      {
+        "english": "Disco can't die.",
+        "arabic": "لا يمكن لموسيقى الديسكو أن تموت."
+      },
+      {
+        "english": "Emily can swim.",
+        "arabic": "تستطيع إيميلي أن تسبح."
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:142-1",
+    "topic": "MODAL/AUX: would",
+    "cefrLevel": "B2",
+    "explanation": "الفعل المساعد would يفيد الطلب المهذب والعادات الماضية في الجملة المنفية.",
+    "examples": [
+      {
+        "english": "Bob can cook.",
+        "arabic": "بإمكان بوب أن يطبخ."
+      },
+      {
+        "english": "Disco can't die.",
+        "arabic": "لا يمكن لموسيقى الديسكو أن تموت."
+      },
+      {
+        "english": "Emily can swim.",
+        "arabic": "تستطيع إيميلي أن تسبح."
+      }
+    ],
+    "sentenceType": "NEG. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:144",
+    "topic": "AUX+PROGRESSIVE",
+    "cefrLevel": "B2",
+    "explanation": "المساعدات مع المستمر: have been + فعل+ing للمدة الزمنية.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:145",
+    "topic": "AUX+PERFECT",
+    "cefrLevel": "B2",
+    "explanation": "المساعدات مع التام: have + التصريف الثالث لربط الماضي بالحاضر.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:145-1",
+    "topic": "AUX+PERFECT",
+    "cefrLevel": "B2",
+    "explanation": "المساعدات مع التام: have + التصريف الثالث لربط الماضي بالحاضر.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "NEG. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:146",
+    "topic": "there+be",
+    "cefrLevel": "A1",
+    "explanation": "there is/are بمعنى «يوجد» لتقديم شيء أو مكان.",
+    "examples": [
+      {
+        "english": "He walked there.",
+        "arabic": "مشى هناك."
+      },
+      {
+        "english": "Sami is hospitalized there.",
+        "arabic": "سامي يتلقّى العلاج هناك."
+      },
+      {
+        "english": "Contrary to my expectations, he was there.",
+        "arabic": "على عكس ما توقّعته، لقد كان هناك."
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:149",
+    "topic": "here is/are",
+    "cefrLevel": "B1",
+    "explanation": "there is/are بمعنى «يوجد» لتقديم شيء أو مكان.",
+    "examples": [
+      {
+        "english": "Here we are!",
+        "arabic": "ها نحن ذا"
+      },
+      {
+        "english": "Here you are.",
+        "arabic": "تفضل."
+      },
+      {
+        "english": "Are you preventing me from smoking here?",
+        "arabic": "هل تمانع أن أدخن هنا؟"
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:150",
+    "topic": "COORDINATING CONJUNCTIONS",
+    "cefrLevel": "A1",
+    "explanation": "أدوات الربط and/but/or لربط الكلمات والجمل المتساوية.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:152",
+    "topic": "V+that+CLAUSE",
+    "cefrLevel": "A2",
+    "explanation": "الجمل الاسمية التابعة: جملة كاملة تعمل كاسم بعد فعل القول أو المعرفة.",
+    "examples": [
+      {
+        "english": "Don't do that!",
+        "arabic": "لا تفعل!"
+      },
+      {
+        "english": "Don't forget that.",
+        "arabic": "لا تنس ذلك."
+      },
+      {
+        "english": "Don't say that.",
+        "arabic": "لا تقل ذلك."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:153",
+    "topic": "know/wonder+WH-(CLAUSE) (except for 'whether')",
+    "cefrLevel": "B1",
+    "explanation": "الجمل الاسمية التابعة: جملة كاملة تعمل كاسم بعد فعل القول أو المعرفة.",
+    "examples": [
+      {
+        "english": "Do you already know whether you will go to the beach afterwards, and, if yes, when?",
+        "arabic": "هل تعلم إن كنت ستذهب إلى الشاطئ فيما بعد، و إن كان كذلك، فمتى ستذهب؟"
+      },
+      {
+        "english": "Tom can't decide whether to buy a new computer now or wait for a couple of more months.",
+        "arabic": "لا يستطيع توم أن يقرر هل يشتري حاسوبًا جديدًا الآن أم ينتظر بضعة أشهر."
+      },
+      {
+        "english": "Do you know?",
+        "arabic": "هل أنت تعلم؟"
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:154",
+    "topic": "whether",
+    "cefrLevel": "B2",
+    "explanation": "الجمل الاسمية التابعة: جملة كاملة تعمل كاسم بعد فعل القول أو المعرفة.",
+    "examples": [
+      {
+        "english": "Do you already know whether you will go to the beach afterwards, and, if yes, when?",
+        "arabic": "هل تعلم إن كنت ستذهب إلى الشاطئ فيما بعد، و إن كان كذلك، فمتى ستذهب؟"
+      },
+      {
+        "english": "Tom can't decide whether to buy a new computer now or wait for a couple of more months.",
+        "arabic": "لا يستطيع توم أن يقرر هل يشتري حاسوبًا جديدًا الآن أم ينتظر بضعة أشهر."
+      },
+      {
+        "english": "Every man's work, whether it be literature or music or a picture or architecture or anything else, is always a portrait of himself.",
+        "arabic": "عمل كل إنسان، سواءً كان الأدب أو الموسيقى أو الصور أو العِمَارة أو أي شيء آخر، هو دائمًا صورة لنفسه."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:155",
+    "topic": "ADVERBIAL CLAUSE: when",
+    "cefrLevel": "A1",
+    "explanation": "الجملة الظرفية مع when — تحدد الزمان أو الشرط أو السبب.",
+    "examples": [
+      {
+        "english": "When was this university founded?",
+        "arabic": "متى أنشئت هذه الجامعة؟"
+      },
+      {
+        "english": "They were mining when it collapsed.",
+        "arabic": "كانو ينقّبون حينما تداعت."
+      },
+      {
+        "english": "Be careful when you cross a road.",
+        "arabic": "التمس الحذر وأنت تعبر الطريق."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:156",
+    "topic": "ADVERBIAL CLAUSE: if",
+    "cefrLevel": "A2",
+    "explanation": "الجملة الظرفية مع if — تحدد الزمان أو الشرط أو السبب.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:157",
+    "topic": "ADVERBIAL CLAUSE: as",
+    "cefrLevel": "A2",
+    "explanation": "الجملة الظرفية مع as — تحدد الزمان أو الشرط أو السبب.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:160",
+    "topic": "ADVERBIAL CLAUSE: so that",
+    "cefrLevel": "B2",
+    "explanation": "الجملة الظرفية مع so — تحدد الزمان أو الشرط أو السبب.",
+    "examples": [
+      {
+        "english": "Don't do that!",
+        "arabic": "لا تفعل!"
+      },
+      {
+        "english": "Don't forget that.",
+        "arabic": "لا تنس ذلك."
+      },
+      {
+        "english": "Don't say that.",
+        "arabic": "لا تقل ذلك."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:161",
+    "topic": "SUBORDINATE CLAUSE: after/albeit/although/because/before/despite/except/for/lest/like/once/since/so/than/though/till/unless/until/where/whereas/wheresoever/whether/while/whilst tagged as IN",
+    "cefrLevel": "A1",
+    "explanation": "روابط التبعية (because/although/if...) تربط جملة تابعة برئيسية.",
+    "examples": [
+      {
+        "english": "He continued walking for a while.",
+        "arabic": "واصل المشي لفترة."
+      },
+      {
+        "english": "Because dogs are more faithful than cats.",
+        "arabic": "لأن الكلاب أكثر وفاءًا من القطط."
+      },
+      {
+        "english": "Repeat after me.",
+        "arabic": "رددوا بعدي."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:162",
+    "topic": "hope/know/think+CLAUSE (without 'that')",
+    "cefrLevel": "A1",
+    "explanation": "أفعال الرأي والمعرفة متبوعة بجملة كاملة (غالباً بدون that).",
+    "examples": [
+      {
+        "english": "Algerians need hope.",
+        "arabic": "الجزائر يين بحاجة للأمل."
+      },
+      {
+        "english": "Do you know?",
+        "arabic": "هل أنت تعلم؟"
+      },
+      {
+        "english": "Don't do that!",
+        "arabic": "لا تفعل!"
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:167",
+    "topic": "WH-+to+INFINITIVE",
+    "cefrLevel": "B1",
+    "explanation": "أداة استفهام + to + مصدر: what to do (ماذا أفعل).",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:168",
+    "topic": "PREMODIFYING PRESENT PARTICIPLE",
+    "cefrLevel": "A2",
+    "explanation": "التصريفات كصفات قبل الاسم أو بعده (the broken window).",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:169",
+    "topic": "POSTMODIFYING PRESENT",
+    "cefrLevel": "A1",
+    "explanation": "التصريفات كصفات قبل الاسم أو بعده (the broken window).",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:170",
+    "topic": "PREMODIFYING PAST PARTICIPLE",
+    "cefrLevel": "A1",
+    "explanation": "التصريفات كصفات قبل الاسم أو بعده (the broken window).",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:171",
+    "topic": "POSTMODIFYING PAST PARTICIPLE",
+    "cefrLevel": "A1",
+    "explanation": "التصريفات كصفات قبل الاسم أو بعده (the broken window).",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:172",
+    "topic": "NOMINATIVE RELATIVE PRONOUN: who",
+    "cefrLevel": "A1",
+    "explanation": "ضمائر الوصل who/which/that تربط جملة وصفية بالاسم.",
+    "examples": [
+      {
+        "english": "Who has leadership?",
+        "arabic": "من الذي يتولى الزعامة؟"
+      },
+      {
+        "english": "Who said that?",
+        "arabic": "من قال هذا؟"
+      },
+      {
+        "english": "Who are these women?",
+        "arabic": "من هذه النساء؟"
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:173",
+    "topic": "NOMINATIVE RELATIVE PRONOUN: which",
+    "cefrLevel": "B2",
+    "explanation": "ضمائر الوصل who/which/that تربط جملة وصفية بالاسم.",
+    "examples": [
+      {
+        "english": "Which is your pen?",
+        "arabic": "أيٌّ قلمك؟"
+      },
+      {
+        "english": "Which materials absorb water?",
+        "arabic": "ما هي المواد التي تمتص الماء؟"
+      },
+      {
+        "english": "Which part was translated?",
+        "arabic": "أي جزء ترجم؟"
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:174",
+    "topic": "NOMINATIVE RELATIVE PRONOUN:",
+    "cefrLevel": "A1",
+    "explanation": "ضمائر الوصل who/which/that تربط جملة وصفية بالاسم.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:175",
+    "topic": "ACCUSATIVE RELATIVE PRONOUN: who",
+    "cefrLevel": "B2",
+    "explanation": "ضمائر الوصل who/which/that تربط جملة وصفية بالاسم.",
+    "examples": [
+      {
+        "english": "Who has leadership?",
+        "arabic": "من الذي يتولى الزعامة؟"
+      },
+      {
+        "english": "Who said that?",
+        "arabic": "من قال هذا؟"
+      },
+      {
+        "english": "Who are these women?",
+        "arabic": "من هذه النساء؟"
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:176",
+    "topic": "ACCUSATIVE RELATIVE PRONOUN: whom",
+    "cefrLevel": "B2",
+    "explanation": "ضمائر الوصل who/which/that تربط جملة وصفية بالاسم.",
+    "examples": [
+      {
+        "english": "By whom was the island discovered?",
+        "arabic": "من اكتشف الجزيرة؟"
+      },
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:177",
+    "topic": "ACCUSATIVE RELATIVE PRONOUN: which",
+    "cefrLevel": "B2",
+    "explanation": "ضمائر الوصل who/which/that تربط جملة وصفية بالاسم.",
+    "examples": [
+      {
+        "english": "Which is your pen?",
+        "arabic": "أيٌّ قلمك؟"
+      },
+      {
+        "english": "Which materials absorb water?",
+        "arabic": "ما هي المواد التي تمتص الماء؟"
+      },
+      {
+        "english": "Which part was translated?",
+        "arabic": "أي جزء ترجم؟"
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:178",
+    "topic": "ACCUSATIVE RELATIVE PRONOUN: that",
+    "cefrLevel": "B2",
+    "explanation": "ضمائر الوصل who/which/that تربط جملة وصفية بالاسم.",
+    "examples": [
+      {
+        "english": "Don't do that!",
+        "arabic": "لا تفعل!"
+      },
+      {
+        "english": "Don't forget that.",
+        "arabic": "لا تنس ذلك."
+      },
+      {
+        "english": "Don't say that.",
+        "arabic": "لا تقل ذلك."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:179",
+    "topic": "ELLIPTICAL ACCUSATIVE RELATIVE PRONOUN",
+    "cefrLevel": "A1",
+    "explanation": "ضمائر الوصل who/which/that تربط جملة وصفية بالاسم.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:181",
+    "topic": "RELATIVE PRONOUN: NONRESTRICTIVE",
+    "cefrLevel": "B1",
+    "explanation": "ضمائر الوصل who/which/that تربط جملة وصفية بالاسم.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:183",
+    "topic": "COMPOUND RELATIVE PRONOUN:",
+    "cefrLevel": "A2",
+    "explanation": "ضمائر الوصل who/which/that تربط جملة وصفية بالاسم.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:184",
+    "topic": "PREP+RELATIVE PRONOUN",
+    "cefrLevel": "B2",
+    "explanation": "ضمائر الوصل who/which/that تربط جملة وصفية بالاسم.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:185",
+    "topic": "RELATIVE ADVERB: WITH",
+    "cefrLevel": "A2",
+    "explanation": "ضمائر الوصل who/which/that تربط جملة وصفية بالاسم.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:186",
+    "topic": "RELATIVE ADVERB: WITHOUT ANTECEDENT",
+    "cefrLevel": "B1",
+    "explanation": "ضمائر الوصل who/which/that تربط جملة وصفية بالاسم.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:188",
+    "topic": "WH-EVER",
+    "cefrLevel": "B2",
+    "explanation": "ضمائر الوصل who/which/that تربط جملة وصفية بالاسم.",
+    "examples": [
+      {
+        "english": "Don't ever worry.",
+        "arabic": "لا تقلق أبدا."
+      },
+      {
+        "english": "God is ever-living.",
+        "arabic": "الله أبدي."
+      },
+      {
+        "english": "Have you ever fed a crocodile?",
+        "arabic": "هل سبق لك و أن قدمت الأكل لتمساح؟"
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:189",
+    "topic": "PREPOSITION STRANDING",
+    "cefrLevel": "A1",
+    "explanation": "ضمائر الوصل who/which/that تربط جملة وصفية بالاسم.",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:194",
+    "topic": "SENTENCE PATTERN: SUBJECT+V",
+    "cefrLevel": "B1",
+    "explanation": "التركيب الأساسي للجملة الإنجليزية: فاعل + فعل (+ مفعول).",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:196",
+    "topic": "SENTENCE PATTERN: SUBJECT+V+OBJECT",
+    "cefrLevel": "A1",
+    "explanation": "التركيب الأساسي للجملة الإنجليزية: فاعل + فعل (+ مفعول).",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:196-1",
+    "topic": "SENTENCE PATTERN: SUBJECT+V+OBJECT",
+    "cefrLevel": "A2",
+    "explanation": "التركيب الأساسي للجملة الإنجليزية: فاعل + فعل (+ مفعول).",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "NEG. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:196-2",
+    "topic": "SENTENCE PATTERN: SUBJECT+V+OBJECT",
+    "cefrLevel": "A1",
+    "explanation": "التركيب الأساسي للجملة الإنجليزية: فاعل + فعل (+ مفعول).",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "AFF. INT.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:200",
+    "topic": "INDIRECT SPEECH: SAY/EXPLAIN/REPORT",
+    "cefrLevel": "A2",
+    "explanation": "الكلام المنقول: نقل كلام الآخرين بتغيير الأزمنة والضمائر.",
+    "examples": [
+      {
+        "english": "Bruno has survived.",
+        "arabic": "نجى برونو."
+      },
+      {
+        "english": "Cairo has changed.",
+        "arabic": "لقد تغيّرت القاهرة."
+      },
+      {
+        "english": "He has reconsidered.",
+        "arabic": "اعاد النظر"
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:201",
+    "topic": "INDIRECT SPEECH: TELL",
+    "cefrLevel": "B1",
+    "explanation": "الكلام المنقول: نقل كلام الآخرين بتغيير الأزمنة والضمائر.",
+    "examples": [
+      {
+        "english": "Bruno has survived.",
+        "arabic": "نجى برونو."
+      },
+      {
+        "english": "Cairo has changed.",
+        "arabic": "لقد تغيّرت القاهرة."
+      },
+      {
+        "english": "He has reconsidered.",
+        "arabic": "اعاد النظر"
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:202",
+    "topic": "INDIRECT QUESTION: DECIDE/EXPLAIN/KNOW/LEARN/SEE/UNDERSTAND/WONDER",
+    "cefrLevel": "A2",
+    "explanation": "الكلام المنقول: نقل كلام الآخرين بتغيير الأزمنة والضمائر.",
+    "examples": [
+      {
+        "english": "How about you?",
+        "arabic": "ماذا عنك؟"
+      },
+      {
+        "english": "How are they?",
+        "arabic": "كيف حالهن ؟"
+      },
+      {
+        "english": "How are you?",
+        "arabic": "كيف الحال؟"
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:203",
+    "topic": "INDIRECT QUESTION: ASK/REMIND/SHOW/TEACH/TELL",
+    "cefrLevel": "B1",
+    "explanation": "الكلام المنقول: نقل كلام الآخرين بتغيير الأزمنة والضمائر.",
+    "examples": [
+      {
+        "english": "How about you?",
+        "arabic": "ماذا عنك؟"
+      },
+      {
+        "english": "How are they?",
+        "arabic": "كيف حالهن ؟"
+      },
+      {
+        "english": "How are you?",
+        "arabic": "كيف الحال؟"
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:206",
+    "topic": "HAVE/LET/MAKE+NP+INFINITIVE",
+    "cefrLevel": "A2",
+    "explanation": "الأفعال السببية: جعل شخص يفعل شيئاً (have/make/let/get).",
+    "examples": [
+      {
+        "english": "Wealth comes to those who make things happen, not to those who let things happen.",
+        "arabic": "تأتي الثروة إلى من يجعل الأشياء تحدث لا إلى من يترك الأشياء تحدث."
+      },
+      {
+        "english": "Algerians make couscous.",
+        "arabic": "الجزائريون يطبخون الكسكس."
+      },
+      {
+        "english": "Bees make honey.",
+        "arabic": "يصنع النحل العسل."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:207",
+    "topic": "HAVE/GET+NP+PAST PARTICIPLE",
+    "cefrLevel": "B2",
+    "explanation": "التصريفات كصفات قبل الاسم أو بعده (the broken window).",
+    "examples": [
+      {
+        "english": "Why do you constantly have to get involved?",
+        "arabic": "لم تتدخّل دائما؟"
+      },
+      {
+        "english": "I'd love to be able to spend more time with you, but I have to get back to work.",
+        "arabic": "أُحِب أن أكون قادر على قضاء المزيد من الوقت معك, ولكن علي العودة إلى العمل."
+      },
+      {
+        "english": "Come get us.",
+        "arabic": "تعال لتأخذنا."
+      }
+    ],
+    "sentenceType": "AFF. DEC./NEG. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:209",
+    "topic": "ASK/TELL+NP+to+INFINITIVE",
+    "cefrLevel": "B1",
+    "explanation": "الأفعال السببية: جعل شخص يفعل شيئاً (have/make/let/get).",
+    "examples": [
+      {
+        "english": "Ask a policeman!",
+        "arabic": "اسأل شرطيًّا!"
+      },
+      {
+        "english": "Don't tell anyone.",
+        "arabic": "لا تُخبِر أحداً."
+      },
+      {
+        "english": "Why sentences? …you may ask. Well, because sentences are more interesting.",
+        "arabic": "ربما تسأل، لمَ الجمل؟ هذا لأن الجمل مثيرة للاهتمام أكثر."
+      }
+    ],
+    "sentenceType": "",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:213",
+    "topic": "PARTICIPIAL CONSTRUCTION: PRESENT PARTICIPLE",
+    "cefrLevel": "B1",
+    "explanation": "التصريفات كصفات قبل الاسم أو بعده (the broken window).",
+    "examples": [
+      {
+        "english": "Happy birthday!",
+        "arabic": "عيد ميلاد سعيد!"
+      },
+      {
+        "english": "A dog ran.",
+        "arabic": "ركض كلب."
+      },
+      {
+        "english": "A miracle happened.",
+        "arabic": "حدثت معجزة."
+      }
+    ],
+    "sentenceType": "(SUBORDINATE CLAUSE) AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:215",
+    "topic": "CONDITIONAL: SECOND",
+    "cefrLevel": "B1",
+    "explanation": "الشرط الثاني: if + ماضٍ بسيط، would + مصدر — للخيال والأمنيات.",
+    "examples": [
+      {
+        "english": "I remember the event as clearly as if it had happened just yesterday.",
+        "arabic": "أتذكر الحادثة بكل وضوح وكأنها حدثت البارحة فقط."
+      },
+      {
+        "english": "If you think education is expensive, wait till you see what ignorance costs you.",
+        "arabic": "إن كنت تظن التعليم مكلفًا، فانتظر حتى ترى ما يكلفك الجهل."
+      },
+      {
+        "english": "If I wanted to scare you, I would have told you about what I dreamt about a few weeks ago.",
+        "arabic": "لو أردت أن أخيفك لحكيت لك ما حلمت به منذ بضعة أسابيع."
+      }
+    ],
+    "sentenceType": "(SUBORDINATE CLAUSE) AFF. DEC.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:235",
+    "topic": "WH- QUESTION: Why ...?",
+    "cefrLevel": "A1",
+    "explanation": "الأسئلة بأدوات الاستفهام للسؤال عن معلومات محددة.",
+    "examples": [
+      {
+        "english": "How about you?",
+        "arabic": "ماذا عنك؟"
+      },
+      {
+        "english": "How are they?",
+        "arabic": "كيف حالهن ؟"
+      },
+      {
+        "english": "How are you?",
+        "arabic": "كيف الحال؟"
+      }
+    ],
+    "sentenceType": "AFF. INT./NEG. INT.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:237",
+    "topic": "WH- QUESTION: Who ...?",
+    "cefrLevel": "B2",
+    "explanation": "الأسئلة بأدوات الاستفهام للسؤال عن معلومات محددة.",
+    "examples": [
+      {
+        "english": "How about you?",
+        "arabic": "ماذا عنك؟"
+      },
+      {
+        "english": "How are they?",
+        "arabic": "كيف حالهن ؟"
+      },
+      {
+        "english": "How are you?",
+        "arabic": "كيف الحال؟"
+      }
+    ],
+    "sentenceType": "AFF. INT./NEG. INT.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:239",
+    "topic": "WH- QUESTION: What ...?",
+    "cefrLevel": "A1",
+    "explanation": "الأسئلة بأدوات الاستفهام للسؤال عن معلومات محددة.",
+    "examples": [
+      {
+        "english": "How about you?",
+        "arabic": "ماذا عنك؟"
+      },
+      {
+        "english": "How are they?",
+        "arabic": "كيف حالهن ؟"
+      },
+      {
+        "english": "How are you?",
+        "arabic": "كيف الحال؟"
+      }
+    ],
+    "sentenceType": "AFF. INT./NEG. INT.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:245",
+    "topic": "WH- QUESTION: Where ...?",
+    "cefrLevel": "A1",
+    "explanation": "الأسئلة بأدوات الاستفهام للسؤال عن معلومات محددة.",
+    "examples": [
+      {
+        "english": "How about you?",
+        "arabic": "ماذا عنك؟"
+      },
+      {
+        "english": "How are they?",
+        "arabic": "كيف حالهن ؟"
+      },
+      {
+        "english": "How are you?",
+        "arabic": "كيف الحال؟"
+      }
+    ],
+    "sentenceType": "AFF. INT./NEG. INT.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:246",
+    "topic": "WH- QUESTION: How ...?",
+    "cefrLevel": "A1",
+    "explanation": "الأسئلة بأدوات الاستفهام للسؤال عن معلومات محددة.",
+    "examples": [
+      {
+        "english": "How about you?",
+        "arabic": "ماذا عنك؟"
+      },
+      {
+        "english": "How are they?",
+        "arabic": "كيف حالهن ؟"
+      },
+      {
+        "english": "How are you?",
+        "arabic": "كيف الحال؟"
+      }
+    ],
+    "sentenceType": "AFF. INT./NEG. INT.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:247",
+    "topic": "WH- QUESTION: How ADJ/ADV ...?",
+    "cefrLevel": "A1",
+    "explanation": "الأسئلة بأدوات الاستفهام للسؤال عن معلومات محددة.",
+    "examples": [
+      {
+        "english": "How about you?",
+        "arabic": "ماذا عنك؟"
+      },
+      {
+        "english": "How are they?",
+        "arabic": "كيف حالهن ؟"
+      },
+      {
+        "english": "How are you?",
+        "arabic": "كيف الحال؟"
+      }
+    ],
+    "sentenceType": "AFF. INT./NEG. INT.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  },
+  {
+    "id": "cefrj:249",
+    "topic": "FUNCTIONAL QUESTION: Can you ...?",
+    "cefrLevel": "A2",
+    "explanation": "الأسئلة بأدوات الاستفهام للسؤال عن معلومات محددة.",
+    "examples": [
+      {
+        "english": "How about you?",
+        "arabic": "ماذا عنك؟"
+      },
+      {
+        "english": "How are they?",
+        "arabic": "كيف حالهن ؟"
+      },
+      {
+        "english": "How are you?",
+        "arabic": "كيف الحال؟"
+      }
+    ],
+    "sentenceType": "AFF. INT.",
+    "source": "cefr-j",
+    "license": "CEFR-J (Tono Laboratory, TUFS — free with citation)",
+    "translation": null,
+    "translationSource": null,
+    "translationStatus": "pending"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "stats": {
+    "words": 135282,
+    "words_empty_definitions": 0,
+    "words_pending_translation": 85737,
+    "broken_relations": 0,
+    "sentences": 48477,
+    "grammar": 170,
+    "grammar_pending_explanation": 0,
+    "grammar_without_examples": 0
+  },
+  "errors": [],
+  "warnings": []
+}

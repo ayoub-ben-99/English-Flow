@@ -1,0 +1,21 @@
+[
+  { "id": "daily-life", "arabic": "حياة يومية", "english": "Daily Life" },
+  { "id": "work", "arabic": "عمل", "english": "Work" },
+  { "id": "travel", "arabic": "سفر", "english": "Travel" },
+  { "id": "conversation", "arabic": "محادثة", "english": "Conversation" },
+  { "id": "shopping", "arabic": "تسوق", "english": "Shopping" },
+  { "id": "technology", "arabic": "تقنية", "english": "Technology" },
+  { "id": "social", "arabic": "تواصل", "english": "Social" },
+  { "id": "education", "arabic": "تعليم", "english": "Education" },
+  { "id": "food", "arabic": "طعام", "english": "Food" },
+  { "id": "feelings", "arabic": "مشاعر", "english": "Feelings" },
+  { "id": "numbers", "arabic": "أرقام", "english": "Numbers" },
+  { "id": "family", "arabic": "عائلة", "english": "Family" },
+  { "id": "nature", "arabic": "طبيعة", "english": "Nature" },
+  { "id": "home", "arabic": "المنزل", "english": "Home" },
+  { "id": "communication", "arabic": "تواصل", "english": "Communication" },
+  { "id": "time", "arabic": "وقت", "english": "Time" },
+  { "id": "health", "arabic": "صحة", "english": "Health" },
+  { "id": "places", "arabic": "أماكن", "english": "Places" },
+  { "id": "weather", "arabic": "طقس", "english": "Weather" }
+]

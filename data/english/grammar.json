@@ -1,0 +1,103 @@
+[
+  {
+    "id": "present-simple",
+    "title": "Present Simple",
+    "arabicTitle": "المضارع البسيط",
+    "category": "tenses",
+    "description": "Used for habits, routines, and general facts.",
+    "formula": "Subject + base verb (+ s with he/she/it)",
+    "examples": [
+      { "english": "I work every day.", "arabic": "أنا أعمل كل يوم." },
+      { "english": "She drinks coffee.", "arabic": "هي تشرب القهوة." }
+    ]
+  },
+  {
+    "id": "past-simple",
+    "title": "Past Simple",
+    "arabicTitle": "الماضي البسيط",
+    "category": "tenses",
+    "description": "Used for finished actions in the past.",
+    "formula": "Subject + verb (past form)",
+    "examples": [
+      { "english": "We visited Cairo.", "arabic": "زرنا القاهرة." },
+      { "english": "He studied hard.", "arabic": "هو ذاكر بجد." }
+    ]
+  },
+  {
+    "id": "modal-can",
+    "title": "Can for Ability",
+    "arabicTitle": "استخدام Can للقدرة",
+    "category": "verbs",
+    "description": "Use can to talk about ability in the present.",
+    "formula": "Subject + can + base verb",
+    "examples": [
+      { "english": "I can swim.", "arabic": "أستطيع السباحة." },
+      { "english": "They can help you.", "arabic": "يمكنهم مساعدتك." }
+    ]
+  },
+  {
+    "id": "plural-nouns",
+    "title": "Plural Nouns",
+    "arabicTitle": "جمع الأسماء",
+    "category": "nouns",
+    "description": "Most nouns add s in the plural; some change form.",
+    "formula": "book → books · child → children",
+    "examples": [
+      { "english": "Two books are on the desk.", "arabic": "يوجد كتابان على المكتب." }
+    ]
+  },
+  {
+    "id": "subject-pronouns",
+    "title": "Subject Pronouns",
+    "arabicTitle": "ضمائر الفاعل",
+    "category": "pronouns",
+    "description": "Replace the subject noun: I, you, he, she, it, we, they.",
+    "examples": [
+      { "english": "She is my friend.", "arabic": "هي صديقتي." },
+      { "english": "They are students.", "arabic": "هم طلاب." }
+    ]
+  },
+  {
+    "id": "comparative-adjectives",
+    "title": "Comparative Adjectives",
+    "arabicTitle": "صفات المقارنة",
+    "category": "adjectives",
+    "description": "Compare two things with -er or more.",
+    "formula": "tall → taller · expensive → more expensive",
+    "examples": [
+      { "english": "This road is longer.", "arabic": "هذا الطريق أطول." }
+    ]
+  },
+  {
+    "id": "in-on-at",
+    "title": "In, On, At",
+    "arabicTitle": "حروف الجر للمكان والزمان",
+    "category": "prepositions",
+    "description": "in for months and cities, on for days, at for exact time.",
+    "examples": [
+      { "english": "The meeting is on Monday at nine.", "arabic": "الاجتماع يوم الاثنين في التاسعة." }
+    ]
+  },
+  {
+    "id": "wh-questions",
+    "title": "Wh- Questions",
+    "arabicTitle": "الأسئلة بأدوات الاستفهام",
+    "category": "questions",
+    "description": "Ask for information with what, where, when, why, who, how.",
+    "formula": "Wh-word + do/does + subject + verb?",
+    "examples": [
+      { "english": "Where do you live?", "arabic": "أين تسكن؟" },
+      { "english": "What do you eat?", "arabic": "ماذا تأكل؟" }
+    ]
+  },
+  {
+    "id": "a-an-the",
+    "title": "A, An, The",
+    "arabicTitle": "أدوات النكرة والمعرفة",
+    "category": "articles",
+    "description": "a/an for something new, the for something known.",
+    "examples": [
+      { "english": "I saw a dog. The dog was small.", "arabic": "رأيت كلباً. كان الكلب صغيراً." }
+    ]
+  }
+]
