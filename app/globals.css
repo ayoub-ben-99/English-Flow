@@ -243,6 +243,37 @@ body {
   transform-origin: center;
 }
 
+/* Sonner toast styling matching MD3 tokens. */
+:root {
+  --normal-bg: var(--md-sys-color-surface-container-high);
+  --normal-text: var(--md-sys-color-on-surface);
+  --normal-border: var(--md-sys-color-outline-variant);
+  --success-bg: var(--md-sys-color-success-container, #e8f5e9);
+  --success-text: var(--md-sys-color-on-success-container, #1b5e20);
+  --error-bg: var(--md-sys-color-error-container, #fce4ec);
+  --error-text: var(--md-sys-color-on-error-container, #880e4f);
+  --info-bg: var(--md-sys-color-primary-container);
+  --info-text: var(--md-sys-color-on-primary-container);
+  --loading-bg: var(--md-sys-color-surface-container-high);
+  --loading-text: var(--md-sys-color-on-surface);
+  --toast-border-radius: var(--radius-lg);
+  --toast-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+[data-theme="dark"] {
+  --normal-bg: var(--md-sys-color-surface-container-high);
+  --normal-text: var(--md-sys-color-on-surface);
+  --normal-border: var(--md-sys-color-outline-variant);
+  --success-bg: var(--md-sys-color-success-container, #1b5e20);
+  --success-text: var(--md-sys-color-on-success-container, #e8f5e9);
+  --error-bg: var(--md-sys-color-error-container, #880e4f);
+  --error-text: var(--md-sys-color-on-error-container, #fce4ec);
+  --info-bg: var(--md-sys-color-primary-container);
+  --info-text: var(--md-sys-color-on-primary-container);
+  --loading-bg: var(--md-sys-color-surface-container-high);
+  --loading-text: var(--md-sys-color-on-surface);
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;

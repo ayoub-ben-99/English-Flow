@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { IBM_Plex_Sans_Arabic, Inter } from "next/font/google";
 import { SmoothScroll } from "@/components/english/SmoothScroll";
+import { ThemeProvider } from "@/components/english/ThemeProvider";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-latin" });
@@ -58,9 +59,9 @@ export const metadata: Metadata = {
   },
 };
 
-/** Sets the initial theme before paint to avoid a light/dark flash. */
+/** Sets the initial theme before paint to avoid a light/dark flash. Defaults to light. */
 function themeInitScript() {
-  return `(function(){try{var t=localStorage.getItem('roadmap-theme');if(t!=='light'&&t!=='dark'){t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.setAttribute('data-theme',t);}catch(e){document.documentElement.setAttribute('data-theme','light');}})();`;
+  return `(function(){try{var t=localStorage.getItem('roadmap-theme');if(t==='dark'){document.documentElement.setAttribute('data-theme','dark');}else{document.documentElement.setAttribute('data-theme','light');}}catch(e){document.documentElement.setAttribute('data-theme','light');}})();`;
 }
 
 export default function RootLayout({
@@ -69,7 +70,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html className="dark" lang="ar" dir="rtl" data-scroll-behavior="smooth" suppressHydrationWarning>
+    <html lang="ar" dir="rtl" data-scroll-behavior="smooth" suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeInitScript() }} />
       </head>
@@ -80,8 +81,10 @@ export default function RootLayout({
             '"Notion Sans", var(--font-latin), var(--font-arabic), system-ui, sans-serif',
         }}
       >
-        <SmoothScroll />
-        {children}
+        <ThemeProvider>
+          <SmoothScroll />
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );

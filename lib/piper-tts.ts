@@ -53,6 +53,12 @@ function resetUnderlyingSingleton(tts: unknown): void {
   }
 }
 
+function dispatchPiperEvent(name: string, detail?: unknown) {
+  if (typeof window !== "undefined") {
+    window.dispatchEvent(new CustomEvent(name, { detail }));
+  }
+}
+
 async function loadVoice(id: string): Promise<TTSLogic> {
   const hit = instances.get(id);
   if (hit) return hit;
@@ -78,6 +84,9 @@ async function loadVoice(id: string): Promise<TTSLogic> {
     }
   }
 
+  // Fire loading start event (only on first load per voice)
+  dispatchPiperEvent("piper-loading-start", { voiceId: id });
+
   const { TTSLogic } = await import("speech-to-speech/tts");
   // One automatic retry: a large first-time model download can occasionally
   // arrive truncated, and the immediate retry then succeeds.
@@ -94,6 +103,7 @@ async function loadVoice(id: string): Promise<TTSLogic> {
       await tts.initialize();
       instances.set(id, Promise.resolve(tts));
       liveVoiceId = id;
+      dispatchPiperEvent("piper-loading-success", { voiceId: id });
       return tts;
     } catch (err) {
       lastError = err;
@@ -103,6 +113,7 @@ async function loadVoice(id: string): Promise<TTSLogic> {
       }
     }
   }
+  dispatchPiperEvent("piper-loading-error", { voiceId: id, error: lastError });
   throw lastError;
 }
 

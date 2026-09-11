@@ -19,6 +19,7 @@
     "onnxruntime-web": "^1.22.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+    "sonner": "^2.0.8",
     "speech-to-speech": "^0.1.6"
   },
   "devDependencies": {

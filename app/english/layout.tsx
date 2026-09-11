@@ -5,6 +5,7 @@ import { MobileNav } from "@/components/english/MobileNav";
 import { SiteLogo } from "@/components/english/SiteLogo";
 import { ThemeToggle } from "@/components/english/ThemeToggle";
 import { VoiceSettings } from "@/components/english/VoiceSettings";
+import { ToastProvider } from "@/components/english/ToastProvider";
 
 export const metadata: Metadata = {
   title: "تعلم الإنجليزية",
@@ -40,6 +41,7 @@ export default function EnglishLayout({
         </aside>
         <div className="min-w-0">{children}</div>
       </div>
+      <ToastProvider />
     </div>
   );
 }

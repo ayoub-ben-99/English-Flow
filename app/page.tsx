@@ -7,6 +7,7 @@ import { ScrollProgress } from "@/components/english/ScrollProgress";
 import { SectionHead } from "@/components/english/SectionHead";
 import { SiteLogo } from "@/components/english/SiteLogo";
 import { StatsStrip } from "@/components/english/StatsStrip";
+import { ThemeToggle } from "@/components/english/ThemeToggle";
 
 const phases = [
   {
@@ -110,16 +111,19 @@ export default function HomePage() {
             </span>
             <span className="truncate">تعلم الإنجليزية</span>
           </span>
-          <Link
-            href="/english"
-            className="inline-flex min-h-11 items-center rounded-lg px-5 text-sm font-medium"
-            style={{
-              background: "var(--md-sys-color-primary)",
-              color: "var(--md-sys-color-on-primary)",
-            }}
-          >
-            ابدأ التعلم
-          </Link>
+          <div className="flex items-center gap-2">
+            <ThemeToggle />
+            <Link
+              href="/english"
+              className="inline-flex min-h-11 items-center rounded-lg px-5 text-sm font-medium"
+              style={{
+                background: "var(--md-sys-color-primary)",
+                color: "var(--md-sys-color-on-primary)",
+              }}
+            >
+              ابدأ التعلم
+            </Link>
+          </div>
         </div>
       </header>
 
@@ -132,13 +136,13 @@ export default function HomePage() {
             <p data-hero className="muted text-sm font-medium">
               مسار شخصي، لا منهج عام
             </p>
-          <h1
-            data-hero
-            className="mt-3 font-semibold tracking-tight"
-            style={{ fontSize: "clamp(36px, 6vw, 56px)", lineHeight: 1.1 }}
-          >
-            تعلّم الإنجليزية بنفسك
-          </h1>
+            <h1
+              data-hero
+              className="mt-3 font-semibold tracking-tight"
+              style={{ fontSize: "clamp(36px, 6vw, 56px)", lineHeight: 1.1 }}
+            >
+              تعلّم الإنجليزية بنفسك
+            </h1>
             <p data-hero className="muted mt-4" style={{ maxWidth: 640 }}>
               اللغة تُكتسب بالتعرّض المفهوم والاستخدام الفعلي، لا بحفظ القواعد
               نظرياً.
@@ -165,146 +169,107 @@ export default function HomePage() {
 
       <main>
         <div className="mx-auto px-4 sm:px-6" style={{ maxWidth: 880 }}>
-        <section id="diagnosis" className="py-16" aria-labelledby="diagnosis-title">
-          <SectionHead id="diagnosis-title">
-            لماذا فشلت الطريقة التقليدية
-          </SectionHead>
-          <div className="grid gap-4 md:grid-cols-2">
-            <Reveal>
-              <div className="card p-8 tint-rose">
-                <h3 className="mb-3 text-xl font-semibold">الطريقة التي فشلت</h3>
-                <ul className="card-ink space-y-3">
-                  <li>· قواعد مجردة قبل أي تعرض فعلي للغة</li>
-                  <li>· حفظ كلمات معزولة بلا سياق أو جملة</li>
-                  <li>· الأولوية للصحة النحوية قبل الفهم</li>
-                  <li>· لا استخدام فعلي، فتبقى معرفة خاملة</li>
-                </ul>
-              </div>
-            </Reveal>
-            <Reveal delay={0.06}>
-              <div className="card p-8 tint-mint">
-                <h3 className="mb-3 text-xl font-semibold">الطريقة التي تعمل</h3>
-                <ul className="card-ink space-y-3">
-                  <li>· تعرّض مفهوم أولاً: سمع وقراءة قريبة من مستواك</li>
-                  <li>· مفردات ضمن جمل كاملة، بتكرار متباعد</li>
-                  <li>· إنتاج مبكر للكلام، حتى بمستوى ضعيف</li>
-                  <li>· القواعد تفسّر أخطاء حقيقية، لا نقطة بداية</li>
-                </ul>
-              </div>
-            </Reveal>
-          </div>
-        </section>
+          <section id="diagnosis" className="py-16" aria-labelledby="diagnosis-title">
+            <SectionHead id="diagnosis-title">
+              لماذا فشلت الطريقة التقليدية
+            </SectionHead>
+            <div className="grid gap-4 md:grid-cols-2">
+              <Reveal>
+                <div className="card p-8 tint-rose">
+                  <h3 className="mb-3 text-xl font-semibold">الطريقة التي فشلت</h3>
+                  <ul className="card-ink space-y-3">
+                    <li>· قواعد مجردة قبل أي تعرض فعلي للغة</li>
+                    <li>· حفظ كلمات معزولة بلا سياق أو جملة</li>
+                    <li>· الأولوية للصحة النحوية قبل الفهم</li>
+                    <li>· لا استخدام فعلي، فتبقى معرفة خاملة</li>
+                  </ul>
+                </div>
+              </Reveal>
+              <Reveal delay={0.06}>
+                <div className="card p-8 tint-mint">
+                  <h3 className="mb-3 text-xl font-semibold">الطريقة التي تعمل</h3>
+                  <ul className="card-ink space-y-3">
+                    <li>· تعرّض مفهوم أولاً: سمع وقراءة قريبة من مستواك</li>
+                    <li>· مفردات ضمن جمل كاملة، بتكرار متباعد</li>
+                    <li>· إنتاج مبكر للكلام، حتى بمستوى ضعيف</li>
+                    <li>· القواعد تفسّر أخطاء حقيقية، لا نقطة بداية</li>
+                  </ul>
+                </div>
+              </Reveal>
+            </div>
+          </section>
 
         </div>
 
         <section id="path" className="pb-16" aria-labelledby="path-title">
           <div className="mx-auto px-4 sm:px-6" style={{ maxWidth: 880 }}>
-          <SectionHead id="path-title">
-            المسار: أربع مراحل
-          </SectionHead>
-          <div className="grid gap-4 md:grid-cols-2">
-            {phases.map((p, i) => (
-              <Reveal key={p.title} delay={(i % 2) * 0.06}>
-                <article className={`card h-full p-8 ${p.tint}`}>
-                  <span className={`tag ${p.tag}`}>{p.time}</span>
-                  <h3 className="mb-2 mt-3 text-xl font-semibold">{p.title}</h3>
-                  <p className="card-ink mb-3">{p.description}</p>
-                  <p className="card-ink text-sm">{p.points}</p>
-                </article>
-              </Reveal>
-            ))}
-          </div>
+            <SectionHead id="path-title">
+              المسار: أربع مراحل
+            </SectionHead>
+            <div className="grid gap-4 md:grid-cols-2">
+              {phases.map((p, i) => (
+                <Reveal key={p.title} delay={(i % 2) * 0.06}>
+                  <article className={`card h-full p-8 ${p.tint}`}>
+                    <span className={`tag ${p.tag}`}>{p.time}</span>
+                    <h3 className="mb-2 mt-3 text-xl font-semibold">{p.title}</h3>
+                    <p className="card-ink mb-3">{p.description}</p>
+                    <p className="card-ink text-sm">{p.points}</p>
+                  </article>
+                </Reveal>
+              ))}
+            </div>
           </div>
         </section>
 
         <div className="mx-auto px-4 sm:px-6" style={{ maxWidth: 880 }}>
-        <section className="pb-16" aria-labelledby="qa-title">
-          <SectionHead id="qa-title">
-            قواعد أم مفردات؟ حفظ أم لا؟
-          </SectionHead>
-          <div className="grid gap-4 md:grid-cols-2">
-            <Reveal>
-              <div className="card tint-cream p-8" style={{ borderColor: "transparent" }}>
-                <h3 className="mb-2 text-xl font-semibold">المفردات أولاً</h3>
-                <p className="card-ink text-sm">
-                  بدون كلمات لا معنى للقواعد. التكرار المتباعد ضمن جملة كاملة
-                  — الفرق عن تجربة الفرنسية.
-                </p>
-              </div>
-            </Reveal>
-            <Reveal delay={0.06}>
-              <div className="card p-8">
-                <h3 className="mb-2 text-xl font-semibold">القواعد لاحقاً، وظيفياً</h3>
-                <p className="card-ink text-sm">
-                  تُدرَس عند الحاجة لتفسير خطأ ارتكبته، لا كمنهج مستقل من اليوم
-                  الأول.
-                </p>
-              </div>
-            </Reveal>
-          </div>
-        </section>
-
-        <section className="pb-16" aria-labelledby="tips-title">
-          <SectionHead id="tips-title">
-            نصائح وتقنيات للتعلم الذاتي
-          </SectionHead>
-          <div className="grid gap-4 sm:grid-cols-2">
-            {tips.map((t, i) => (
-              <Reveal key={t.title} delay={(i % 2) * 0.06}>
-                <article className={`card h-full p-6 ${t.tint}`}>
-                  <t.Icon
-                    className="h-6 w-6"
-                    style={{ color: "var(--md-sys-color-primary)" }}
-                    aria-hidden="true"
-                  />
-                  <h3 className="mb-1 mt-3 text-lg font-semibold">{t.title}</h3>
-                  <p className="card-ink text-sm">{t.text}</p>
-                </article>
+          <section className="pb-16" aria-labelledby="qa-title">
+            <SectionHead id="qa-title">
+              قواعد أم مفردات؟ حفظ أم لا؟
+            </SectionHead>
+            <div className="grid gap-4 md:grid-cols-2">
+              <Reveal>
+                <div className="card tint-cream p-8" style={{ borderColor: "transparent" }}>
+                  <h3 className="mb-2 text-xl font-semibold">المفردات أولاً</h3>
+                  <p className="card-ink text-sm">
+                    بدون كلمات لا معنى للقواعد. التكرار المتباعد ضمن جملة كاملة
+                    — الفرق عن تجربة الفرنسية.
+                  </p>
+                </div>
               </Reveal>
-            ))}
-          </div>
-        </section>
+              <Reveal delay={0.06}>
+                <div className="card p-8">
+                  <h3 className="mb-2 text-xl font-semibold">القواعد لاحقاً، وظيفياً</h3>
+                  <p className="card-ink text-sm">
+                    تُدرَس عند الحاجة لتفسير خطأ ارتكبته، لا كمنهج مستقل من اليوم
+                    الأول.
+                  </p>
+                </div>
+              </Reveal>
+            </div>
+          </section>
 
-        <section id="start" className="pb-16" aria-labelledby="start-title">
-          <SectionHead id="start-title">
-            من أين تبدأ
-          </SectionHead>
-          <Reveal>
-            <ul className="space-y-3" role="list">
-              {startSteps.map((s) => (
-                <li
-                  key={s.when}
-                  className="card px-6 py-5"
-                  role="listitem"
-                >
-                  <strong>{s.when}:</strong> {s.what}
-                </li>
+          <section className="pb-16" aria-labelledby="tips-title">
+            <SectionHead id="tips-title">
+              نصائح وتقنيات للتعلم الذاتي
+            </SectionHead>
+            <div className="grid gap-4 sm:grid-cols-2">
+              {tips.map((t, i) => (
+                <Reveal key={t.title} delay={(i % 2) * 0.06}>
+                  <article className={`card h-full p-6 ${t.tint}`}>
+                    <t.Icon
+                      className="h-6 w-6"
+                      style={{ color: "var(--md-sys-color-primary)" }}
+                      aria-hidden="true"
+                    />
+                    <h3 className="mb-1 mt-3 text-lg font-semibold">{t.title}</h3>
+                    <p className="card-ink text-sm">{t.text}</p>
+                  </article>
+                </Reveal>
               ))}
-            </ul>
-          </Reveal>
-          <Link
-            href="/english"
-            className="mt-8 inline-flex min-h-12 items-center gap-2 rounded-lg px-7 text-base font-semibold"
-            style={{
-              background: "var(--md-sys-color-primary)",
-              color: "var(--md-sys-color-on-primary)",
-            }}
-          >
-            ابدأ التعلم الآن
-            <ArrowDown className="h-5 w-5" aria-hidden="true" />
-          </Link>
-        </section>
+            </div>
+          </section>
         </div>
       </main>
-
-      <footer
-        style={{ borderTop: "1px solid var(--md-sys-color-outline-variant)" }}
-        className="px-4 py-8 sm:px-6"
-      >
-        <div className="muted mx-auto text-sm" style={{ maxWidth: 880 }}>
-          الإدخال المفهوم بدل الحفظ النظري.
-        </div>
-      </footer>
     </div>
   );
 }

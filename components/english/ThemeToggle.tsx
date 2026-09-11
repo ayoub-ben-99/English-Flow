@@ -1,66 +1,41 @@
 "use client";
 
-import { Moon, Sun } from "lucide-react";
-import { useSyncExternalStore } from "react";
-
-const THEME_EVENT = "roadmap-theme-change";
-
-function readDark(): boolean {
-  return (
-    typeof document !== "undefined" &&
-    document.documentElement.getAttribute("data-theme") === "dark"
-  );
-}
-
-/** Server snapshot must match SSR HTML (no data-theme attribute server-side). */
-function getServerSnapshot(): boolean {
-  return false;
-}
-
-function subscribe(callback: () => void): () => void {
-  window.addEventListener(THEME_EVENT, callback);
-  window.addEventListener("storage", callback);
-  return () => {
-    window.removeEventListener(THEME_EVENT, callback);
-    window.removeEventListener("storage", callback);
-  };
-}
-
-function applyTheme(dark: boolean) {
-  document.documentElement.setAttribute(
-    "data-theme",
-    dark ? "dark" : "light",
-  );
-  try {
-    localStorage.setItem("roadmap-theme", dark ? "dark" : "light");
-  } catch {
-    // Storage unavailable — theme still applies for this session.
-  }
-  window.dispatchEvent(new Event(THEME_EVENT));
-}
+import { Moon, Sun, Monitor } from "lucide-react";
+import { useTheme } from "./ThemeProvider";
 
 export function ThemeToggle() {
-  // External-store read: hydrates with the server snapshot, then syncs to
-  // the real theme without a hydration mismatch.
-  const dark = useSyncExternalStore(subscribe, readDark, getServerSnapshot);
+  const { theme, setTheme } = useTheme();
+
+  const nextTheme = (() => {
+    if (theme === "light") return "dark";
+    if (theme === "dark") return "system";
+    return "light";
+  })();
+
+  const icons = {
+    light: <Sun className="h-5 w-5" aria-hidden="true" />,
+    dark: <Moon className="h-5 w-5" aria-hidden="true" />,
+    system: <Monitor className="h-5 w-5" aria-hidden="true" />,
+  };
+
+  const labels = {
+    light: "المظهر: فاتح — اضغط للداكن",
+    dark: "المظهر: داكن — اضغط للنظام",
+    system: "المظهر: نظام — اضغط للفاتح",
+  };
 
   return (
     <button
       type="button"
-      onClick={() => applyTheme(!dark)}
-      aria-label="تبديل المظهر فاتح / داكن"
-      aria-pressed={dark}
+      onClick={() => setTheme(nextTheme)}
+      aria-label={labels[theme]}
       className="inline-flex h-11 w-11 items-center justify-center rounded-full transition-colors"
       style={{
         border: "1px solid var(--md-sys-color-outline-variant)",
         color: "var(--muted)",
       }}
     >
-      {dark ? (
-        <Sun className="h-5 w-5" aria-hidden="true" />
-      ) : (
-        <Moon className="h-5 w-5" aria-hidden="true" />
-      )}
+      {icons[theme]}
     </button>
   );
 }

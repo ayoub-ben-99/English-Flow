@@ -1,7 +1,9 @@
+"use client";
 import { Reveal } from "@/components/english/Reveal";
 import { ResourceCard } from "@/components/english/ResourceCard";
 import resources from "@/data/english/resources.json";
 import type { LearningResource } from "@/types/english";
+import { toast } from "sonner";
 
 const all = resources as LearningResource[];
 
@@ -49,6 +51,25 @@ export default function ResourcesPage() {
           </div>
         </section>
       ))}
+      <button onClick={() => toast("Default toast")}>
+        Default
+      </button>
+
+      <button onClick={() => toast.success("Success!")}>
+        Success
+      </button>
+
+      <button onClick={() => toast.error("Something went wrong")}>
+        Error
+      </button>
+
+      <button onClick={() => toast.warning("Be careful")}>
+        Warning
+      </button>
+
+      <button onClick={() => toast.info("Here is some information")}>
+        Info
+      </button>
     </div>
   );
 }
