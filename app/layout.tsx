@@ -33,10 +33,11 @@ export const metadata: Metadata = {
     siteName: "English Flow",
     images: [
       {
-        url: `${siteUrl}/og-image.png`,
+        url: `${siteUrl}/og-image1.png`,
         width: 1200,
         height: 630,
         alt: "English Flow - Learn English Naturally",
+        type: "image/png",
       },
     ],
   },
@@ -46,7 +47,14 @@ export const metadata: Metadata = {
     title: "English Flow | Learn English Naturally",
     description:
       "Learn English through exposure, understanding, practice, and real-world use.",
-    images: [`${siteUrl}/og-image.png`],
+    images: [
+      {
+        url: `${siteUrl}/og-image1.png`,
+        width: 1200,
+        height: 630,
+        alt: "English Flow - Learn English Naturally",
+      },
+    ],
   },
 };
 
