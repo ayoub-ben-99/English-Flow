@@ -1,6 +1,7 @@
 "use client";
 
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { SegmentedControl } from "../ui/SegmentedControl";
 import { useCompletedIds, type ProgressSection } from "@/lib/progress";
 
 export type ProgressView = "all" | "todo" | "done";
@@ -66,36 +67,12 @@ export function ProgressHeader({ section, total }: ProgressHeaderProps) {
         </div>
       </div>
 
-      <div className="flex gap-2" role="group" aria-label="عرض حسب الإنجاز">
-        {VIEWS.map((v) => {
-          const isActive = view === v.id;
-          return (
-            <button
-              key={v.id}
-              type="button"
-              onClick={() => select(v.id)}
-              aria-pressed={isActive}
-              className="min-h-11 shrink-0 rounded-full px-4 text-sm"
-              style={
-                isActive
-                  ? {
-                      background: "var(--md-sys-color-primary)",
-                      color: "var(--md-sys-color-on-primary)",
-                      borderColor: "transparent",
-                      fontWeight: 700,
-                    }
-                  : {
-                      background: "transparent",
-                      color: "var(--muted)",
-                      border: "1px solid var(--md-sys-color-outline-variant)",
-                    }
-              }
-            >
-              {v.arabic}
-            </button>
-          );
-        })}
-      </div>
+      <SegmentedControl
+        ariaLabel="عرض حسب الإنجاز"
+        items={VIEWS.map((v) => ({ id: v.id, label: `عرض ${v.arabic}`, content: v.arabic }))}
+        value={view}
+        onChange={select}
+      />
     </div>
   );
 }

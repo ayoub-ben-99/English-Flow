@@ -1,4 +1,4 @@
-import { AudioLines, BookOpen, ChevronLeft, Languages, Library, MessageSquare } from "lucide-react";
+import { AudioLines, BookOpen, ChevronLeft, GraduationCap, Languages, Library, MessageSquare } from "lucide-react";
 import Link from "next/link";
 import { HomeProgress } from "@/components/english/progress/HomeProgress";
 import { Reveal } from "@/components/english/motion/Reveal";
@@ -36,6 +36,15 @@ export default async function EnglishHomePage() {
       count: sentenceTotal,
       countLabel: "جملة",
       tint: "tint-sky",
+    },
+    {
+      href: "/english/quiz",
+      Icon: GraduationCap,
+      title: "الاختبار",
+      description: "اختبر كلماتك المؤكدة — المتأخرة والخاطئة تظهر أولاً.",
+      count: null,
+      countLabel: "اختبار تفاعلي",
+      tint: "tint-yellow-bold",
     },
     {
       href: "/english/listen",
