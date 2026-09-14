@@ -1,7 +1,7 @@
 import { Sigma } from "lucide-react";
 import type { GrammarTopic } from "@/types/english";
-import { CompleteButton } from "./CompleteButton";
-import { SpeakButton } from "./SpeakButton";
+import { CompleteButton } from "../progress/CompleteButton";
+import { SpeakButton } from "../audio/SpeakButton";
 
 type GrammarCardProps = {
   topic: GrammarTopic;

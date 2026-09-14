@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import { ReaderPanel } from "@/components/english/ReaderPanel";
+import { ReaderPanel } from "@/components/english/audio/ReaderPanel";
 import { toast } from "sonner";
 
 let voiceModelLoaded = false;

@@ -6,26 +6,37 @@ type PaginationProps = {
   totalPages: number;
   /** Base path, e.g. "/english/sentences". */
   pathname: string;
-  /** Current params to preserve (category, level, q). */
-  params: { category?: string; level?: string; q?: string };
+  /** Current params to preserve (category, level, q, view). */
+  params: { category?: string; level?: string; q?: string; view?: string };
 };
 
-function href(
+export type PageParams = PaginationProps["params"];
+
+export function buildPageHref(
   pathname: string,
-  params: { category?: string; level?: string; q?: string },
+  params: PageParams,
   page: number,
 ): string {
   const p = new URLSearchParams();
   if (params.category) p.set("category", params.category);
   if (params.level) p.set("level", params.level);
   if (params.q) p.set("q", params.q);
+  if (params.view) p.set("view", params.view);
   if (page > 1) p.set("page", String(page));
   const query = p.toString();
   return query ? `${pathname}?${query}` : pathname;
 }
 
+function href(
+  pathname: string,
+  params: { category?: string; level?: string; q?: string; view?: string },
+  page: number,
+): string {
+  return buildPageHref(pathname, params, page);
+}
+
 /** Compact window: 1 … p-1, p, p+1 … N (numbers hidden on small screens). */
-function pageWindow(page: number, totalPages: number): (number | "…")[] {
+export function pageWindow(page: number, totalPages: number): (number | "…")[] {
   const set = new Set<number>([1, page - 1, page, page + 1, totalPages]);
   const nums = [...set].filter((n) => n >= 1 && n <= totalPages).sort((a, b) => a - b);
   const out: (number | "…")[] = [];

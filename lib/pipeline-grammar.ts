@@ -2,7 +2,7 @@ import { promises as fs } from "node:fs";
 import path from "node:path";
 import curatedGrammar from "@/data/english/grammar.json";
 import type { GrammarTopic } from "@/types/english";
-import type { PipelineGrammarTopic } from "@/components/english/GrammarTopicCard";
+import type { PipelineGrammarTopic } from "@/components/english/cards/GrammarTopicCard";
 
 export const GRAMMAR_PAGE_SIZE = 24;
 
@@ -118,4 +118,37 @@ export async function getGrammarTopics(query: GrammarQuery): Promise<{
     levelCounts,
     pipelineCount: pipeline.length,
   };
+}
+
+/** All matching grammar items without pagination (for todo/done client views). */
+export async function getAllGrammarTopics(
+  query: Omit<GrammarQuery, "page">,
+): Promise<GrammarItem[]> {
+  const category = query.category ?? "";
+  const level = query.level ?? "";
+  const needle = (query.q ?? "").trim().toLowerCase();
+  const pipeline = await loadPipelineTopics();
+
+  const curatedBase: GrammarItem[] = (curatedGrammar as GrammarTopic[])
+    .filter((t) => {
+      if (category && t.category !== category) return false;
+      if (level) return false; // curated topics carry no CEFR level
+      if (!needle) return true;
+      return (
+        t.title.toLowerCase().includes(needle) ||
+        t.arabicTitle.includes(query.q!.trim())
+      );
+    })
+    .map((topic) => ({ kind: "curated" as const, topic }));
+
+  const bulkBase: GrammarItem[] = pipeline
+    .filter((t) => {
+      if (category) return false; // pipeline topics carry no category
+      if (level && t.cefrLevel !== level) return false;
+      if (needle && !t.topic.toLowerCase().includes(needle)) return false;
+      return true;
+    })
+    .map((topic) => ({ kind: "pipeline" as const, topic }));
+
+  return [...curatedBase, ...bulkBase];
 }

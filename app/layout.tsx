@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { IBM_Plex_Sans_Arabic, Inter } from "next/font/google";
-import { SmoothScroll } from "@/components/english/SmoothScroll";
-import { ThemeProvider } from "@/components/english/ThemeProvider";
+import { SmoothScroll } from "@/components/english/motion/SmoothScroll";
+import { ThemeProvider } from "@/components/english/providers/ThemeProvider";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-latin" });

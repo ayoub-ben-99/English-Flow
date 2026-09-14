@@ -75,8 +75,11 @@ function snapshotOf(section: ProgressSection): string[] {
   return snap;
 }
 
+/** Shared empty snapshot — getServerSnapshot must return a cached value. */
+const EMPTY_SNAPSHOT: string[] = [];
+
 function serverSnapshot(): string[] {
-  return [];
+  return EMPTY_SNAPSHOT;
 }
 
 export function isComplete(section: ProgressSection, id: string): boolean {

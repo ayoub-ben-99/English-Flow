@@ -1,7 +1,7 @@
 import type { Sentence } from "@/types/english";
-import { CompleteButton } from "./CompleteButton";
-import { LevelBadge } from "./LevelBadge";
-import { SpeakButton } from "./SpeakButton";
+import { CompleteButton } from "../progress/CompleteButton";
+import { LevelBadge } from "../ui/LevelBadge";
+import { SpeakButton } from "../audio/SpeakButton";
 
 type SentenceCardProps = {
   sentence: Sentence & { cefrLevel?: string; grammarTopic?: string | null };

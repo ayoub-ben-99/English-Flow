@@ -1,8 +1,7 @@
 "use client";
 
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import { useEffect, useRef } from "react";
-import { isComplete, useCompletedIds, type ProgressSection } from "@/lib/progress";
+import { useCompletedIds, type ProgressSection } from "@/lib/progress";
 
 export type ProgressView = "all" | "todo" | "done";
 
@@ -20,8 +19,9 @@ type ProgressHeaderProps = {
 
 /**
  * Learning progress for one section: X/Y bar plus an All/Todo/Done view
- * switch. Non-matching items on the current page hide (server pagination
- * stays as-is). Progress persists in localStorage.
+ * switch. The todo/done views filter across the whole scope (server-side
+ * filters + localStorage progress) with their own pagination; the "all"
+ * view keeps the server pager. Progress persists in localStorage.
  */
 export function ProgressHeader({ section, total }: ProgressHeaderProps) {
   const router = useRouter();
@@ -31,38 +31,15 @@ export function ProgressHeader({ section, total }: ProgressHeaderProps) {
   const doneIds = useCompletedIds(section);
   const doneCount = doneIds.length;
   const pct = total > 0 ? Math.round((doneCount / total) * 100) : 0;
-  const noticeRef = useRef<HTMLParagraphElement>(null);
 
   function select(next: ProgressView) {
     const params = new URLSearchParams(searchParams.toString());
     if (next === "all") params.delete("view");
     else params.set("view", next);
+    params.delete("page");
     const query = params.toString();
     router.replace(query ? `${pathname}?${query}` : pathname, { scroll: false });
   }
-
-  // DOM-only sync (no React state): toggling `hidden` is an external
-  // DOM update, which effects are meant for. Server pagination counts
-  // don't apply to filtered views, so the pager hides along with them.
-  useEffect(() => {
-    const nodes = [...document.querySelectorAll<HTMLElement>(
-      `[data-section="${section}"][data-item-id]`,
-    )];
-    let visible = 0;
-    for (const el of nodes) {
-      const done = isComplete(section, el.dataset.itemId ?? "");
-      const show = view === "all" || (view === "done") === done;
-      el.hidden = !show;
-      if (show) visible += 1;
-    }
-    if (noticeRef.current) {
-      noticeRef.current.hidden = view === "all" || visible > 0;
-    }
-    const pager = document.querySelector<HTMLElement>(
-      'nav[aria-label="التنقل بين الصفحات"]',
-    );
-    if (pager) pager.hidden = view !== "all";
-  }, [section, view, doneIds, pathname]);
 
   return (
     <div className="mt-4 flex flex-col gap-3">
@@ -119,19 +96,6 @@ export function ProgressHeader({ section, total }: ProgressHeaderProps) {
           );
         })}
       </div>
-
-      {view !== "all" ? (
-        <p
-          ref={noticeRef}
-          hidden
-          className="muted rounded-lg p-4 text-center text-sm"
-          role="status"
-        >
-          {view === "done"
-            ? "لا عناصر مُنجزة في هذه الصفحة بعد — حدد ✓ على أي بطاقة."
-            : "كل عناصر هذه الصفحة مُنجزة — أحسنت!"}
-        </p>
-      ) : null}
     </div>
   );
 }

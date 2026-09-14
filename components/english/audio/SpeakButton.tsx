@@ -1,7 +1,7 @@
 "use client";
 
 import { Loader2, Volume2, VolumeX } from "lucide-react";
-import { useSpokenAudio, type SpeakStatus } from "./useSpokenAudio";
+import { useSpokenAudio, type SpeakStatus } from "../hooks/useSpokenAudio";
 
 type SpeakButtonProps = {
   /** English text to pronounce. */

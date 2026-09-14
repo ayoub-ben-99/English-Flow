@@ -1,7 +1,7 @@
 import { BookOpen, ExternalLink, Youtube } from "lucide-react";
 import images from "@/data/english/resource-images.json";
 import type { LearningResource } from "@/types/english";
-import { ResourceImage } from "./ResourceImage";
+import { ResourceImage } from "../ui/ResourceImage";
 
 const CATEGORY_LABELS: Record<string, string> = {
   grammar: "قواعد",

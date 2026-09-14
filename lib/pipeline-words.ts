@@ -151,3 +151,27 @@ export async function getWords(query: WordQuery): Promise<{
     pipelineCount: all.length,
   };
 }
+
+/** All matching words without pagination (for todo/done client views). */
+export async function getAllWords(
+  query: Omit<WordQuery, "page">,
+): Promise<WordItem[]> {
+  const all = await loadFinalWords();
+  const category = query.category ?? "";
+  const level = query.level ?? "";
+  const needle = (query.q ?? "").trim().toLowerCase();
+  const qTrim = (query.q ?? "").trim();
+  return all
+    .filter((w) => {
+      if (category && w.category !== category) return false;
+      if (level && w.cefrLevel !== level) return false;
+      if (
+        needle &&
+        !w.word.toLowerCase().includes(needle) &&
+        !w.translation.includes(qTrim)
+      )
+        return false;
+      return true;
+    })
+    .map((word) => ({ kind: "final" as const, word }));
+}

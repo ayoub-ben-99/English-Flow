@@ -1,6 +1,6 @@
 "use client";
-import { Reveal } from "@/components/english/Reveal";
-import { ResourceCard } from "@/components/english/ResourceCard";
+import { Reveal } from "@/components/english/motion/Reveal";
+import { ResourceCard } from "@/components/english/cards/ResourceCard";
 import resources from "@/data/english/resources.json";
 import type { LearningResource } from "@/types/english";
 import { toast } from "sonner";

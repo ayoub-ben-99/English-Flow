@@ -100,3 +100,21 @@ export async function getSentences(query: SentenceQuery): Promise<{
     pipelineCount: all.length,
   };
 }
+
+/** All matching sentences without pagination (for todo/done client views). */
+export async function getAllSentences(
+  query: Omit<SentenceQuery, "page">,
+): Promise<FinalSentence[]> {
+  const all = await loadFinalSentences();
+  const category = query.category ?? "";
+  const level = query.level ?? "";
+  const needle = (query.q ?? "").trim().toLowerCase();
+  const qTrim = (query.q ?? "").trim();
+  return all.filter((s) => {
+    if (category && s.category !== category) return false;
+    if (level && s.cefrLevel !== level) return false;
+    if (needle && !s.english.toLowerCase().includes(needle) && !s.arabic.includes(qTrim))
+      return false;
+    return true;
+  });
+}

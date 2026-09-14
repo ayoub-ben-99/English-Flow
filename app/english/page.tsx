@@ -1,7 +1,7 @@
 import { AudioLines, BookOpen, ChevronLeft, Languages, Library, MessageSquare } from "lucide-react";
 import Link from "next/link";
-import { HomeProgress } from "@/components/english/HomeProgress";
-import { Reveal } from "@/components/english/Reveal";
+import { HomeProgress } from "@/components/english/progress/HomeProgress";
+import { Reveal } from "@/components/english/motion/Reveal";
 import { getGrammarTopics } from "@/lib/pipeline-grammar";
 import { getSentences } from "@/lib/pipeline-sentences";
 import { getWords } from "@/lib/pipeline-words";

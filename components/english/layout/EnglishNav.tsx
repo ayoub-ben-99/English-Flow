@@ -1,6 +1,6 @@
 "use client";
 
-import { AudioLines, BookOpen, Languages, Library, MessageSquare } from "lucide-react";
+import { AudioLines, BookOpen, GraduationCap, Languages, Library, MessageSquare } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -8,6 +8,7 @@ export const ENGLISH_LINKS = [
   { href: "/english/terms", arabic: "المفردات", english: "Terms", Icon: BookOpen },
   { href: "/english/grammar", arabic: "القواعد", english: "Grammar", Icon: Languages },
   { href: "/english/sentences", arabic: "الجمل", english: "Sentences", Icon: MessageSquare },
+  { href: "/english/quiz", arabic: "الاختبار", english: "Quiz", Icon: GraduationCap },
   { href: "/english/listen", arabic: "الاستماع الحر", english: "Listen", Icon: AudioLines },
   { href: "/english/resources", arabic: "مصادر التعلم", english: "Resources", Icon: Library },
 ];

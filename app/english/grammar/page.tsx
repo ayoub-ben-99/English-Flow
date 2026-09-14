@@ -1,13 +1,14 @@
 import { Suspense } from "react";
-import { CategoryFilter } from "@/components/english/CategoryFilter";
-import { Reveal } from "@/components/english/Reveal";
-import { LevelFilter } from "@/components/english/LevelFilter";
-import { EmptyState } from "@/components/english/EmptyState";
-import { GrammarCard } from "@/components/english/GrammarCard";
-import { GrammarTopicCard } from "@/components/english/GrammarTopicCard";
-import { Pagination } from "@/components/english/Pagination";
-import { ProgressHeader } from "@/components/english/ProgressHeader";
-import { SearchInput } from "@/components/english/SearchInput";
+import { CategoryFilter } from "@/components/english/filters/CategoryFilter";
+import { Reveal } from "@/components/english/motion/Reveal";
+import { LevelFilter } from "@/components/english/filters/LevelFilter";
+import { EmptyState } from "@/components/english/ui/EmptyState";
+import { GrammarCard } from "@/components/english/cards/GrammarCard";
+import { GrammarTopicCard } from "@/components/english/cards/GrammarTopicCard";
+import { Pagination } from "@/components/english/layout/Pagination";
+import { FilteredGrammar } from "@/components/english/progress/ProgressFilteredList";
+import { ProgressHeader } from "@/components/english/progress/ProgressHeader";
+import { SearchInput } from "@/components/english/filters/SearchInput";
 import grammarCategories from "@/data/english/grammar-categories.json";
 import { getGrammarTopics } from "@/lib/pipeline-grammar";
 import type { Category } from "@/types/english";
@@ -16,7 +17,7 @@ const categories = grammarCategories as Category[];
 const categoryName = new Map(categories.map((c) => [c.id, c.arabic]));
 
 type GrammarPageProps = {
-  searchParams: Promise<{ category?: string; level?: string; q?: string; page?: string }>;
+  searchParams: Promise<{ category?: string; level?: string; q?: string; page?: string; view?: string }>;
 };
 
 export default async function GrammarPage({ searchParams }: GrammarPageProps) {
@@ -24,6 +25,7 @@ export default async function GrammarPage({ searchParams }: GrammarPageProps) {
   const category = params.category ?? "";
   const level = params.level ?? "";
   const q = params.q ?? "";
+  const view = params.view === "todo" || params.view === "done" ? params.view : "all";
   const pageNum = Number(params.page ?? "1");
   const { items, total, baseTotal, page, totalPages, levelCounts, pipelineCount } = await getGrammarTopics({
     category,
@@ -56,7 +58,11 @@ export default async function GrammarPage({ searchParams }: GrammarPageProps) {
         </Suspense>
       </div>
 
-      {items.length === 0 ? (
+      {view !== "all" ? (
+        <Suspense>
+          <FilteredGrammar categories={categories} />
+        </Suspense>
+      ) : items.length === 0 ? (
         <div className="mt-6">
           <EmptyState
             title="لا توجد مواضيع مطابقة"
@@ -84,16 +90,18 @@ export default async function GrammarPage({ searchParams }: GrammarPageProps) {
         </div>
       )}
 
-      <Pagination
-        page={page}
-        totalPages={totalPages}
-        pathname="/english/grammar"
-        params={{
-          category: category || undefined,
-          level: level || undefined,
-          q: q || undefined,
-        }}
-      />
+      {view === "all" ? (
+        <Pagination
+          page={page}
+          totalPages={totalPages}
+          pathname="/english/grammar"
+          params={{
+            category: category || undefined,
+            level: level || undefined,
+            q: q || undefined,
+          }}
+        />
+      ) : null}
     </div>
   );
 }

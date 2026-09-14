@@ -69,7 +69,16 @@ The final curriculum served by the site: `data/pipeline/final/` (exactly 2,000 w
 ```text
 English-Flow/
 ├── app/                    # Routes (home + english/*)
-├── components/english/     # Cards, filters, speech, progress, motion
+├── components/english/     # Organized by domain (each with index.ts barrel)
+│   ├── layout/             # EnglishNav, MobileNav, SiteLogo, Pagination
+│   ├── ui/                 # EmptyState, LevelBadge, SectionHead, ThemeToggle, ResourceImage
+│   ├── cards/              # WordCard, SentenceCard, GrammarCard, GrammarTopicCard, ResourceCard (+ legacy TermCard)
+│   ├── filters/            # CategoryFilter, LevelFilter, SearchInput
+│   ├── audio/              # SpeakButton, ReaderPanel, VoiceSettings
+│   ├── motion/             # Reveal, HeroIntro, OwlHero, SmoothScroll, ScrollProgress
+│   ├── progress/           # CompleteButton, HomeProgress, ProgressHeader, ProgressFilteredList, StatsStrip
+│   ├── providers/          # ThemeProvider, ToastProvider
+│   └── hooks/              # useReducedMotion, useRevealOnScroll, useSpokenAudio
 ├── data/
 │   ├── english/            # App data (curriculum, resources, categories)
 │   └── pipeline/           # Raw → Processed → Final + SCHEMA.md

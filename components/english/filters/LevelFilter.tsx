@@ -3,7 +3,7 @@
 import { Check } from "lucide-react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { CEFR_LEVELS } from "@/lib/levels";
-import { levelChipStyle } from "./LevelBadge";
+import { levelChipStyle } from "../ui/LevelBadge";
 
 type LevelFilterProps = {
   /** Per-level counts over the current category+q scope. */

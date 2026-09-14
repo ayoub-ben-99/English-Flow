@@ -3,7 +3,7 @@
 import { useRef } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
-import { useReducedMotion } from "./useReducedMotion";
+import { useReducedMotion } from "../hooks/useReducedMotion";
 
 const EYE_R =
   "M528.355 456.998C520.471 449.742 506.551 446.137 498.818 456.068C495.794 459.952 493.376 465.08 492.643 470.29C487.05 478.419 483.596 487.78 488.654 496.507C495.073 507.578 508.761 505.892 516.901 498.217C523.058 492.414 527.204 484.39 530.931 476.924C534.146 470.459 534.03 462.214 528.355 456.998Z";

@@ -1,13 +1,13 @@
 import { ArrowDown, BookOpen, Headphones, Mic, PenLine, Users, Wrench } from "lucide-react";
 import Link from "next/link";
-import { HeroIntro } from "@/components/english/HeroIntro";
-import { OwlHero } from "@/components/english/OwlHero";
-import { Reveal } from "@/components/english/Reveal";
-import { ScrollProgress } from "@/components/english/ScrollProgress";
-import { SectionHead } from "@/components/english/SectionHead";
-import { SiteLogo } from "@/components/english/SiteLogo";
-import { StatsStrip } from "@/components/english/StatsStrip";
-import { ThemeToggle } from "@/components/english/ThemeToggle";
+import { HeroIntro } from "@/components/english/motion/HeroIntro";
+import { OwlHero } from "@/components/english/motion/OwlHero";
+import { Reveal } from "@/components/english/motion/Reveal";
+import { ScrollProgress } from "@/components/english/motion/ScrollProgress";
+import { SectionHead } from "@/components/english/ui/SectionHead";
+import { SiteLogo } from "@/components/english/layout/SiteLogo";
+import { StatsStrip } from "@/components/english/progress/StatsStrip";
+import { ThemeToggle } from "@/components/english/ui/ThemeToggle";
 
 const phases = [
   {

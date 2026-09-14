@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { EnglishNav } from "@/components/english/EnglishNav";
-import { MobileNav } from "@/components/english/MobileNav";
-import { SiteLogo } from "@/components/english/SiteLogo";
-import { ThemeToggle } from "@/components/english/ThemeToggle";
-import { VoiceSettings } from "@/components/english/VoiceSettings";
-import { ToastProvider } from "@/components/english/ToastProvider";
+import { EnglishNav } from "@/components/english/layout/EnglishNav";
+import { MobileNav } from "@/components/english/layout/MobileNav";
+import { SiteLogo } from "@/components/english/layout/SiteLogo";
+import { ThemeToggle } from "@/components/english/ui/ThemeToggle";
+import { VoiceSettings } from "@/components/english/audio/VoiceSettings";
+import { ToastProvider } from "@/components/english/providers/ToastProvider";
 
 export const metadata: Metadata = {
   title: "تعلم الإنجليزية",

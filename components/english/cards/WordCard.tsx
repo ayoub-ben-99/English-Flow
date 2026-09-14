@@ -1,7 +1,7 @@
 import type { FinalWord } from "@/lib/pipeline-words";
-import { CompleteButton } from "./CompleteButton";
-import { LevelBadge } from "./LevelBadge";
-import { SpeakButton } from "./SpeakButton";
+import { CompleteButton } from "../progress/CompleteButton";
+import { LevelBadge } from "../ui/LevelBadge";
+import { SpeakButton } from "../audio/SpeakButton";
 
 const POS_LABELS: Record<string, string> = {
   noun: "اسم",

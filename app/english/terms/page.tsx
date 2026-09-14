@@ -1,12 +1,13 @@
 import { Suspense } from "react";
-import { CategoryFilter } from "@/components/english/CategoryFilter";
-import { Reveal } from "@/components/english/Reveal";
-import { EmptyState } from "@/components/english/EmptyState";
-import { LevelFilter } from "@/components/english/LevelFilter";
-import { Pagination } from "@/components/english/Pagination";
-import { ProgressHeader } from "@/components/english/ProgressHeader";
-import { SearchInput } from "@/components/english/SearchInput";
-import { WordCard } from "@/components/english/WordCard";
+import { CategoryFilter } from "@/components/english/filters/CategoryFilter";
+import { Reveal } from "@/components/english/motion/Reveal";
+import { EmptyState } from "@/components/english/ui/EmptyState";
+import { LevelFilter } from "@/components/english/filters/LevelFilter";
+import { Pagination } from "@/components/english/layout/Pagination";
+import { FilteredTerms } from "@/components/english/progress/ProgressFilteredList";
+import { ProgressHeader } from "@/components/english/progress/ProgressHeader";
+import { SearchInput } from "@/components/english/filters/SearchInput";
+import { WordCard } from "@/components/english/cards/WordCard";
 import termCategories from "@/data/english/term-categories.json";
 import { getWords } from "@/lib/pipeline-words";
 import type { Category } from "@/types/english";
@@ -15,7 +16,7 @@ const categories = termCategories as Category[];
 const categoryName = new Map(categories.map((c) => [c.id, c.arabic]));
 
 type TermsPageProps = {
-  searchParams: Promise<{ category?: string; level?: string; q?: string; page?: string }>;
+  searchParams: Promise<{ category?: string; level?: string; q?: string; page?: string; view?: string }>;
 };
 
 export default async function TermsPage({ searchParams }: TermsPageProps) {
@@ -23,6 +24,7 @@ export default async function TermsPage({ searchParams }: TermsPageProps) {
   const category = params.category ?? "";
   const level = params.level ?? "";
   const q = params.q ?? "";
+  const view = params.view === "todo" || params.view === "done" ? params.view : "all";
   const pageNum = Number(params.page ?? "1");
   const { items, total, baseTotal, page, totalPages, levelCounts } = await getWords({
     category,
@@ -54,7 +56,11 @@ export default async function TermsPage({ searchParams }: TermsPageProps) {
         </Suspense>
       </div>
 
-      {items.length === 0 ? (
+      {view !== "all" ? (
+        <Suspense>
+          <FilteredTerms categories={categories} />
+        </Suspense>
+      ) : items.length === 0 ? (
         <div className="mt-6">
           <EmptyState
             title="لا توجد نتائج مطابقة"
@@ -79,16 +85,18 @@ export default async function TermsPage({ searchParams }: TermsPageProps) {
         </div>
       )}
 
-      <Pagination
-        page={page}
-        totalPages={totalPages}
-        pathname="/english/terms"
-        params={{
-          category: category || undefined,
-          level: level || undefined,
-          q: q || undefined,
-        }}
-      />
+      {view === "all" ? (
+        <Pagination
+          page={page}
+          totalPages={totalPages}
+          pathname="/english/terms"
+          params={{
+            category: category || undefined,
+            level: level || undefined,
+            q: q || undefined,
+          }}
+        />
+      ) : null}
     </div>
   );
 }

@@ -8,7 +8,7 @@ import {
   getVoiceSettingsServerSnapshot,
   subscribeVoiceSettings,
 } from "@/lib/voice-settings";
-import { useSpokenAudio } from "./useSpokenAudio";
+import { useSpokenAudio } from "../hooks/useSpokenAudio";
 import { VoiceSettings } from "./VoiceSettings";
 
 const MAX_CHARS = 500;
